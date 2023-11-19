@@ -1,12 +1,13 @@
 import requests
 import pandas as pd
+import os
 
 url = "https://seeking-alpha.p.rapidapi.com/symbols/get-financials"
 
 querystring = {"symbol": "aapl", "target_currency": "USD", "period_type": "annual",
                "statement_type": "income-statement"}
 
-headers = {"X-RapidAPI-Key": "5faa973c9bmsh3f3374c192f9f58p134972jsn204d0e303587",
+headers = {"X-RapidAPI-Key": os.environ['rapidapi_key'],
            "X-RapidAPI-Host": "seeking-alpha.p.rapidapi.com"}
 
 response = requests.get(url, headers=headers, params=querystring)
