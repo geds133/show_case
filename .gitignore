@@ -1,2 +1,7 @@
 # The .idea settings
 *.idea
+
+#The environment variables and the airflow config files
+/airflow/.env
+/airflow/airflow.cfg
+
