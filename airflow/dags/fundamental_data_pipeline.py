@@ -16,18 +16,17 @@ from airflow.operators.python import PythonOperator
 ticker='aapl'
 
 credential = AzureNamedKeyCredential(os.environ['azurestoragename'], os.environ['azurestoragekey'])
-fundamentals_raw_service = TableServiceClient(endpoint=os.environ['azurestorageendpoint']+r'/fundamentalsraw', credential=credential)
-fundamentals_service = TableServiceClient(endpoint=os.environ['azurestorageendpoint']+ r'/fundamentals', credential=credential)
+service = TableServiceClient(endpoint=os.environ['azurestorageendpoint'], credential=credential)
 
 
 def response_check(response):
         credential = AzureNamedKeyCredential(os.environ['azurestoragename'], os.environ['azurestoragekey'])
         service = TableServiceClient(endpoint=os.environ['azurestorageendpoint'], credential=credential)
         current_raw_entities = service.get_table_client("fundamentalsraw").query_entities(query_filter=f"PartitionKey eq '{ticker}'")
-        if len(response.json()) == len([entity for entity in current_raw_entities]):
+        if len(response.json()) == len([entity for entity in current_raw_entities]) | response.status_code != 200:
             return False
         else:
-            True
+            return True
 
 def query_fundamental_data(ticker: str):
     url = "https://seeking-alpha.p.rapidapi.com/symbols/get-financials"
@@ -75,8 +74,9 @@ def get_gross_margin(ticker: str, service: TableServiceClient):
     current_raw_entities = service.get_table_client("fundamentalsraw").query_entities(
         query_filter=f"PartitionKey eq '{ticker}'")
     fundamentals_raw = pd.DataFrame.from_records([entity for entity in current_raw_entities])
+    x=fundamentals_raw[['PartitionKey', 'RowKey', 'revenues_value', 'cost_revenue_value']]
 
-    fundamental_ddl = (spark.createDataFrame(fundamentals_raw[['PartitionKey', 'RowKey', 'revenues_value', 'cost_revenue_value']])
+    fundamental_ddl = (spark.createDataFrame(x)
              .withColumn('revenues_value', regexp_replace('revenues_value', ',', '').cast("decimal(36,3)"))
              .withColumn('cost_revenue_value', regexp_replace('cost_revenue_value', ',', '').cast("decimal(36,3)"))
              .withColumnRenamed('revenues_value', 'revenue')
@@ -90,7 +90,7 @@ def get_gross_margin(ticker: str, service: TableServiceClient):
     new_core_entities = fundamentals_raw[~fundamentals_raw['RowKey'].isin(fundamentals_core['RowKey'].tolist())]
 
     fundamentals_table = service.get_table_client("fundamentals")
-    entities = fundamental_ddl.filter(fundamental_ddl.RowKey.isin(new_core_entities)).toJSON().collect()
+    entities = fundamental_ddl.filter(fundamental_ddl.RowKey.isin(new_core_entities.RowKey.tolist())).toJSON().collect()
     [fundamentals_table.create_entity(json.loads(entity)) for entity in entities]
 
 
@@ -108,20 +108,19 @@ default_args = {
 with DAG(dag_id="calculating_gross_margin", schedule="@daily", default_args=default_args, catchup=False) as dag:
 
     # Checking API status is available
-    wait_for_api = HttpSensor(
-        task_id='wait_for_api',
-        http_conn_id='rapid_api',
-        endpoint='symbols/get-financials',
-        headers={"X-RapidAPI-Key": os.environ['rapidapi_key'], "X-RapidAPI-Host": "seeking-alpha.p.rapidapi.com"},
-        request_params={"symbol": f"{ticker}", "target_currency": "USD", "period_type": "annual",
-                   "statement_type": "income-statement"},
-        method='GET',
-        response_check=lambda response: response.status_code == 200,
-        mode='poke',
-        timeout=300,
-        poke_interval=60,
-    )
-
+    #wait_for_api = HttpSensor(
+    #    task_id='wait_for_api',
+    #    http_conn_id='rapid_api',
+    #    endpoint='symbols/get-financials',
+    #    headers={"X-RapidAPI-Key": os.environ['rapidapi_key'], "X-RapidAPI-Host": "seeking-alpha.p.rapidapi.com"},
+    #    request_params={"symbol": f"{ticker}", "target_currency": "USD", "period_type": "annual",
+    #               "statement_type": "income-statement"},
+    #    method='GET',
+    #    response_check=lambda response: response.status_code == 200,
+    #    mode='poke',
+    #    timeout=300,
+    #    poke_interval=60,
+    #)
     # Checking API status is available
     check_for_new_data = HttpSensor(
         task_id='checking_api_for_data',
@@ -141,13 +140,13 @@ with DAG(dag_id="calculating_gross_margin", schedule="@daily", default_args=defa
     source_fundamentals = PythonOperator(
             task_id="downloading_fundamentals",
             python_callable=get_fundamental_data,
-            op_kwargs={'ticker': ticker, 'service': fundamentals_raw_service}
+            op_kwargs={'ticker': ticker, 'service': service}
     )
 
     calculate_gross_margin = PythonOperator(
             task_id="calculating_gross_margin",
             python_callable=get_gross_margin,
-            op_kwargs={'ticker': ticker, 'service': fundamentals_service}
+            op_kwargs={'ticker': ticker, 'service': service}
     )
 
     # Sending email notification that data is available
@@ -160,4 +159,4 @@ with DAG(dag_id="calculating_gross_margin", schedule="@daily", default_args=defa
             """
             )
 
-    wait_for_api >> check_for_new_data >> source_fundamentals >> calculate_gross_margin >> sending_email_notification
+    check_for_new_data >> source_fundamentals >> calculate_gross_margin >> sending_email_notification
