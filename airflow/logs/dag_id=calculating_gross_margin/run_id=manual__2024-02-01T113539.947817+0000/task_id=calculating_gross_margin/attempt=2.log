@@ -1,0 +1,162 @@
+[2024-02-01T11:41:11.625+0000] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: calculating_gross_margin.calculating_gross_margin manual__2024-02-01T11:35:39.947817+00:00 [queued]>
+[2024-02-01T11:41:11.633+0000] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: calculating_gross_margin.calculating_gross_margin manual__2024-02-01T11:35:39.947817+00:00 [queued]>
+[2024-02-01T11:41:11.633+0000] {taskinstance.py:1361} INFO - Starting attempt 2 of 2
+[2024-02-01T11:41:11.645+0000] {taskinstance.py:1382} INFO - Executing <Task(PythonOperator): calculating_gross_margin> on 2024-02-01 11:35:39.947817+00:00
+[2024-02-01T11:41:11.650+0000] {standard_task_runner.py:57} INFO - Started process 820 to run task
+[2024-02-01T11:41:11.653+0000] {standard_task_runner.py:84} INFO - Running: ['***', 'tasks', 'run', 'calculating_gross_margin', 'calculating_gross_margin', 'manual__2024-02-01T11:35:39.947817+00:00', '--job-id', '131', '--raw', '--subdir', 'DAGS_FOLDER/fundamental_data_pipeline.py', '--cfg-path', '/tmp/tmpp9zf2ylp']
+[2024-02-01T11:41:11.657+0000] {standard_task_runner.py:85} INFO - Job 131: Subtask calculating_gross_margin
+[2024-02-01T11:41:11.707+0000] {task_command.py:416} INFO - Running <TaskInstance: calculating_gross_margin.calculating_gross_margin manual__2024-02-01T11:35:39.947817+00:00 [running]> on host a6ea6f6b0bb7
+[2024-02-01T11:41:11.814+0000] {taskinstance.py:1662} INFO - Exporting env vars: AIRFLOW_CTX_DAG_EMAIL='gerardchurch133@outlook.com' AIRFLOW_CTX_DAG_OWNER='Airflow' AIRFLOW_CTX_DAG_ID='calculating_gross_margin' AIRFLOW_CTX_TASK_ID='calculating_gross_margin' AIRFLOW_CTX_EXECUTION_DATE='2024-02-01T11:35:39.947817+00:00' AIRFLOW_CTX_TRY_NUMBER='2' AIRFLOW_CTX_DAG_RUN_ID='manual__2024-02-01T11:35:39.947817+00:00'
+[2024-02-01T11:41:15.686+0000] {_universal.py:514} INFO - Request URL: 'https://datalakeuksouth2311.table.core.windows.net/fundamentalsraw()?$filter=REDACTED'
+Request method: 'GET'
+Request headers:
+    'x-ms-version': 'REDACTED'
+    'DataServiceVersion': 'REDACTED'
+    'Accept': 'application/json;odata=minimalmetadata'
+    'x-ms-client-request-id': 'ceaaaf84-c0f6-11ee-8ac4-0242ac150005'
+    'x-ms-date': 'REDACTED'
+    'Date': 'Thu, 01 Feb 2024 11:41:15 GMT'
+    'User-Agent': 'azsdk-python-data-tables/12.5.0 Python/3.8.18 (Linux-5.10.16.3-microsoft-standard-WSL2-x86_64-with-glibc2.2.5)'
+    'Authorization': 'REDACTED'
+No body was attached to the request
+[2024-02-01T11:41:15.884+0000] {_universal.py:550} INFO - Response status: 200
+Response headers:
+    'Cache-Control': 'no-cache'
+    'Transfer-Encoding': 'chunked'
+    'Content-Type': 'application/json;odata=minimalmetadata;streaming=true;charset=utf-8'
+    'Server': 'Windows-Azure-Table/1.0 Microsoft-HTTPAPI/2.0'
+    'x-ms-request-id': '19c34aed-4002-0019-4e03-550095000000'
+    'x-ms-client-request-id': 'ceaaaf84-c0f6-11ee-8ac4-0242ac150005'
+    'x-ms-version': 'REDACTED'
+    'X-Content-Type-Options': 'REDACTED'
+    'Date': 'Thu, 01 Feb 2024 11:41:17 GMT'
+[2024-02-01T11:41:18.094+0000] {_universal.py:514} INFO - Request URL: 'https://datalakeuksouth2311.table.core.windows.net/fundamentals()?$filter=REDACTED'
+Request method: 'GET'
+Request headers:
+    'x-ms-version': 'REDACTED'
+    'DataServiceVersion': 'REDACTED'
+    'Accept': 'application/json;odata=minimalmetadata'
+    'x-ms-client-request-id': 'd01a7368-c0f6-11ee-8ac4-0242ac150005'
+    'x-ms-date': 'REDACTED'
+    'Date': 'Thu, 01 Feb 2024 11:41:18 GMT'
+    'User-Agent': 'azsdk-python-data-tables/12.5.0 Python/3.8.18 (Linux-5.10.16.3-microsoft-standard-WSL2-x86_64-with-glibc2.2.5)'
+    'Authorization': 'REDACTED'
+No body was attached to the request
+[2024-02-01T11:41:18.141+0000] {_universal.py:550} INFO - Response status: 200
+Response headers:
+    'Cache-Control': 'no-cache'
+    'Transfer-Encoding': 'chunked'
+    'Content-Type': 'application/json;odata=minimalmetadata;streaming=true;charset=utf-8'
+    'Server': 'Windows-Azure-Table/1.0 Microsoft-HTTPAPI/2.0'
+    'x-ms-request-id': '19c34b7c-4002-0019-5603-550095000000'
+    'x-ms-client-request-id': 'd01a7368-c0f6-11ee-8ac4-0242ac150005'
+    'x-ms-version': 'REDACTED'
+    'X-Content-Type-Options': 'REDACTED'
+    'Date': 'Thu, 01 Feb 2024 11:41:20 GMT'
+[2024-02-01T11:41:18.927+0000] {taskinstance.py:1937} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/operators/python.py", line 192, in execute
+    return_value = self.execute_callable()
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/operators/python.py", line 209, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+  File "/opt/airflow/dags/fundamental_data_pipeline.py", line 92, in get_gross_margin
+    entities = fundamental_ddl.filter(fundamental_ddl.RowKey.isin(new_core_entities)).toJSON().collect()
+  File "/home/airflow/.local/lib/python3.8/site-packages/pyspark/sql/column.py", line 972, in isin
+    [c._jc if isinstance(c, Column) else _create_column_from_literal(c) for c in cols],
+  File "/home/airflow/.local/lib/python3.8/site-packages/pyspark/sql/column.py", line 972, in <listcomp>
+    [c._jc if isinstance(c, Column) else _create_column_from_literal(c) for c in cols],
+  File "/home/airflow/.local/lib/python3.8/site-packages/pyspark/sql/column.py", line 51, in _create_column_from_literal
+    return cast(JVMView, sc._jvm).functions.lit(literal)
+  File "/home/airflow/.local/lib/python3.8/site-packages/py4j/java_gateway.py", line 1322, in __call__
+    return_value = get_return_value(
+  File "/home/airflow/.local/lib/python3.8/site-packages/pyspark/errors/exceptions/captured.py", line 185, in deco
+    raise converted from None
+pyspark.errors.exceptions.captured.SparkRuntimeException: [UNSUPPORTED_FEATURE.LITERAL_TYPE] The feature is not supported: Literal for '{earnings_from_cont_ops_value={2=94,680.0}, eps_yoy_value={2=71.34%}, interest_on_long_term_debt_raw_value={2=2600000000.0}, operating_income_raw_value={2=108949000000.0}, earnings_from_cont_ops_raw_value={2=94680000000.0}, weighted_average_basic_shares_outstanding_value={2=16,701.3}, RowKey={2=Sep 2021}, ebitda_value={2=120,233.0}, operating_income_value={2=108,949.0}, net_income_revenue_percent={2=25.88%}, payout_ratio_yoy_value={2=(37.70%)}, interest_expense_total_raw_value={2=-2645000000.0}, eps_value={2=$5.67}, interest_expense_total_yoy_value={2=-7.94%}, ebitdar_yoy_value={2=52.97%}, div_rate_raw_value={2=0.85}, ebitda_raw_value={2=120233000000.0}, other_operating_exp_total_revenue_percent={2=12.00%}, ebit_op_in_raw_value={2=108949000000.0}, selling_general_admin_expenses_total_revenue_percent={2=6.01%}, normalized_diluted_eps_raw_value={2=4.047121}, PartitionKey={2=aapl}, rd_expenses_revenue_percent={2=5.99%}, interest_expense_total_value={2=(2,645.0)}, r_d_exp_raw_value={2=21914000000.0}, other_revenues_summary_subtotal_value={2=-}, selling_general_admin_expenses_total_value={2=21,973.0}, other_non_operating_income_yoy_value={2=-}, cost_revenue_raw_value={2=212981000000.0}, diluted_eps_raw_value={2=5.61}, eps_raw_value={2=5.669029}, interest_expense_total_revenue_percent={2=(0.72%)}, ni_to_common_excl_extra_items_raw_value={2=94680000000.0}, weighted_average_diluted_shares_outstanding_yoy_value={2=(3.78%)}, effective_tax_rate_yoy_value={2=(7.80%)}, foreign_sales_raw_value={2=232014000000.0}, revenues_yoy_value={2=33.26%}, other_operating_exp_total_value={2=43,887.0}, basic_eps_excl_extra_items_value={2=$5.67}, rd_expenses_raw_value={2=21914000000.0}, ni_to_common_incl_extra_items_raw_value={2=94680000000.0}, payout_ratio_raw_value={2=15.2798}, gross_profit_value={2=152,836.0}, ebita_yoy_value={2=64.36%}, ebitda_yoy_value={2=55.45%}, cost_revenue_revenue_percent={2=58.22%}, other_non_operating_income_revenue_percent={2=0.02%}, normalized_basic_eps_raw_value={2=4.086777}, ebitdar_raw_value={2=134833000000.0}, normalized_net_income_raw_value={2=68254375000.0}, ni_to_common_excl_extra_items_value={2=94,680.0}, selling_general_admin_expenses_total_yoy_value={2=10.33%}, ebit_op_in_yoy_value={2=64.36%}, div_rate_yoy_value={2=6.92%}, diluted_eps_excl_extra_itmes_raw_value={2=5.61}, cost_revenue_yoy_value={2=25.61%}, operating_income_revenue_percent={2=29.78%}, revenues_value={2=365,817.0}, ni_to_common_incl_extra_items_revenue_percent={2=25.88%}, net_interest_exp_standard_raw_value={2=198000000.0}, weighted_average_basic_shares_outstanding_raw_value={2=16701272000.0}, total_revenue_raw_value={2=365817000000.0}, diluted_eps_value={2=$5.61}, ebita_raw_value={2=108949000000.0}, other_non_operating_income_raw_value={2=60000000.0}, foreign_sales_yoy_value={2=40.34%}, effective_tax_rate_value={2=13.3%}, total_revenue_value={2=365,817.0}, weighted_average_diluted_shares_outstanding_raw_value={2=16864919000.0}, cost_revenue_value={2=212,981.0}, ni_to_common_excl_extra_items_yoy_value={2=64.92%}, effective_tax_rate_raw_value={2=13.3022}, gross_profit_raw_value={2=152836000000.0}, interest_on_long_term_debt_value={2=2,600.0}, r_d_exp_value={2=21,914.0}, normalized_diluted_eps_yoy_value={2=69.18%}, basic_eps_excl_extra_items_yoy_value={2=71.34%}, revenues_raw_value={2=365817000000.0}, interest_and_investment_income_yoy_value={2=(24.45%)}, normalized_net_income_value={2=68,254.4}, ebt_incl_unusual_items_yoy_value={2=62.77%}, revenue_per_share_raw_value={2=21.903541}, ebitdar_value={2=134,833.0}, income_tax_expense_yoy_value={2=50.07%}, earnings_from_cont_ops_revenue_percent={2=25.88%}, ni_to_common_incl_extra_items_yoy_value={2=64.92%}, normalized_basic_eps_value={2=$4.09}, normalized_net_income_yoy_value={2=62.77%}, normalized_basic_eps_yoy_value={2=69.12%}, net_interest_exp_standard_yoy_value={2=(77.75%)}, revenue_per_share_value={2=$21.90}, net_income_raw_value={2=94680000000.0}, div_rate_value={2=$0.85}, net_interest_exp_standard_value={2=198.0}, ebit_op_in_value={2=108,949.0}, rd_expenses_yoy_value={2=16.86%}, basic_eps_excl_extra_items_raw_value={2=5.669029}, net_income_to_company_yoy_value={2=64.92%}, net_income_value={2=94,680.0}, other_revenues_summary_subtotal_revenue_percent={2=}, weighted_average_basic_shares_outstanding_yoy_value={2=(3.75%)}, payout_ratio_value={2=15.28%}, rd_expenses_value={2=21,914.0}, other_operating_exp_total_yoy_value={2=13.50%}, net_interest_exp_standard_revenue_percent={2=0.05%}, total_revenue_revenue_percent={2=100%}, selling_general_admin_expenses_total_raw_value={2=21973000000.0}, diluted_eps_excl_extra_itmes_yoy_value={2=71.04%}, operating_income_yoy_value={2=64.36%}, ebt_incl_unusual_items_revenue_percent={2=29.85%}, interest_on_long_term_debt_yoy_value={2=(7.14%)}, interest_and_investment_income_value={2=2,843.0}, ni_to_common_incl_extra_items_value={2=94,680.0}, total_revenue_yoy_value={2=33.26%}, net_income_to_company_value={2=94,680.0}, weighted_average_diluted_shares_outstanding_value={2=16,864.9}, net_income_to_company_revenue_percent={2=25.88%}, ebt_incl_unusual_items_raw_value={2=109207000000.0}, earnings_from_cont_ops_yoy_value={2=64.92%}, interest_and_investment_income_raw_value={2=2843000000.0}, income_tax_expense_revenue_percent={2=3.97%}, income_tax_expense_raw_value={2=14527000000.0}, foreign_sales_value={2=232,014.0}, gross_profit_yoy_value={2=45.62%}, revenue_per_share_yoy_value={2=38.45%}, ebt_incl_unusual_items_value={2=109,207.0}, interest_and_investment_income_revenue_percent={2=0.78%}, normalized_diluted_eps_value={2=$4.05}, other_operating_exp_total_raw_value={2=43887000000.0}, ni_to_common_excl_extra_items_revenue_percent={2=25.88%}, net_income_yoy_value={2=64.92%}, r_d_exp_yoy_value={2=16.86%}, income_tax_expense_value={2=14,527.0}, other_non_operating_income_value={2=60.0}, diluted_eps_yoy_value={2=71.04%}, diluted_eps_excl_extra_itmes_value={2=$5.61}, gross_profit_revenue_percent={2=41.78%}, ebita_value={2=108,949.0}, net_income_to_company_raw_value={2=94680000000.0}, revenues_revenue_percent={2=100.00%}}' of class java.util.HashMap.
+[2024-02-01T11:41:19.008+0000] {taskinstance.py:1400} INFO - Marking task as FAILED. dag_id=calculating_gross_margin, task_id=calculating_gross_margin, execution_date=20240201T113539, start_date=20240201T114111, end_date=20240201T114118
+[2024-02-01T11:41:19.086+0000] {warnings.py:109} WARNING - /home/***/.local/lib/python3.8/site-packages/***/utils/email.py:154: RemovedInAirflow3Warning: Fetching SMTP credentials from configuration variables will be deprecated in a future release. Please set credentials using a connection instead.
+  send_mime_email(e_from=mail_from, e_to=recipients, mime_msg=msg, conn_id=conn_id, dryrun=dryrun)
+
+[2024-02-01T11:41:19.088+0000] {configuration.py:1050} WARNING - section/key [smtp/smtp_user] not found in config
+[2024-02-01T11:41:19.088+0000] {email.py:270} INFO - Email alerting: attempt 1
+[2024-02-01T11:41:19.144+0000] {configuration.py:1050} WARNING - section/key [smtp/smtp_user] not found in config
+[2024-02-01T11:41:19.145+0000] {email.py:270} INFO - Email alerting: attempt 1
+[2024-02-01T11:41:19.146+0000] {taskinstance.py:2007} ERROR - Failed to send email to: gerardchurch133@outlook.com
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/taskinstance.py", line 1518, in _run_raw_task
+    self._execute_task_with_callbacks(context, test_mode, session=session)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/taskinstance.py", line 1681, in _execute_task_with_callbacks
+    result = self._execute_task(context, task_orig)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/taskinstance.py", line 1744, in _execute_task
+    result = execute_callable(context=context, **execute_callable_kwargs)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/operators/python.py", line 192, in execute
+    return_value = self.execute_callable()
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/operators/python.py", line 209, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+  File "/opt/airflow/dags/fundamental_data_pipeline.py", line 92, in get_gross_margin
+    entities = fundamental_ddl.filter(fundamental_ddl.RowKey.isin(new_core_entities)).toJSON().collect()
+  File "/home/airflow/.local/lib/python3.8/site-packages/pyspark/sql/column.py", line 972, in isin
+    [c._jc if isinstance(c, Column) else _create_column_from_literal(c) for c in cols],
+  File "/home/airflow/.local/lib/python3.8/site-packages/pyspark/sql/column.py", line 972, in <listcomp>
+    [c._jc if isinstance(c, Column) else _create_column_from_literal(c) for c in cols],
+  File "/home/airflow/.local/lib/python3.8/site-packages/pyspark/sql/column.py", line 51, in _create_column_from_literal
+    return cast(JVMView, sc._jvm).functions.lit(literal)
+  File "/home/airflow/.local/lib/python3.8/site-packages/py4j/java_gateway.py", line 1322, in __call__
+    return_value = get_return_value(
+  File "/home/airflow/.local/lib/python3.8/site-packages/pyspark/errors/exceptions/captured.py", line 185, in deco
+    raise converted from None
+pyspark.errors.exceptions.captured.SparkRuntimeException: [UNSUPPORTED_FEATURE.LITERAL_TYPE] The feature is not supported: Literal for '{earnings_from_cont_ops_value={2=94,680.0}, eps_yoy_value={2=71.34%}, interest_on_long_term_debt_raw_value={2=2600000000.0}, operating_income_raw_value={2=108949000000.0}, earnings_from_cont_ops_raw_value={2=94680000000.0}, weighted_average_basic_shares_outstanding_value={2=16,701.3}, RowKey={2=Sep 2021}, ebitda_value={2=120,233.0}, operating_income_value={2=108,949.0}, net_income_revenue_percent={2=25.88%}, payout_ratio_yoy_value={2=(37.70%)}, interest_expense_total_raw_value={2=-2645000000.0}, eps_value={2=$5.67}, interest_expense_total_yoy_value={2=-7.94%}, ebitdar_yoy_value={2=52.97%}, div_rate_raw_value={2=0.85}, ebitda_raw_value={2=120233000000.0}, other_operating_exp_total_revenue_percent={2=12.00%}, ebit_op_in_raw_value={2=108949000000.0}, selling_general_admin_expenses_total_revenue_percent={2=6.01%}, normalized_diluted_eps_raw_value={2=4.047121}, PartitionKey={2=aapl}, rd_expenses_revenue_percent={2=5.99%}, interest_expense_total_value={2=(2,645.0)}, r_d_exp_raw_value={2=21914000000.0}, other_revenues_summary_subtotal_value={2=-}, selling_general_admin_expenses_total_value={2=21,973.0}, other_non_operating_income_yoy_value={2=-}, cost_revenue_raw_value={2=212981000000.0}, diluted_eps_raw_value={2=5.61}, eps_raw_value={2=5.669029}, interest_expense_total_revenue_percent={2=(0.72%)}, ni_to_common_excl_extra_items_raw_value={2=94680000000.0}, weighted_average_diluted_shares_outstanding_yoy_value={2=(3.78%)}, effective_tax_rate_yoy_value={2=(7.80%)}, foreign_sales_raw_value={2=232014000000.0}, revenues_yoy_value={2=33.26%}, other_operating_exp_total_value={2=43,887.0}, basic_eps_excl_extra_items_value={2=$5.67}, rd_expenses_raw_value={2=21914000000.0}, ni_to_common_incl_extra_items_raw_value={2=94680000000.0}, payout_ratio_raw_value={2=15.2798}, gross_profit_value={2=152,836.0}, ebita_yoy_value={2=64.36%}, ebitda_yoy_value={2=55.45%}, cost_revenue_revenue_percent={2=58.22%}, other_non_operating_income_revenue_percent={2=0.02%}, normalized_basic_eps_raw_value={2=4.086777}, ebitdar_raw_value={2=134833000000.0}, normalized_net_income_raw_value={2=68254375000.0}, ni_to_common_excl_extra_items_value={2=94,680.0}, selling_general_admin_expenses_total_yoy_value={2=10.33%}, ebit_op_in_yoy_value={2=64.36%}, div_rate_yoy_value={2=6.92%}, diluted_eps_excl_extra_itmes_raw_value={2=5.61}, cost_revenue_yoy_value={2=25.61%}, operating_income_revenue_percent={2=29.78%}, revenues_value={2=365,817.0}, ni_to_common_incl_extra_items_revenue_percent={2=25.88%}, net_interest_exp_standard_raw_value={2=198000000.0}, weighted_average_basic_shares_outstanding_raw_value={2=16701272000.0}, total_revenue_raw_value={2=365817000000.0}, diluted_eps_value={2=$5.61}, ebita_raw_value={2=108949000000.0}, other_non_operating_income_raw_value={2=60000000.0}, foreign_sales_yoy_value={2=40.34%}, effective_tax_rate_value={2=13.3%}, total_revenue_value={2=365,817.0}, weighted_average_diluted_shares_outstanding_raw_value={2=16864919000.0}, cost_revenue_value={2=212,981.0}, ni_to_common_excl_extra_items_yoy_value={2=64.92%}, effective_tax_rate_raw_value={2=13.3022}, gross_profit_raw_value={2=152836000000.0}, interest_on_long_term_debt_value={2=2,600.0}, r_d_exp_value={2=21,914.0}, normalized_diluted_eps_yoy_value={2=69.18%}, basic_eps_excl_extra_items_yoy_value={2=71.34%}, revenues_raw_value={2=365817000000.0}, interest_and_investment_income_yoy_value={2=(24.45%)}, normalized_net_income_value={2=68,254.4}, ebt_incl_unusual_items_yoy_value={2=62.77%}, revenue_per_share_raw_value={2=21.903541}, ebitdar_value={2=134,833.0}, income_tax_expense_yoy_value={2=50.07%}, earnings_from_cont_ops_revenue_percent={2=25.88%}, ni_to_common_incl_extra_items_yoy_value={2=64.92%}, normalized_basic_eps_value={2=$4.09}, normalized_net_income_yoy_value={2=62.77%}, normalized_basic_eps_yoy_value={2=69.12%}, net_interest_exp_standard_yoy_value={2=(77.75%)}, revenue_per_share_value={2=$21.90}, net_income_raw_value={2=94680000000.0}, div_rate_value={2=$0.85}, net_interest_exp_standard_value={2=198.0}, ebit_op_in_value={2=108,949.0}, rd_expenses_yoy_value={2=16.86%}, basic_eps_excl_extra_items_raw_value={2=5.669029}, net_income_to_company_yoy_value={2=64.92%}, net_income_value={2=94,680.0}, other_revenues_summary_subtotal_revenue_percent={2=}, weighted_average_basic_shares_outstanding_yoy_value={2=(3.75%)}, payout_ratio_value={2=15.28%}, rd_expenses_value={2=21,914.0}, other_operating_exp_total_yoy_value={2=13.50%}, net_interest_exp_standard_revenue_percent={2=0.05%}, total_revenue_revenue_percent={2=100%}, selling_general_admin_expenses_total_raw_value={2=21973000000.0}, diluted_eps_excl_extra_itmes_yoy_value={2=71.04%}, operating_income_yoy_value={2=64.36%}, ebt_incl_unusual_items_revenue_percent={2=29.85%}, interest_on_long_term_debt_yoy_value={2=(7.14%)}, interest_and_investment_income_value={2=2,843.0}, ni_to_common_incl_extra_items_value={2=94,680.0}, total_revenue_yoy_value={2=33.26%}, net_income_to_company_value={2=94,680.0}, weighted_average_diluted_shares_outstanding_value={2=16,864.9}, net_income_to_company_revenue_percent={2=25.88%}, ebt_incl_unusual_items_raw_value={2=109207000000.0}, earnings_from_cont_ops_yoy_value={2=64.92%}, interest_and_investment_income_raw_value={2=2843000000.0}, income_tax_expense_revenue_percent={2=3.97%}, income_tax_expense_raw_value={2=14527000000.0}, foreign_sales_value={2=232,014.0}, gross_profit_yoy_value={2=45.62%}, revenue_per_share_yoy_value={2=38.45%}, ebt_incl_unusual_items_value={2=109,207.0}, interest_and_investment_income_revenue_percent={2=0.78%}, normalized_diluted_eps_value={2=$4.05}, other_operating_exp_total_raw_value={2=43887000000.0}, ni_to_common_excl_extra_items_revenue_percent={2=25.88%}, net_income_yoy_value={2=64.92%}, r_d_exp_yoy_value={2=16.86%}, income_tax_expense_value={2=14,527.0}, other_non_operating_income_value={2=60.0}, diluted_eps_yoy_value={2=71.04%}, diluted_eps_excl_extra_itmes_value={2=$5.61}, gross_profit_revenue_percent={2=41.78%}, ebita_value={2=108,949.0}, net_income_to_company_raw_value={2=94680000000.0}, revenues_revenue_percent={2=100.00%}}' of class java.util.HashMap.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/taskinstance.py", line 2420, in email_alert
+    send_email(task.email, subject, html_content)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/utils/email.py", line 80, in send_email
+    return backend(
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/utils/email.py", line 154, in send_email_smtp
+    send_mime_email(e_from=mail_from, e_to=recipients, mime_msg=msg, conn_id=conn_id, dryrun=dryrun)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/utils/email.py", line 272, in send_mime_email
+    smtp_conn = _get_smtp_connection(smtp_host, smtp_port, smtp_timeout, smtp_ssl)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/utils/email.py", line 316, in _get_smtp_connection
+    return smtplib.SMTP(host=host, port=port, timeout=timeout)
+  File "/usr/local/lib/python3.8/smtplib.py", line 255, in __init__
+    (code, msg) = self.connect(host, port)
+  File "/usr/local/lib/python3.8/smtplib.py", line 339, in connect
+    self.sock = self._get_socket(host, port, self.timeout)
+  File "/usr/local/lib/python3.8/smtplib.py", line 310, in _get_socket
+    return socket.create_connection((host, port), timeout,
+  File "/usr/local/lib/python3.8/socket.py", line 808, in create_connection
+    raise err
+  File "/usr/local/lib/python3.8/socket.py", line 796, in create_connection
+    sock.connect(sa)
+OSError: [Errno 99] Cannot assign requested address
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/taskinstance.py", line 2005, in handle_failure
+    self.email_alert(error, task)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/taskinstance.py", line 2422, in email_alert
+    send_email(task.email, subject, html_content_err)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/utils/email.py", line 80, in send_email
+    return backend(
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/utils/email.py", line 154, in send_email_smtp
+    send_mime_email(e_from=mail_from, e_to=recipients, mime_msg=msg, conn_id=conn_id, dryrun=dryrun)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/utils/email.py", line 272, in send_mime_email
+    smtp_conn = _get_smtp_connection(smtp_host, smtp_port, smtp_timeout, smtp_ssl)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/utils/email.py", line 316, in _get_smtp_connection
+    return smtplib.SMTP(host=host, port=port, timeout=timeout)
+  File "/usr/local/lib/python3.8/smtplib.py", line 255, in __init__
+    (code, msg) = self.connect(host, port)
+  File "/usr/local/lib/python3.8/smtplib.py", line 339, in connect
+    self.sock = self._get_socket(host, port, self.timeout)
+  File "/usr/local/lib/python3.8/smtplib.py", line 310, in _get_socket
+    return socket.create_connection((host, port), timeout,
+  File "/usr/local/lib/python3.8/socket.py", line 808, in create_connection
+    raise err
+  File "/usr/local/lib/python3.8/socket.py", line 796, in create_connection
+    sock.connect(sa)
+OSError: [Errno 99] Cannot assign requested address
+[2024-02-01T11:41:19.221+0000] {standard_task_runner.py:104} ERROR - Failed to execute job 131 for task calculating_gross_margin ([UNSUPPORTED_FEATURE.LITERAL_TYPE] The feature is not supported: Literal for '{earnings_from_cont_ops_value={2=94,680.0}, eps_yoy_value={2=71.34%}, interest_on_long_term_debt_raw_value={2=2600000000.0}, operating_income_raw_value={2=108949000000.0}, earnings_from_cont_ops_raw_value={2=94680000000.0}, weighted_average_basic_shares_outstanding_value={2=16,701.3}, RowKey={2=Sep 2021}, ebitda_value={2=120,233.0}, operating_income_value={2=108,949.0}, net_income_revenue_percent={2=25.88%}, payout_ratio_yoy_value={2=(37.70%)}, interest_expense_total_raw_value={2=-2645000000.0}, eps_value={2=$5.67}, interest_expense_total_yoy_value={2=-7.94%}, ebitdar_yoy_value={2=52.97%}, div_rate_raw_value={2=0.85}, ebitda_raw_value={2=120233000000.0}, other_operating_exp_total_revenue_percent={2=12.00%}, ebit_op_in_raw_value={2=108949000000.0}, selling_general_admin_expenses_total_revenue_percent={2=6.01%}, normalized_diluted_eps_raw_value={2=4.047121}, PartitionKey={2=aapl}, rd_expenses_revenue_percent={2=5.99%}, interest_expense_total_value={2=(2,645.0)}, r_d_exp_raw_value={2=21914000000.0}, other_revenues_summary_subtotal_value={2=-}, selling_general_admin_expenses_total_value={2=21,973.0}, other_non_operating_income_yoy_value={2=-}, cost_revenue_raw_value={2=212981000000.0}, diluted_eps_raw_value={2=5.61}, eps_raw_value={2=5.669029}, interest_expense_total_revenue_percent={2=(0.72%)}, ni_to_common_excl_extra_items_raw_value={2=94680000000.0}, weighted_average_diluted_shares_outstanding_yoy_value={2=(3.78%)}, effective_tax_rate_yoy_value={2=(7.80%)}, foreign_sales_raw_value={2=232014000000.0}, revenues_yoy_value={2=33.26%}, other_operating_exp_total_value={2=43,887.0}, basic_eps_excl_extra_items_value={2=$5.67}, rd_expenses_raw_value={2=21914000000.0}, ni_to_common_incl_extra_items_raw_value={2=94680000000.0}, payout_ratio_raw_value={2=15.2798}, gross_profit_value={2=152,836.0}, ebita_yoy_value={2=64.36%}, ebitda_yoy_value={2=55.45%}, cost_revenue_revenue_percent={2=58.22%}, other_non_operating_income_revenue_percent={2=0.02%}, normalized_basic_eps_raw_value={2=4.086777}, ebitdar_raw_value={2=134833000000.0}, normalized_net_income_raw_value={2=68254375000.0}, ni_to_common_excl_extra_items_value={2=94,680.0}, selling_general_admin_expenses_total_yoy_value={2=10.33%}, ebit_op_in_yoy_value={2=64.36%}, div_rate_yoy_value={2=6.92%}, diluted_eps_excl_extra_itmes_raw_value={2=5.61}, cost_revenue_yoy_value={2=25.61%}, operating_income_revenue_percent={2=29.78%}, revenues_value={2=365,817.0}, ni_to_common_incl_extra_items_revenue_percent={2=25.88%}, net_interest_exp_standard_raw_value={2=198000000.0}, weighted_average_basic_shares_outstanding_raw_value={2=16701272000.0}, total_revenue_raw_value={2=365817000000.0}, diluted_eps_value={2=$5.61}, ebita_raw_value={2=108949000000.0}, other_non_operating_income_raw_value={2=60000000.0}, foreign_sales_yoy_value={2=40.34%}, effective_tax_rate_value={2=13.3%}, total_revenue_value={2=365,817.0}, weighted_average_diluted_shares_outstanding_raw_value={2=16864919000.0}, cost_revenue_value={2=212,981.0}, ni_to_common_excl_extra_items_yoy_value={2=64.92%}, effective_tax_rate_raw_value={2=13.3022}, gross_profit_raw_value={2=152836000000.0}, interest_on_long_term_debt_value={2=2,600.0}, r_d_exp_value={2=21,914.0}, normalized_diluted_eps_yoy_value={2=69.18%}, basic_eps_excl_extra_items_yoy_value={2=71.34%}, revenues_raw_value={2=365817000000.0}, interest_and_investment_income_yoy_value={2=(24.45%)}, normalized_net_income_value={2=68,254.4}, ebt_incl_unusual_items_yoy_value={2=62.77%}, revenue_per_share_raw_value={2=21.903541}, ebitdar_value={2=134,833.0}, income_tax_expense_yoy_value={2=50.07%}, earnings_from_cont_ops_revenue_percent={2=25.88%}, ni_to_common_incl_extra_items_yoy_value={2=64.92%}, normalized_basic_eps_value={2=$4.09}, normalized_net_income_yoy_value={2=62.77%}, normalized_basic_eps_yoy_value={2=69.12%}, net_interest_exp_standard_yoy_value={2=(77.75%)}, revenue_per_share_value={2=$21.90}, net_income_raw_value={2=94680000000.0}, div_rate_value={2=$0.85}, net_interest_exp_standard_value={2=198.0}, ebit_op_in_value={2=108,949.0}, rd_expenses_yoy_value={2=16.86%}, basic_eps_excl_extra_items_raw_value={2=5.669029}, net_income_to_company_yoy_value={2=64.92%}, net_income_value={2=94,680.0}, other_revenues_summary_subtotal_revenue_percent={2=}, weighted_average_basic_shares_outstanding_yoy_value={2=(3.75%)}, payout_ratio_value={2=15.28%}, rd_expenses_value={2=21,914.0}, other_operating_exp_total_yoy_value={2=13.50%}, net_interest_exp_standard_revenue_percent={2=0.05%}, total_revenue_revenue_percent={2=100%}, selling_general_admin_expenses_total_raw_value={2=21973000000.0}, diluted_eps_excl_extra_itmes_yoy_value={2=71.04%}, operating_income_yoy_value={2=64.36%}, ebt_incl_unusual_items_revenue_percent={2=29.85%}, interest_on_long_term_debt_yoy_value={2=(7.14%)}, interest_and_investment_income_value={2=2,843.0}, ni_to_common_incl_extra_items_value={2=94,680.0}, total_revenue_yoy_value={2=33.26%}, net_income_to_company_value={2=94,680.0}, weighted_average_diluted_shares_outstanding_value={2=16,864.9}, net_income_to_company_revenue_percent={2=25.88%}, ebt_incl_unusual_items_raw_value={2=109207000000.0}, earnings_from_cont_ops_yoy_value={2=64.92%}, interest_and_investment_income_raw_value={2=2843000000.0}, income_tax_expense_revenue_percent={2=3.97%}, income_tax_expense_raw_value={2=14527000000.0}, foreign_sales_value={2=232,014.0}, gross_profit_yoy_value={2=45.62%}, revenue_per_share_yoy_value={2=38.45%}, ebt_incl_unusual_items_value={2=109,207.0}, interest_and_investment_income_revenue_percent={2=0.78%}, normalized_diluted_eps_value={2=$4.05}, other_operating_exp_total_raw_value={2=43887000000.0}, ni_to_common_excl_extra_items_revenue_percent={2=25.88%}, net_income_yoy_value={2=64.92%}, r_d_exp_yoy_value={2=16.86%}, income_tax_expense_value={2=14,527.0}, other_non_operating_income_value={2=60.0}, diluted_eps_yoy_value={2=71.04%}, diluted_eps_excl_extra_itmes_value={2=$5.61}, gross_profit_revenue_percent={2=41.78%}, ebita_value={2=108,949.0}, net_income_to_company_raw_value={2=94680000000.0}, revenues_revenue_percent={2=100.00%}}' of class java.util.HashMap.; 820)
+[2024-02-01T11:41:19.264+0000] {local_task_job_runner.py:228} INFO - Task exited with return code 1
+[2024-02-01T11:41:19.310+0000] {taskinstance.py:2778} INFO - 0 downstream tasks scheduled from follow-on schedule check

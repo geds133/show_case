@@ -1,0 +1,5 @@
+[2023-11-22T22:53:54.449+0000] {processor.py:157} INFO - Started process (PID=156) to work on /home/airflow/.local/lib/python3.8/site-packages/airflow/example_dags/example_task_group.py
+[2023-11-22T22:53:54.451+0000] {processor.py:829} INFO - Processing file /home/airflow/.local/lib/python3.8/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2023-11-22T22:53:54.459+0000] {logging_mixin.py:154} INFO - [2023-11-22T22:53:54.457+0000] {dagbag.py:536} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.8/site-packages/airflow/example_dags/example_task_group.py
+[2023-11-22T22:53:54.479+0000] {processor.py:839} INFO - DAG(s) dict_keys(['example_task_group']) retrieved from /home/airflow/.local/lib/python3.8/site-packages/airflow/example_dags/example_task_group.py
+[2023-11-22T22:53:57.170+0000] {logging_mixin.py:154} INFO - [2023-11-22T22:53:57.169+0000] {process_utils.py:259} INFO - Waiting up to 5 seconds for processes to exit...

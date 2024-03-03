@@ -1,0 +1,448 @@
+[2024-01-27T22:28:56.637+0000] {processor.py:157} INFO - Started process (PID=38) to work on /opt/airflow/dags/fundamental_data_pipeline.py
+[2024-01-27T22:28:56.640+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/fundamental_data_pipeline.py for tasks to queue
+[2024-01-27T22:28:56.645+0000] {logging_mixin.py:154} INFO - [2024-01-27T22:28:56.644+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/fundamental_data_pipeline.py
+[2024-01-27T22:29:02.092+0000] {logging_mixin.py:154} INFO - [2024-01-27T22:29:02.058+0000] {dagbag.py:346} ERROR - Failed to import: /opt/airflow/dags/fundamental_data_pipeline.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 342, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/fundamental_data_pipeline.py", line 9, in <module>
+    from azure.data.tables import TableServiceClient
+ModuleNotFoundError: No module named 'azure.data'
+[2024-01-27T22:29:02.102+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/fundamental_data_pipeline.py
+[2024-01-27T22:29:02.170+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/fundamental_data_pipeline.py took 5.537 seconds
+[2024-01-27T22:29:32.522+0000] {processor.py:157} INFO - Started process (PID=47) to work on /opt/airflow/dags/fundamental_data_pipeline.py
+[2024-01-27T22:29:32.525+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/fundamental_data_pipeline.py for tasks to queue
+[2024-01-27T22:29:32.535+0000] {logging_mixin.py:154} INFO - [2024-01-27T22:29:32.535+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/fundamental_data_pipeline.py
+[2024-01-27T22:29:33.208+0000] {logging_mixin.py:154} INFO - [2024-01-27T22:29:33.201+0000] {dagbag.py:346} ERROR - Failed to import: /opt/airflow/dags/fundamental_data_pipeline.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 342, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/fundamental_data_pipeline.py", line 9, in <module>
+    from azure.data.tables import TableServiceClient
+ModuleNotFoundError: No module named 'azure.data'
+[2024-01-27T22:29:33.209+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/fundamental_data_pipeline.py
+[2024-01-27T22:29:33.226+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/fundamental_data_pipeline.py took 0.723 seconds
+[2024-01-27T22:30:03.433+0000] {processor.py:157} INFO - Started process (PID=56) to work on /opt/airflow/dags/fundamental_data_pipeline.py
+[2024-01-27T22:30:03.434+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/fundamental_data_pipeline.py for tasks to queue
+[2024-01-27T22:30:03.435+0000] {logging_mixin.py:154} INFO - [2024-01-27T22:30:03.435+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/fundamental_data_pipeline.py
+[2024-01-27T22:30:03.872+0000] {logging_mixin.py:154} INFO - [2024-01-27T22:30:03.862+0000] {dagbag.py:346} ERROR - Failed to import: /opt/airflow/dags/fundamental_data_pipeline.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 342, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/fundamental_data_pipeline.py", line 9, in <module>
+    from azure.data.tables import TableServiceClient
+ModuleNotFoundError: No module named 'azure.data'
+[2024-01-27T22:30:03.874+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/fundamental_data_pipeline.py
+[2024-01-27T22:30:03.897+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/fundamental_data_pipeline.py took 0.466 seconds
+[2024-01-27T22:30:34.105+0000] {processor.py:157} INFO - Started process (PID=65) to work on /opt/airflow/dags/fundamental_data_pipeline.py
+[2024-01-27T22:30:34.106+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/fundamental_data_pipeline.py for tasks to queue
+[2024-01-27T22:30:34.107+0000] {logging_mixin.py:154} INFO - [2024-01-27T22:30:34.107+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/fundamental_data_pipeline.py
+[2024-01-27T22:30:34.655+0000] {logging_mixin.py:154} INFO - [2024-01-27T22:30:34.648+0000] {dagbag.py:346} ERROR - Failed to import: /opt/airflow/dags/fundamental_data_pipeline.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 342, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/fundamental_data_pipeline.py", line 9, in <module>
+    from azure.data.tables import TableServiceClient
+ModuleNotFoundError: No module named 'azure.data'
+[2024-01-27T22:30:34.656+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/fundamental_data_pipeline.py
+[2024-01-27T22:30:34.675+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/fundamental_data_pipeline.py took 0.574 seconds
+[2024-01-27T22:31:04.772+0000] {processor.py:157} INFO - Started process (PID=74) to work on /opt/airflow/dags/fundamental_data_pipeline.py
+[2024-01-27T22:31:04.773+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/fundamental_data_pipeline.py for tasks to queue
+[2024-01-27T22:31:04.774+0000] {logging_mixin.py:154} INFO - [2024-01-27T22:31:04.774+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/fundamental_data_pipeline.py
+[2024-01-27T22:31:05.206+0000] {logging_mixin.py:154} INFO - [2024-01-27T22:31:05.198+0000] {dagbag.py:346} ERROR - Failed to import: /opt/airflow/dags/fundamental_data_pipeline.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 342, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/fundamental_data_pipeline.py", line 9, in <module>
+    from azure.data.tables import TableServiceClient
+ModuleNotFoundError: No module named 'azure.data'
+[2024-01-27T22:31:05.207+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/fundamental_data_pipeline.py
+[2024-01-27T22:31:05.222+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/fundamental_data_pipeline.py took 0.453 seconds
+[2024-01-27T22:31:35.411+0000] {processor.py:157} INFO - Started process (PID=83) to work on /opt/airflow/dags/fundamental_data_pipeline.py
+[2024-01-27T22:31:35.413+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/fundamental_data_pipeline.py for tasks to queue
+[2024-01-27T22:31:35.414+0000] {logging_mixin.py:154} INFO - [2024-01-27T22:31:35.413+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/fundamental_data_pipeline.py
+[2024-01-27T22:31:35.860+0000] {logging_mixin.py:154} INFO - [2024-01-27T22:31:35.853+0000] {dagbag.py:346} ERROR - Failed to import: /opt/airflow/dags/fundamental_data_pipeline.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 342, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/fundamental_data_pipeline.py", line 9, in <module>
+    from azure.data.tables import TableServiceClient
+ModuleNotFoundError: No module named 'azure.data'
+[2024-01-27T22:31:35.862+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/fundamental_data_pipeline.py
+[2024-01-27T22:31:35.879+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/fundamental_data_pipeline.py took 0.473 seconds
+[2024-01-27T22:32:06.074+0000] {processor.py:157} INFO - Started process (PID=93) to work on /opt/airflow/dags/fundamental_data_pipeline.py
+[2024-01-27T22:32:06.075+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/fundamental_data_pipeline.py for tasks to queue
+[2024-01-27T22:32:06.076+0000] {logging_mixin.py:154} INFO - [2024-01-27T22:32:06.076+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/fundamental_data_pipeline.py
+[2024-01-27T22:32:06.496+0000] {logging_mixin.py:154} INFO - [2024-01-27T22:32:06.489+0000] {dagbag.py:346} ERROR - Failed to import: /opt/airflow/dags/fundamental_data_pipeline.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 342, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/fundamental_data_pipeline.py", line 9, in <module>
+    from azure.data.tables import TableServiceClient
+ModuleNotFoundError: No module named 'azure.data'
+[2024-01-27T22:32:06.499+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/fundamental_data_pipeline.py
+[2024-01-27T22:32:06.516+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/fundamental_data_pipeline.py took 0.445 seconds
+[2024-01-27T22:32:36.719+0000] {processor.py:157} INFO - Started process (PID=102) to work on /opt/airflow/dags/fundamental_data_pipeline.py
+[2024-01-27T22:32:36.720+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/fundamental_data_pipeline.py for tasks to queue
+[2024-01-27T22:32:36.721+0000] {logging_mixin.py:154} INFO - [2024-01-27T22:32:36.721+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/fundamental_data_pipeline.py
+[2024-01-27T22:32:37.185+0000] {logging_mixin.py:154} INFO - [2024-01-27T22:32:37.178+0000] {dagbag.py:346} ERROR - Failed to import: /opt/airflow/dags/fundamental_data_pipeline.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 342, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/fundamental_data_pipeline.py", line 9, in <module>
+    from azure.data.tables import TableServiceClient
+ModuleNotFoundError: No module named 'azure.data'
+[2024-01-27T22:32:37.186+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/fundamental_data_pipeline.py
+[2024-01-27T22:32:37.203+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/fundamental_data_pipeline.py took 0.489 seconds
+[2024-01-27T22:33:07.401+0000] {processor.py:157} INFO - Started process (PID=111) to work on /opt/airflow/dags/fundamental_data_pipeline.py
+[2024-01-27T22:33:07.403+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/fundamental_data_pipeline.py for tasks to queue
+[2024-01-27T22:33:07.404+0000] {logging_mixin.py:154} INFO - [2024-01-27T22:33:07.403+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/fundamental_data_pipeline.py
+[2024-01-27T22:33:07.826+0000] {logging_mixin.py:154} INFO - [2024-01-27T22:33:07.819+0000] {dagbag.py:346} ERROR - Failed to import: /opt/airflow/dags/fundamental_data_pipeline.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 342, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/fundamental_data_pipeline.py", line 9, in <module>
+    from azure.data.tables import TableServiceClient
+ModuleNotFoundError: No module named 'azure.data'
+[2024-01-27T22:33:07.828+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/fundamental_data_pipeline.py
+[2024-01-27T22:33:07.846+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/fundamental_data_pipeline.py took 0.448 seconds
+[2024-01-27T22:33:38.048+0000] {processor.py:157} INFO - Started process (PID=120) to work on /opt/airflow/dags/fundamental_data_pipeline.py
+[2024-01-27T22:33:38.050+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/fundamental_data_pipeline.py for tasks to queue
+[2024-01-27T22:33:38.051+0000] {logging_mixin.py:154} INFO - [2024-01-27T22:33:38.050+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/fundamental_data_pipeline.py
+[2024-01-27T22:33:38.506+0000] {logging_mixin.py:154} INFO - [2024-01-27T22:33:38.500+0000] {dagbag.py:346} ERROR - Failed to import: /opt/airflow/dags/fundamental_data_pipeline.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 342, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/fundamental_data_pipeline.py", line 9, in <module>
+    from azure.data.tables import TableServiceClient
+ModuleNotFoundError: No module named 'azure.data'
+[2024-01-27T22:33:38.507+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/fundamental_data_pipeline.py
+[2024-01-27T22:33:38.524+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/fundamental_data_pipeline.py took 0.479 seconds
+[2024-01-27T22:34:08.748+0000] {processor.py:157} INFO - Started process (PID=129) to work on /opt/airflow/dags/fundamental_data_pipeline.py
+[2024-01-27T22:34:08.749+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/fundamental_data_pipeline.py for tasks to queue
+[2024-01-27T22:34:08.750+0000] {logging_mixin.py:154} INFO - [2024-01-27T22:34:08.750+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/fundamental_data_pipeline.py
+[2024-01-27T22:34:09.242+0000] {logging_mixin.py:154} INFO - [2024-01-27T22:34:09.235+0000] {dagbag.py:346} ERROR - Failed to import: /opt/airflow/dags/fundamental_data_pipeline.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 342, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/fundamental_data_pipeline.py", line 9, in <module>
+    from azure.data.tables import TableServiceClient
+ModuleNotFoundError: No module named 'azure.data'
+[2024-01-27T22:34:09.244+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/fundamental_data_pipeline.py
+[2024-01-27T22:34:09.263+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/fundamental_data_pipeline.py took 0.518 seconds
+[2024-01-27T22:34:39.392+0000] {processor.py:157} INFO - Started process (PID=138) to work on /opt/airflow/dags/fundamental_data_pipeline.py
+[2024-01-27T22:34:39.394+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/fundamental_data_pipeline.py for tasks to queue
+[2024-01-27T22:34:39.396+0000] {logging_mixin.py:154} INFO - [2024-01-27T22:34:39.395+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/fundamental_data_pipeline.py
+[2024-01-27T22:34:39.974+0000] {logging_mixin.py:154} INFO - [2024-01-27T22:34:39.967+0000] {dagbag.py:346} ERROR - Failed to import: /opt/airflow/dags/fundamental_data_pipeline.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 342, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/fundamental_data_pipeline.py", line 9, in <module>
+    from azure.data.tables import TableServiceClient
+ModuleNotFoundError: No module named 'azure.data'
+[2024-01-27T22:34:39.976+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/fundamental_data_pipeline.py
+[2024-01-27T22:34:39.993+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/fundamental_data_pipeline.py took 0.605 seconds
+[2024-01-27T22:35:53.426+0000] {processor.py:157} INFO - Started process (PID=39) to work on /opt/airflow/dags/fundamental_data_pipeline.py
+[2024-01-27T22:35:53.427+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/fundamental_data_pipeline.py for tasks to queue
+[2024-01-27T22:35:53.430+0000] {logging_mixin.py:154} INFO - [2024-01-27T22:35:53.429+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/fundamental_data_pipeline.py
+[2024-01-27T22:35:56.650+0000] {logging_mixin.py:154} INFO - [2024-01-27T22:35:56.643+0000] {dagbag.py:346} ERROR - Failed to import: /opt/airflow/dags/fundamental_data_pipeline.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 342, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/fundamental_data_pipeline.py", line 9, in <module>
+    from azure.data.tables import TableServiceClient
+ModuleNotFoundError: No module named 'azure.data'
+[2024-01-27T22:35:56.652+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/fundamental_data_pipeline.py
+[2024-01-27T22:35:56.677+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/fundamental_data_pipeline.py took 3.255 seconds
+[2024-01-27T22:36:26.994+0000] {processor.py:157} INFO - Started process (PID=48) to work on /opt/airflow/dags/fundamental_data_pipeline.py
+[2024-01-27T22:36:26.997+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/fundamental_data_pipeline.py for tasks to queue
+[2024-01-27T22:36:27.043+0000] {logging_mixin.py:154} INFO - [2024-01-27T22:36:27.039+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/fundamental_data_pipeline.py
+[2024-01-27T22:36:29.801+0000] {logging_mixin.py:154} INFO - [2024-01-27T22:36:29.795+0000] {dagbag.py:346} ERROR - Failed to import: /opt/airflow/dags/fundamental_data_pipeline.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 342, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/fundamental_data_pipeline.py", line 9, in <module>
+    from azure.data.tables import TableServiceClient
+ModuleNotFoundError: No module named 'azure.data'
+[2024-01-27T22:36:29.802+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/fundamental_data_pipeline.py
+[2024-01-27T22:36:29.822+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/fundamental_data_pipeline.py took 2.866 seconds
+[2024-01-27T22:37:00.044+0000] {processor.py:157} INFO - Started process (PID=57) to work on /opt/airflow/dags/fundamental_data_pipeline.py
+[2024-01-27T22:37:00.045+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/fundamental_data_pipeline.py for tasks to queue
+[2024-01-27T22:37:00.048+0000] {logging_mixin.py:154} INFO - [2024-01-27T22:37:00.047+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/fundamental_data_pipeline.py
+[2024-01-27T22:37:00.473+0000] {logging_mixin.py:154} INFO - [2024-01-27T22:37:00.466+0000] {dagbag.py:346} ERROR - Failed to import: /opt/airflow/dags/fundamental_data_pipeline.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 342, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/fundamental_data_pipeline.py", line 9, in <module>
+    from azure.data.tables import TableServiceClient
+ModuleNotFoundError: No module named 'azure.data'
+[2024-01-27T22:37:00.475+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/fundamental_data_pipeline.py
+[2024-01-27T22:37:00.492+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/fundamental_data_pipeline.py took 0.451 seconds
+[2024-01-27T22:37:30.710+0000] {processor.py:157} INFO - Started process (PID=66) to work on /opt/airflow/dags/fundamental_data_pipeline.py
+[2024-01-27T22:37:30.711+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/fundamental_data_pipeline.py for tasks to queue
+[2024-01-27T22:37:30.716+0000] {logging_mixin.py:154} INFO - [2024-01-27T22:37:30.716+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/fundamental_data_pipeline.py
+[2024-01-27T22:37:31.345+0000] {logging_mixin.py:154} INFO - [2024-01-27T22:37:31.338+0000] {dagbag.py:346} ERROR - Failed to import: /opt/airflow/dags/fundamental_data_pipeline.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 342, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/fundamental_data_pipeline.py", line 9, in <module>
+    from azure.data.tables import TableServiceClient
+ModuleNotFoundError: No module named 'azure.data'
+[2024-01-27T22:37:31.346+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/fundamental_data_pipeline.py
+[2024-01-27T22:37:31.365+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/fundamental_data_pipeline.py took 0.659 seconds
+[2024-01-27T23:11:20.386+0000] {processor.py:157} INFO - Started process (PID=38) to work on /opt/airflow/dags/fundamental_data_pipeline.py
+[2024-01-27T23:11:20.387+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/fundamental_data_pipeline.py for tasks to queue
+[2024-01-27T23:11:20.391+0000] {logging_mixin.py:154} INFO - [2024-01-27T23:11:20.391+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/fundamental_data_pipeline.py
+[2024-01-27T23:11:22.110+0000] {logging_mixin.py:154} INFO - [2024-01-27T23:11:22.102+0000] {dagbag.py:346} ERROR - Failed to import: /opt/airflow/dags/fundamental_data_pipeline.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 342, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/fundamental_data_pipeline.py", line 9, in <module>
+    from azure.data.tables import TableServiceClient
+ModuleNotFoundError: No module named 'azure.data'
+[2024-01-27T23:11:22.112+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/fundamental_data_pipeline.py
+[2024-01-27T23:11:22.172+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/fundamental_data_pipeline.py took 1.789 seconds
+[2024-01-27T23:11:52.458+0000] {processor.py:157} INFO - Started process (PID=47) to work on /opt/airflow/dags/fundamental_data_pipeline.py
+[2024-01-27T23:11:52.460+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/fundamental_data_pipeline.py for tasks to queue
+[2024-01-27T23:11:52.471+0000] {logging_mixin.py:154} INFO - [2024-01-27T23:11:52.471+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/fundamental_data_pipeline.py
+[2024-01-27T23:11:53.035+0000] {logging_mixin.py:154} INFO - [2024-01-27T23:11:53.029+0000] {dagbag.py:346} ERROR - Failed to import: /opt/airflow/dags/fundamental_data_pipeline.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 342, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/fundamental_data_pipeline.py", line 9, in <module>
+    from azure.data.tables import TableServiceClient
+ModuleNotFoundError: No module named 'azure.data'
+[2024-01-27T23:11:53.037+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/fundamental_data_pipeline.py
+[2024-01-27T23:11:53.053+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/fundamental_data_pipeline.py took 0.609 seconds
+[2024-01-27T23:12:23.242+0000] {processor.py:157} INFO - Started process (PID=56) to work on /opt/airflow/dags/fundamental_data_pipeline.py
+[2024-01-27T23:12:23.243+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/fundamental_data_pipeline.py for tasks to queue
+[2024-01-27T23:12:23.246+0000] {logging_mixin.py:154} INFO - [2024-01-27T23:12:23.245+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/fundamental_data_pipeline.py
+[2024-01-27T23:12:23.688+0000] {logging_mixin.py:154} INFO - [2024-01-27T23:12:23.682+0000] {dagbag.py:346} ERROR - Failed to import: /opt/airflow/dags/fundamental_data_pipeline.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 342, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/fundamental_data_pipeline.py", line 9, in <module>
+    from azure.data.tables import TableServiceClient
+ModuleNotFoundError: No module named 'azure.data'
+[2024-01-27T23:12:23.690+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/fundamental_data_pipeline.py
+[2024-01-27T23:12:23.706+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/fundamental_data_pipeline.py took 0.469 seconds
+[2024-01-27T23:12:53.903+0000] {processor.py:157} INFO - Started process (PID=67) to work on /opt/airflow/dags/fundamental_data_pipeline.py
+[2024-01-27T23:12:53.905+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/fundamental_data_pipeline.py for tasks to queue
+[2024-01-27T23:12:53.907+0000] {logging_mixin.py:154} INFO - [2024-01-27T23:12:53.907+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/fundamental_data_pipeline.py
+[2024-01-27T23:12:54.358+0000] {logging_mixin.py:154} INFO - [2024-01-27T23:12:54.352+0000] {dagbag.py:346} ERROR - Failed to import: /opt/airflow/dags/fundamental_data_pipeline.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 342, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/fundamental_data_pipeline.py", line 9, in <module>
+    from azure.data.tables import TableServiceClient
+ModuleNotFoundError: No module named 'azure.data'
+[2024-01-27T23:12:54.360+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/fundamental_data_pipeline.py
+[2024-01-27T23:12:54.379+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/fundamental_data_pipeline.py took 0.479 seconds
+[2024-01-27T23:13:24.554+0000] {processor.py:157} INFO - Started process (PID=77) to work on /opt/airflow/dags/fundamental_data_pipeline.py
+[2024-01-27T23:13:24.555+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/fundamental_data_pipeline.py for tasks to queue
+[2024-01-27T23:13:24.557+0000] {logging_mixin.py:154} INFO - [2024-01-27T23:13:24.557+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/fundamental_data_pipeline.py
+[2024-01-27T23:13:24.987+0000] {logging_mixin.py:154} INFO - [2024-01-27T23:13:24.982+0000] {dagbag.py:346} ERROR - Failed to import: /opt/airflow/dags/fundamental_data_pipeline.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 342, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/fundamental_data_pipeline.py", line 9, in <module>
+    from azure.data.tables import TableServiceClient
+ModuleNotFoundError: No module named 'azure.data'
+[2024-01-27T23:13:24.989+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/fundamental_data_pipeline.py
+[2024-01-27T23:13:25.004+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/fundamental_data_pipeline.py took 0.454 seconds
+[2024-01-27T23:13:55.194+0000] {processor.py:157} INFO - Started process (PID=86) to work on /opt/airflow/dags/fundamental_data_pipeline.py
+[2024-01-27T23:13:55.195+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/fundamental_data_pipeline.py for tasks to queue
+[2024-01-27T23:13:55.197+0000] {logging_mixin.py:154} INFO - [2024-01-27T23:13:55.197+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/fundamental_data_pipeline.py
+[2024-01-27T23:13:55.680+0000] {logging_mixin.py:154} INFO - [2024-01-27T23:13:55.672+0000] {dagbag.py:346} ERROR - Failed to import: /opt/airflow/dags/fundamental_data_pipeline.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 342, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/fundamental_data_pipeline.py", line 9, in <module>
+    from azure.data.tables import TableServiceClient
+ModuleNotFoundError: No module named 'azure.data'
+[2024-01-27T23:13:55.682+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/fundamental_data_pipeline.py
+[2024-01-27T23:13:55.707+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/fundamental_data_pipeline.py took 0.516 seconds
+[2024-01-27T23:14:25.911+0000] {processor.py:157} INFO - Started process (PID=95) to work on /opt/airflow/dags/fundamental_data_pipeline.py
+[2024-01-27T23:14:25.913+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/fundamental_data_pipeline.py for tasks to queue
+[2024-01-27T23:14:25.916+0000] {logging_mixin.py:154} INFO - [2024-01-27T23:14:25.915+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/fundamental_data_pipeline.py
+[2024-01-27T23:14:26.330+0000] {logging_mixin.py:154} INFO - [2024-01-27T23:14:26.324+0000] {dagbag.py:346} ERROR - Failed to import: /opt/airflow/dags/fundamental_data_pipeline.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 342, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/fundamental_data_pipeline.py", line 9, in <module>
+    from azure.data.tables import TableServiceClient
+ModuleNotFoundError: No module named 'azure.data'
+[2024-01-27T23:14:26.332+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/fundamental_data_pipeline.py
+[2024-01-27T23:14:26.347+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/fundamental_data_pipeline.py took 0.439 seconds
+[2024-01-27T23:14:56.532+0000] {processor.py:157} INFO - Started process (PID=104) to work on /opt/airflow/dags/fundamental_data_pipeline.py
+[2024-01-27T23:14:56.533+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/fundamental_data_pipeline.py for tasks to queue
+[2024-01-27T23:14:56.535+0000] {logging_mixin.py:154} INFO - [2024-01-27T23:14:56.535+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/fundamental_data_pipeline.py
+[2024-01-27T23:14:56.956+0000] {logging_mixin.py:154} INFO - [2024-01-27T23:14:56.950+0000] {dagbag.py:346} ERROR - Failed to import: /opt/airflow/dags/fundamental_data_pipeline.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 342, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/fundamental_data_pipeline.py", line 9, in <module>
+    from azure.data.tables import TableServiceClient
+ModuleNotFoundError: No module named 'azure.data'
+[2024-01-27T23:14:56.958+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/fundamental_data_pipeline.py
+[2024-01-27T23:14:56.974+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/fundamental_data_pipeline.py took 0.445 seconds
+[2024-01-27T23:15:27.163+0000] {processor.py:157} INFO - Started process (PID=113) to work on /opt/airflow/dags/fundamental_data_pipeline.py
+[2024-01-27T23:15:27.164+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/fundamental_data_pipeline.py for tasks to queue
+[2024-01-27T23:15:27.166+0000] {logging_mixin.py:154} INFO - [2024-01-27T23:15:27.166+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/fundamental_data_pipeline.py
+[2024-01-27T23:15:27.569+0000] {logging_mixin.py:154} INFO - [2024-01-27T23:15:27.563+0000] {dagbag.py:346} ERROR - Failed to import: /opt/airflow/dags/fundamental_data_pipeline.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 342, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/fundamental_data_pipeline.py", line 9, in <module>
+    from azure.data.tables import TableServiceClient
+ModuleNotFoundError: No module named 'azure.data'
+[2024-01-27T23:15:27.570+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/fundamental_data_pipeline.py
+[2024-01-27T23:15:27.585+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/fundamental_data_pipeline.py took 0.426 seconds
+[2024-01-27T23:15:57.777+0000] {processor.py:157} INFO - Started process (PID=122) to work on /opt/airflow/dags/fundamental_data_pipeline.py
+[2024-01-27T23:15:57.778+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/fundamental_data_pipeline.py for tasks to queue
+[2024-01-27T23:15:57.781+0000] {logging_mixin.py:154} INFO - [2024-01-27T23:15:57.781+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/fundamental_data_pipeline.py
+[2024-01-27T23:15:58.294+0000] {logging_mixin.py:154} INFO - [2024-01-27T23:15:58.287+0000] {dagbag.py:346} ERROR - Failed to import: /opt/airflow/dags/fundamental_data_pipeline.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 342, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/fundamental_data_pipeline.py", line 9, in <module>
+    from azure.data.tables import TableServiceClient
+ModuleNotFoundError: No module named 'azure.data'
+[2024-01-27T23:15:58.296+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/fundamental_data_pipeline.py
+[2024-01-27T23:15:58.315+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/fundamental_data_pipeline.py took 0.542 seconds
+[2024-01-27T23:16:28.520+0000] {processor.py:157} INFO - Started process (PID=132) to work on /opt/airflow/dags/fundamental_data_pipeline.py
+[2024-01-27T23:16:28.521+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/fundamental_data_pipeline.py for tasks to queue
+[2024-01-27T23:16:28.523+0000] {logging_mixin.py:154} INFO - [2024-01-27T23:16:28.523+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/fundamental_data_pipeline.py
+[2024-01-27T23:16:28.971+0000] {logging_mixin.py:154} INFO - [2024-01-27T23:16:28.966+0000] {dagbag.py:346} ERROR - Failed to import: /opt/airflow/dags/fundamental_data_pipeline.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 342, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/fundamental_data_pipeline.py", line 9, in <module>
+    from azure.data.tables import TableServiceClient
+ModuleNotFoundError: No module named 'azure.data'
+[2024-01-27T23:16:28.972+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/fundamental_data_pipeline.py
+[2024-01-27T23:16:28.993+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/fundamental_data_pipeline.py took 0.475 seconds
+[2024-01-27T23:16:59.172+0000] {processor.py:157} INFO - Started process (PID=141) to work on /opt/airflow/dags/fundamental_data_pipeline.py
+[2024-01-27T23:16:59.173+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/fundamental_data_pipeline.py for tasks to queue
+[2024-01-27T23:16:59.176+0000] {logging_mixin.py:154} INFO - [2024-01-27T23:16:59.175+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/fundamental_data_pipeline.py
+[2024-01-27T23:16:59.592+0000] {logging_mixin.py:154} INFO - [2024-01-27T23:16:59.585+0000] {dagbag.py:346} ERROR - Failed to import: /opt/airflow/dags/fundamental_data_pipeline.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 342, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/fundamental_data_pipeline.py", line 9, in <module>
+    from azure.data.tables import TableServiceClient
+ModuleNotFoundError: No module named 'azure.data'
+[2024-01-27T23:16:59.593+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/fundamental_data_pipeline.py
+[2024-01-27T23:16:59.610+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/fundamental_data_pipeline.py took 0.441 seconds
+[2024-01-27T23:17:29.808+0000] {processor.py:157} INFO - Started process (PID=150) to work on /opt/airflow/dags/fundamental_data_pipeline.py
+[2024-01-27T23:17:29.809+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/fundamental_data_pipeline.py for tasks to queue
+[2024-01-27T23:17:29.811+0000] {logging_mixin.py:154} INFO - [2024-01-27T23:17:29.811+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/fundamental_data_pipeline.py
+[2024-01-27T23:17:30.239+0000] {logging_mixin.py:154} INFO - [2024-01-27T23:17:30.233+0000] {dagbag.py:346} ERROR - Failed to import: /opt/airflow/dags/fundamental_data_pipeline.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 342, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/fundamental_data_pipeline.py", line 9, in <module>
+    from azure.data.tables import TableServiceClient
+ModuleNotFoundError: No module named 'azure.data'
+[2024-01-27T23:17:30.241+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/fundamental_data_pipeline.py
+[2024-01-27T23:17:30.261+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/fundamental_data_pipeline.py took 0.458 seconds
+[2024-01-27T23:18:00.442+0000] {processor.py:157} INFO - Started process (PID=159) to work on /opt/airflow/dags/fundamental_data_pipeline.py
+[2024-01-27T23:18:00.443+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/fundamental_data_pipeline.py for tasks to queue
+[2024-01-27T23:18:00.445+0000] {logging_mixin.py:154} INFO - [2024-01-27T23:18:00.445+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/fundamental_data_pipeline.py
+[2024-01-27T23:18:00.957+0000] {logging_mixin.py:154} INFO - [2024-01-27T23:18:00.947+0000] {dagbag.py:346} ERROR - Failed to import: /opt/airflow/dags/fundamental_data_pipeline.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 342, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/fundamental_data_pipeline.py", line 9, in <module>
+    from azure.data.tables import TableServiceClient
+ModuleNotFoundError: No module named 'azure.data'
+[2024-01-27T23:18:00.959+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/fundamental_data_pipeline.py
+[2024-01-27T23:18:00.979+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/fundamental_data_pipeline.py took 0.540 seconds
+[2024-01-27T23:26:21.046+0000] {processor.py:157} INFO - Started process (PID=39) to work on /opt/airflow/dags/fundamental_data_pipeline.py
+[2024-01-27T23:26:21.050+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/fundamental_data_pipeline.py for tasks to queue
+[2024-01-27T23:26:21.056+0000] {logging_mixin.py:154} INFO - [2024-01-27T23:26:21.055+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/fundamental_data_pipeline.py
+[2024-01-27T23:26:23.244+0000] {logging_mixin.py:154} INFO - [2024-01-27T23:26:23.236+0000] {dagbag.py:346} ERROR - Failed to import: /opt/airflow/dags/fundamental_data_pipeline.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 342, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/fundamental_data_pipeline.py", line 9, in <module>
+    from azure.data.tables import TableServiceClient
+ModuleNotFoundError: No module named 'azure.data'
+[2024-01-27T23:26:23.246+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/fundamental_data_pipeline.py
+[2024-01-27T23:26:23.282+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/fundamental_data_pipeline.py took 2.240 seconds
+[2024-01-27T23:26:53.516+0000] {processor.py:157} INFO - Started process (PID=48) to work on /opt/airflow/dags/fundamental_data_pipeline.py
+[2024-01-27T23:26:53.517+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/fundamental_data_pipeline.py for tasks to queue
+[2024-01-27T23:26:53.534+0000] {logging_mixin.py:154} INFO - [2024-01-27T23:26:53.533+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/fundamental_data_pipeline.py
+[2024-01-27T23:26:55.142+0000] {logging_mixin.py:154} INFO - [2024-01-27T23:26:55.136+0000] {dagbag.py:346} ERROR - Failed to import: /opt/airflow/dags/fundamental_data_pipeline.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 342, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/fundamental_data_pipeline.py", line 9, in <module>
+    from azure.data.tables import TableServiceClient
+ModuleNotFoundError: No module named 'azure.data'
+[2024-01-27T23:26:55.143+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/fundamental_data_pipeline.py
+[2024-01-27T23:26:55.158+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/fundamental_data_pipeline.py took 1.656 seconds

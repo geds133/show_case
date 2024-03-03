@@ -1,0 +1,75 @@
+[2024-02-01T10:09:31.268+0000] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: calculating_gross_margin.downloading_fundamentals manual__2024-02-01T10:09:20.643864+00:00 [queued]>
+[2024-02-01T10:09:31.278+0000] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: calculating_gross_margin.downloading_fundamentals manual__2024-02-01T10:09:20.643864+00:00 [queued]>
+[2024-02-01T10:09:31.279+0000] {taskinstance.py:1361} INFO - Starting attempt 1 of 2
+[2024-02-01T10:09:31.294+0000] {taskinstance.py:1382} INFO - Executing <Task(PythonOperator): downloading_fundamentals> on 2024-02-01 10:09:20.643864+00:00
+[2024-02-01T10:09:31.299+0000] {standard_task_runner.py:57} INFO - Started process 149 to run task
+[2024-02-01T10:09:31.302+0000] {standard_task_runner.py:84} INFO - Running: ['***', 'tasks', 'run', 'calculating_gross_margin', 'downloading_fundamentals', 'manual__2024-02-01T10:09:20.643864+00:00', '--job-id', '116', '--raw', '--subdir', 'DAGS_FOLDER/fundamental_data_pipeline.py', '--cfg-path', '/tmp/tmpsjfpjrln']
+[2024-02-01T10:09:31.305+0000] {standard_task_runner.py:85} INFO - Job 116: Subtask downloading_fundamentals
+[2024-02-01T10:09:31.359+0000] {task_command.py:416} INFO - Running <TaskInstance: calculating_gross_margin.downloading_fundamentals manual__2024-02-01T10:09:20.643864+00:00 [running]> on host 4326638af122
+[2024-02-01T10:09:31.427+0000] {taskinstance.py:1662} INFO - Exporting env vars: AIRFLOW_CTX_DAG_EMAIL='gerardchurch133@outlook.com' AIRFLOW_CTX_DAG_OWNER='Airflow' AIRFLOW_CTX_DAG_ID='calculating_gross_margin' AIRFLOW_CTX_TASK_ID='downloading_fundamentals' AIRFLOW_CTX_EXECUTION_DATE='2024-02-01T10:09:20.643864+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2024-02-01T10:09:20.643864+00:00'
+[2024-02-01T10:09:33.093+0000] {_universal.py:514} INFO - Request URL: 'https://datalakeuksouth2311.table.core.windows.net/fundamentalsraw/fundamentalsraw()?$filter=REDACTED'
+Request method: 'GET'
+Request headers:
+    'x-ms-version': 'REDACTED'
+    'DataServiceVersion': 'REDACTED'
+    'Accept': 'application/json;odata=minimalmetadata'
+    'x-ms-client-request-id': 'feddd71a-c0e9-11ee-92b7-0242ac130005'
+    'x-ms-date': 'REDACTED'
+    'Date': 'Thu, 01 Feb 2024 10:09:33 GMT'
+    'User-Agent': 'azsdk-python-data-tables/12.5.0 Python/3.8.18 (Linux-5.10.16.3-microsoft-standard-WSL2-x86_64-with-glibc2.2.5)'
+    'Authorization': 'REDACTED'
+No body was attached to the request
+[2024-02-01T10:09:33.184+0000] {_universal.py:550} INFO - Response status: 501
+Response headers:
+    'Cache-Control': 'no-cache'
+    'Transfer-Encoding': 'chunked'
+    'Content-Type': 'application/json;odata=minimalmetadata;streaming=true;charset=utf-8'
+    'Server': 'Windows-Azure-Table/1.0 Microsoft-HTTPAPI/2.0'
+    'x-ms-request-id': '9420a945-2002-0042-55f6-5439ae000000'
+    'x-ms-client-request-id': 'feddd71a-c0e9-11ee-92b7-0242ac130005'
+    'x-ms-version': 'REDACTED'
+    'X-Content-Type-Options': 'REDACTED'
+    'Date': 'Thu, 01 Feb 2024 10:09:35 GMT'
+[2024-02-01T10:09:33.186+0000] {taskinstance.py:1937} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/azure/data/tables/_models.py", line 351, in _get_next_cb
+    return self._command(
+  File "/home/airflow/.local/lib/python3.8/site-packages/azure/core/tracing/decorator.py", line 78, in wrapper_use_tracer
+    return func(*args, **kwargs)
+  File "/home/airflow/.local/lib/python3.8/site-packages/azure/data/tables/_generated/operations/_operations.py", line 941, in query_entities
+    raise HttpResponseError(response=response, model=error)
+azure.core.exceptions.HttpResponseError: Operation returned an invalid status 'Not Implemented'
+Content: {"odata.error":{"code":"NotImplemented","message":{"lang":"en-US","value":"The requested operation is not implemented on the specified resource.\nRequestId:9420a945-2002-0042-55f6-5439ae000000\nTime:2024-02-01T10:09:35.5104565Z"}}}
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/operators/python.py", line 192, in execute
+    return_value = self.execute_callable()
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/operators/python.py", line 209, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+  File "/opt/airflow/dags/fundamental_data_pipeline.py", line 61, in get_fundamental_data
+    current_raw_entities = [entity['RowKey'] for entity in current_raw_entities]
+  File "/opt/airflow/dags/fundamental_data_pipeline.py", line 61, in <listcomp>
+    current_raw_entities = [entity['RowKey'] for entity in current_raw_entities]
+  File "/home/airflow/.local/lib/python3.8/site-packages/azure/core/paging.py", line 123, in __next__
+    return next(self._page_iterator)
+  File "/home/airflow/.local/lib/python3.8/site-packages/azure/core/paging.py", line 75, in __next__
+    self._response = self._get_next(self.continuation_token)
+  File "/home/airflow/.local/lib/python3.8/site-packages/azure/data/tables/_models.py", line 362, in _get_next_cb
+    _process_table_error(error)
+  File "/home/airflow/.local/lib/python3.8/site-packages/azure/data/tables/_error.py", line 210, in _process_table_error
+    raise decoded_error from storage_error
+azure.core.exceptions.HttpResponseError: The requested operation is not implemented on the specified resource.
+RequestId:9420a945-2002-0042-55f6-5439ae000000
+Time:2024-02-01T10:09:35.5104565Z
+ErrorCode:NotImplemented
+Content: {"odata.error":{"code":"NotImplemented","message":{"lang":"en-US","value":"The requested operation is not implemented on the specified resource.\nRequestId:9420a945-2002-0042-55f6-5439ae000000\nTime:2024-02-01T10:09:35.5104565Z"}}}
+[2024-02-01T10:09:33.205+0000] {taskinstance.py:1400} INFO - Marking task as UP_FOR_RETRY. dag_id=calculating_gross_margin, task_id=downloading_fundamentals, execution_date=20240201T100920, start_date=20240201T100931, end_date=20240201T100933
+[2024-02-01T10:09:33.221+0000] {standard_task_runner.py:104} ERROR - Failed to execute job 116 for task downloading_fundamentals (The requested operation is not implemented on the specified resource.
+RequestId:9420a945-2002-0042-55f6-5439ae000000
+Time:2024-02-01T10:09:35.5104565Z
+ErrorCode:NotImplemented
+Content: {"odata.error":{"code":"NotImplemented","message":{"lang":"en-US","value":"The requested operation is not implemented on the specified resource.\nRequestId:9420a945-2002-0042-55f6-5439ae000000\nTime:2024-02-01T10:09:35.5104565Z"}}}; 149)
+[2024-02-01T10:09:33.242+0000] {local_task_job_runner.py:228} INFO - Task exited with return code 1
+[2024-02-01T10:09:33.265+0000] {taskinstance.py:2778} INFO - 0 downstream tasks scheduled from follow-on schedule check

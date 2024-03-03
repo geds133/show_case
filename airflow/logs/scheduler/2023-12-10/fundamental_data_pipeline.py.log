@@ -1,0 +1,378 @@
+[2023-12-10T22:51:46.552+0000] {processor.py:157} INFO - Started process (PID=39) to work on /opt/airflow/dags/fundamental_data_pipeline.py
+[2023-12-10T22:51:46.554+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/fundamental_data_pipeline.py for tasks to queue
+[2023-12-10T22:51:46.557+0000] {logging_mixin.py:154} INFO - [2023-12-10T22:51:46.556+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/fundamental_data_pipeline.py
+[2023-12-10T22:51:46.587+0000] {logging_mixin.py:154} INFO - [2023-12-10T22:51:46.580+0000] {dagbag.py:346} ERROR - Failed to import: /opt/airflow/dags/fundamental_data_pipeline.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 342, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/fundamental_data_pipeline.py", line 11, in <module>
+    from libs.financials_api_get import get_fundemental_data
+ModuleNotFoundError: No module named 'libs'
+[2023-12-10T22:51:46.590+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/fundamental_data_pipeline.py
+[2023-12-10T22:51:46.616+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/fundamental_data_pipeline.py took 0.067 seconds
+[2023-12-10T22:52:16.887+0000] {processor.py:157} INFO - Started process (PID=47) to work on /opt/airflow/dags/fundamental_data_pipeline.py
+[2023-12-10T22:52:16.891+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/fundamental_data_pipeline.py for tasks to queue
+[2023-12-10T22:52:16.919+0000] {logging_mixin.py:154} INFO - [2023-12-10T22:52:16.918+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/fundamental_data_pipeline.py
+[2023-12-10T22:52:16.971+0000] {logging_mixin.py:154} INFO - [2023-12-10T22:52:16.961+0000] {dagbag.py:346} ERROR - Failed to import: /opt/airflow/dags/fundamental_data_pipeline.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 342, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/fundamental_data_pipeline.py", line 11, in <module>
+    from libs.financials_api_get import get_fundemental_data
+ModuleNotFoundError: No module named 'libs'
+[2023-12-10T22:52:16.973+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/fundamental_data_pipeline.py
+[2023-12-10T22:52:17.026+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/fundamental_data_pipeline.py took 0.160 seconds
+[2023-12-10T22:52:47.198+0000] {processor.py:157} INFO - Started process (PID=55) to work on /opt/airflow/dags/fundamental_data_pipeline.py
+[2023-12-10T22:52:47.199+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/fundamental_data_pipeline.py for tasks to queue
+[2023-12-10T22:52:47.201+0000] {logging_mixin.py:154} INFO - [2023-12-10T22:52:47.201+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/fundamental_data_pipeline.py
+[2023-12-10T22:52:47.225+0000] {logging_mixin.py:154} INFO - [2023-12-10T22:52:47.221+0000] {dagbag.py:346} ERROR - Failed to import: /opt/airflow/dags/fundamental_data_pipeline.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 342, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/fundamental_data_pipeline.py", line 11, in <module>
+    from libs.financials_api_get import get_fundemental_data
+ModuleNotFoundError: No module named 'libs'
+[2023-12-10T22:52:47.227+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/fundamental_data_pipeline.py
+[2023-12-10T22:52:47.245+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/fundamental_data_pipeline.py took 0.050 seconds
+[2023-12-10T22:53:17.368+0000] {processor.py:157} INFO - Started process (PID=63) to work on /opt/airflow/dags/fundamental_data_pipeline.py
+[2023-12-10T22:53:17.370+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/fundamental_data_pipeline.py for tasks to queue
+[2023-12-10T22:53:17.372+0000] {logging_mixin.py:154} INFO - [2023-12-10T22:53:17.371+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/fundamental_data_pipeline.py
+[2023-12-10T22:53:17.398+0000] {logging_mixin.py:154} INFO - [2023-12-10T22:53:17.393+0000] {dagbag.py:346} ERROR - Failed to import: /opt/airflow/dags/fundamental_data_pipeline.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 342, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/fundamental_data_pipeline.py", line 11, in <module>
+    from libs.financials_api_get import get_fundemental_data
+ModuleNotFoundError: No module named 'libs'
+[2023-12-10T22:53:17.400+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/fundamental_data_pipeline.py
+[2023-12-10T22:53:17.419+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/fundamental_data_pipeline.py took 0.054 seconds
+[2023-12-10T22:53:47.566+0000] {processor.py:157} INFO - Started process (PID=71) to work on /opt/airflow/dags/fundamental_data_pipeline.py
+[2023-12-10T22:53:47.567+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/fundamental_data_pipeline.py for tasks to queue
+[2023-12-10T22:53:47.569+0000] {logging_mixin.py:154} INFO - [2023-12-10T22:53:47.569+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/fundamental_data_pipeline.py
+[2023-12-10T22:53:47.593+0000] {logging_mixin.py:154} INFO - [2023-12-10T22:53:47.588+0000] {dagbag.py:346} ERROR - Failed to import: /opt/airflow/dags/fundamental_data_pipeline.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 342, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/fundamental_data_pipeline.py", line 11, in <module>
+    from libs.financials_api_get import get_fundemental_data
+ModuleNotFoundError: No module named 'libs'
+[2023-12-10T22:53:47.595+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/fundamental_data_pipeline.py
+[2023-12-10T22:53:47.613+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/fundamental_data_pipeline.py took 0.050 seconds
+[2023-12-10T22:54:17.744+0000] {processor.py:157} INFO - Started process (PID=79) to work on /opt/airflow/dags/fundamental_data_pipeline.py
+[2023-12-10T22:54:17.746+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/fundamental_data_pipeline.py for tasks to queue
+[2023-12-10T22:54:17.748+0000] {logging_mixin.py:154} INFO - [2023-12-10T22:54:17.748+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/fundamental_data_pipeline.py
+[2023-12-10T22:54:17.767+0000] {logging_mixin.py:154} INFO - [2023-12-10T22:54:17.764+0000] {dagbag.py:346} ERROR - Failed to import: /opt/airflow/dags/fundamental_data_pipeline.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 342, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/fundamental_data_pipeline.py", line 11, in <module>
+    from libs.financials_api_get import get_fundemental_data
+ModuleNotFoundError: No module named 'libs'
+[2023-12-10T22:54:17.768+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/fundamental_data_pipeline.py
+[2023-12-10T22:54:17.786+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/fundamental_data_pipeline.py took 0.044 seconds
+[2023-12-10T22:54:47.940+0000] {processor.py:157} INFO - Started process (PID=87) to work on /opt/airflow/dags/fundamental_data_pipeline.py
+[2023-12-10T22:54:47.941+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/fundamental_data_pipeline.py for tasks to queue
+[2023-12-10T22:54:47.943+0000] {logging_mixin.py:154} INFO - [2023-12-10T22:54:47.943+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/fundamental_data_pipeline.py
+[2023-12-10T22:54:47.972+0000] {logging_mixin.py:154} INFO - [2023-12-10T22:54:47.966+0000] {dagbag.py:346} ERROR - Failed to import: /opt/airflow/dags/fundamental_data_pipeline.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 342, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/fundamental_data_pipeline.py", line 11, in <module>
+    from libs.financials_api_get import get_fundemental_data
+ModuleNotFoundError: No module named 'libs'
+[2023-12-10T22:54:47.974+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/fundamental_data_pipeline.py
+[2023-12-10T22:54:47.993+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/fundamental_data_pipeline.py took 0.055 seconds
+[2023-12-10T22:55:18.114+0000] {processor.py:157} INFO - Started process (PID=95) to work on /opt/airflow/dags/fundamental_data_pipeline.py
+[2023-12-10T22:55:18.115+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/fundamental_data_pipeline.py for tasks to queue
+[2023-12-10T22:55:18.117+0000] {logging_mixin.py:154} INFO - [2023-12-10T22:55:18.117+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/fundamental_data_pipeline.py
+[2023-12-10T22:55:18.140+0000] {logging_mixin.py:154} INFO - [2023-12-10T22:55:18.136+0000] {dagbag.py:346} ERROR - Failed to import: /opt/airflow/dags/fundamental_data_pipeline.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 342, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/fundamental_data_pipeline.py", line 11, in <module>
+    from libs.financials_api_get import get_fundemental_data
+ModuleNotFoundError: No module named 'libs'
+[2023-12-10T22:55:18.142+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/fundamental_data_pipeline.py
+[2023-12-10T22:55:18.160+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/fundamental_data_pipeline.py took 0.049 seconds
+[2023-12-10T22:55:48.337+0000] {processor.py:157} INFO - Started process (PID=103) to work on /opt/airflow/dags/fundamental_data_pipeline.py
+[2023-12-10T22:55:48.338+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/fundamental_data_pipeline.py for tasks to queue
+[2023-12-10T22:55:48.347+0000] {logging_mixin.py:154} INFO - [2023-12-10T22:55:48.346+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/fundamental_data_pipeline.py
+[2023-12-10T22:55:48.402+0000] {logging_mixin.py:154} INFO - [2023-12-10T22:55:48.395+0000] {dagbag.py:346} ERROR - Failed to import: /opt/airflow/dags/fundamental_data_pipeline.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 342, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/fundamental_data_pipeline.py", line 11, in <module>
+    from libs.financials_api_get import get_fundemental_data
+ModuleNotFoundError: No module named 'libs'
+[2023-12-10T22:55:48.405+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/fundamental_data_pipeline.py
+[2023-12-10T22:55:48.452+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/fundamental_data_pipeline.py took 0.120 seconds
+[2023-12-10T22:56:18.654+0000] {processor.py:157} INFO - Started process (PID=111) to work on /opt/airflow/dags/fundamental_data_pipeline.py
+[2023-12-10T22:56:18.656+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/fundamental_data_pipeline.py for tasks to queue
+[2023-12-10T22:56:18.658+0000] {logging_mixin.py:154} INFO - [2023-12-10T22:56:18.658+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/fundamental_data_pipeline.py
+[2023-12-10T22:56:18.680+0000] {logging_mixin.py:154} INFO - [2023-12-10T22:56:18.676+0000] {dagbag.py:346} ERROR - Failed to import: /opt/airflow/dags/fundamental_data_pipeline.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 342, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/fundamental_data_pipeline.py", line 11, in <module>
+    from libs.financials_api_get import get_fundemental_data
+ModuleNotFoundError: No module named 'libs'
+[2023-12-10T22:56:18.682+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/fundamental_data_pipeline.py
+[2023-12-10T22:56:18.752+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/fundamental_data_pipeline.py took 0.106 seconds
+[2023-12-10T22:56:48.869+0000] {processor.py:157} INFO - Started process (PID=119) to work on /opt/airflow/dags/fundamental_data_pipeline.py
+[2023-12-10T22:56:48.869+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/fundamental_data_pipeline.py for tasks to queue
+[2023-12-10T22:56:48.872+0000] {logging_mixin.py:154} INFO - [2023-12-10T22:56:48.872+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/fundamental_data_pipeline.py
+[2023-12-10T22:56:48.898+0000] {logging_mixin.py:154} INFO - [2023-12-10T22:56:48.892+0000] {dagbag.py:346} ERROR - Failed to import: /opt/airflow/dags/fundamental_data_pipeline.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 342, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/fundamental_data_pipeline.py", line 11, in <module>
+    from libs.financials_api_get import get_fundemental_data
+ModuleNotFoundError: No module named 'libs'
+[2023-12-10T22:56:48.899+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/fundamental_data_pipeline.py
+[2023-12-10T22:56:48.917+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/fundamental_data_pipeline.py took 0.051 seconds
+[2023-12-10T22:57:19.085+0000] {processor.py:157} INFO - Started process (PID=127) to work on /opt/airflow/dags/fundamental_data_pipeline.py
+[2023-12-10T22:57:19.086+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/fundamental_data_pipeline.py for tasks to queue
+[2023-12-10T22:57:19.089+0000] {logging_mixin.py:154} INFO - [2023-12-10T22:57:19.088+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/fundamental_data_pipeline.py
+[2023-12-10T22:57:19.119+0000] {logging_mixin.py:154} INFO - [2023-12-10T22:57:19.115+0000] {dagbag.py:346} ERROR - Failed to import: /opt/airflow/dags/fundamental_data_pipeline.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 342, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/fundamental_data_pipeline.py", line 11, in <module>
+    from libs.financials_api_get import get_fundemental_data
+ModuleNotFoundError: No module named 'libs'
+[2023-12-10T22:57:19.121+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/fundamental_data_pipeline.py
+[2023-12-10T22:57:19.138+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/fundamental_data_pipeline.py took 0.056 seconds
+[2023-12-10T22:57:49.275+0000] {processor.py:157} INFO - Started process (PID=135) to work on /opt/airflow/dags/fundamental_data_pipeline.py
+[2023-12-10T22:57:49.276+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/fundamental_data_pipeline.py for tasks to queue
+[2023-12-10T22:57:49.279+0000] {logging_mixin.py:154} INFO - [2023-12-10T22:57:49.278+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/fundamental_data_pipeline.py
+[2023-12-10T22:57:49.307+0000] {logging_mixin.py:154} INFO - [2023-12-10T22:57:49.300+0000] {dagbag.py:346} ERROR - Failed to import: /opt/airflow/dags/fundamental_data_pipeline.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 342, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/fundamental_data_pipeline.py", line 11, in <module>
+    from libs.financials_api_get import get_fundemental_data
+ModuleNotFoundError: No module named 'libs'
+[2023-12-10T22:57:49.309+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/fundamental_data_pipeline.py
+[2023-12-10T22:57:49.333+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/fundamental_data_pipeline.py took 0.063 seconds
+[2023-12-10T22:58:19.474+0000] {processor.py:157} INFO - Started process (PID=143) to work on /opt/airflow/dags/fundamental_data_pipeline.py
+[2023-12-10T22:58:19.475+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/fundamental_data_pipeline.py for tasks to queue
+[2023-12-10T22:58:19.477+0000] {logging_mixin.py:154} INFO - [2023-12-10T22:58:19.477+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/fundamental_data_pipeline.py
+[2023-12-10T22:58:19.500+0000] {logging_mixin.py:154} INFO - [2023-12-10T22:58:19.495+0000] {dagbag.py:346} ERROR - Failed to import: /opt/airflow/dags/fundamental_data_pipeline.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 342, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/fundamental_data_pipeline.py", line 11, in <module>
+    from libs.financials_api_get import get_fundemental_data
+ModuleNotFoundError: No module named 'libs'
+[2023-12-10T22:58:19.502+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/fundamental_data_pipeline.py
+[2023-12-10T22:58:19.523+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/fundamental_data_pipeline.py took 0.051 seconds
+[2023-12-10T22:58:46.658+0000] {processor.py:157} INFO - Started process (PID=151) to work on /opt/airflow/dags/fundamental_data_pipeline.py
+[2023-12-10T22:58:46.660+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/fundamental_data_pipeline.py for tasks to queue
+[2023-12-10T22:58:46.663+0000] {logging_mixin.py:154} INFO - [2023-12-10T22:58:46.662+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/fundamental_data_pipeline.py
+[2023-12-10T22:58:46.708+0000] {logging_mixin.py:154} INFO - [2023-12-10T22:58:46.703+0000] {dagbag.py:346} ERROR - Failed to import: /opt/airflow/dags/fundamental_data_pipeline.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 342, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/fundamental_data_pipeline.py", line 6, in <module>
+    from libs.financials_api_get import get_fundamental_data
+ModuleNotFoundError: No module named 'libs'
+[2023-12-10T22:58:46.709+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/fundamental_data_pipeline.py
+[2023-12-10T22:58:46.730+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/fundamental_data_pipeline.py took 0.075 seconds
+[2023-12-10T23:01:58.521+0000] {processor.py:157} INFO - Started process (PID=39) to work on /opt/airflow/dags/fundamental_data_pipeline.py
+[2023-12-10T23:01:58.522+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/fundamental_data_pipeline.py for tasks to queue
+[2023-12-10T23:01:58.525+0000] {logging_mixin.py:154} INFO - [2023-12-10T23:01:58.525+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/fundamental_data_pipeline.py
+[2023-12-10T23:01:58.587+0000] {logging_mixin.py:154} INFO - [2023-12-10T23:01:58.582+0000] {dagbag.py:346} ERROR - Failed to import: /opt/airflow/dags/fundamental_data_pipeline.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 342, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/fundamental_data_pipeline.py", line 5, in <module>
+    from libs.financials_api_get import get_fundamental_data
+ModuleNotFoundError: No module named 'libs'
+[2023-12-10T23:01:58.589+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/fundamental_data_pipeline.py
+[2023-12-10T23:01:58.638+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/fundamental_data_pipeline.py took 0.122 seconds
+[2023-12-10T23:02:28.824+0000] {processor.py:157} INFO - Started process (PID=47) to work on /opt/airflow/dags/fundamental_data_pipeline.py
+[2023-12-10T23:02:28.827+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/fundamental_data_pipeline.py for tasks to queue
+[2023-12-10T23:02:28.843+0000] {logging_mixin.py:154} INFO - [2023-12-10T23:02:28.842+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/fundamental_data_pipeline.py
+[2023-12-10T23:02:28.883+0000] {logging_mixin.py:154} INFO - [2023-12-10T23:02:28.875+0000] {dagbag.py:346} ERROR - Failed to import: /opt/airflow/dags/fundamental_data_pipeline.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 342, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/fundamental_data_pipeline.py", line 5, in <module>
+    from libs.financials_api_get import get_fundamental_data
+ModuleNotFoundError: No module named 'libs'
+[2023-12-10T23:02:28.885+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/fundamental_data_pipeline.py
+[2023-12-10T23:02:28.926+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/fundamental_data_pipeline.py took 0.115 seconds
+[2023-12-10T23:02:59.094+0000] {processor.py:157} INFO - Started process (PID=55) to work on /opt/airflow/dags/fundamental_data_pipeline.py
+[2023-12-10T23:02:59.095+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/fundamental_data_pipeline.py for tasks to queue
+[2023-12-10T23:02:59.098+0000] {logging_mixin.py:154} INFO - [2023-12-10T23:02:59.098+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/fundamental_data_pipeline.py
+[2023-12-10T23:02:59.121+0000] {logging_mixin.py:154} INFO - [2023-12-10T23:02:59.116+0000] {dagbag.py:346} ERROR - Failed to import: /opt/airflow/dags/fundamental_data_pipeline.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 342, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/fundamental_data_pipeline.py", line 5, in <module>
+    from libs.financials_api_get import get_fundamental_data
+ModuleNotFoundError: No module named 'libs'
+[2023-12-10T23:02:59.122+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/fundamental_data_pipeline.py
+[2023-12-10T23:02:59.145+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/fundamental_data_pipeline.py took 0.055 seconds
+[2023-12-10T23:03:29.279+0000] {processor.py:157} INFO - Started process (PID=63) to work on /opt/airflow/dags/fundamental_data_pipeline.py
+[2023-12-10T23:03:29.280+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/fundamental_data_pipeline.py for tasks to queue
+[2023-12-10T23:03:29.282+0000] {logging_mixin.py:154} INFO - [2023-12-10T23:03:29.282+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/fundamental_data_pipeline.py
+[2023-12-10T23:03:29.305+0000] {logging_mixin.py:154} INFO - [2023-12-10T23:03:29.301+0000] {dagbag.py:346} ERROR - Failed to import: /opt/airflow/dags/fundamental_data_pipeline.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 342, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/fundamental_data_pipeline.py", line 5, in <module>
+    from libs.financials_api_get import get_fundamental_data
+ModuleNotFoundError: No module named 'libs'
+[2023-12-10T23:03:29.307+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/fundamental_data_pipeline.py
+[2023-12-10T23:03:29.326+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/fundamental_data_pipeline.py took 0.050 seconds
+[2023-12-10T23:03:59.471+0000] {processor.py:157} INFO - Started process (PID=71) to work on /opt/airflow/dags/fundamental_data_pipeline.py
+[2023-12-10T23:03:59.472+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/fundamental_data_pipeline.py for tasks to queue
+[2023-12-10T23:03:59.474+0000] {logging_mixin.py:154} INFO - [2023-12-10T23:03:59.474+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/fundamental_data_pipeline.py
+[2023-12-10T23:03:59.496+0000] {logging_mixin.py:154} INFO - [2023-12-10T23:03:59.492+0000] {dagbag.py:346} ERROR - Failed to import: /opt/airflow/dags/fundamental_data_pipeline.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 342, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/fundamental_data_pipeline.py", line 5, in <module>
+    from libs.financials_api_get import get_fundamental_data
+ModuleNotFoundError: No module named 'libs'
+[2023-12-10T23:03:59.498+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/fundamental_data_pipeline.py
+[2023-12-10T23:03:59.515+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/fundamental_data_pipeline.py took 0.047 seconds
+[2023-12-10T23:04:29.652+0000] {processor.py:157} INFO - Started process (PID=79) to work on /opt/airflow/dags/fundamental_data_pipeline.py
+[2023-12-10T23:04:29.653+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/fundamental_data_pipeline.py for tasks to queue
+[2023-12-10T23:04:29.655+0000] {logging_mixin.py:154} INFO - [2023-12-10T23:04:29.654+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/fundamental_data_pipeline.py
+[2023-12-10T23:04:29.678+0000] {logging_mixin.py:154} INFO - [2023-12-10T23:04:29.674+0000] {dagbag.py:346} ERROR - Failed to import: /opt/airflow/dags/fundamental_data_pipeline.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 342, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/fundamental_data_pipeline.py", line 5, in <module>
+    from libs.financials_api_get import get_fundamental_data
+ModuleNotFoundError: No module named 'libs'
+[2023-12-10T23:04:29.680+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/fundamental_data_pipeline.py
+[2023-12-10T23:04:29.697+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/fundamental_data_pipeline.py took 0.048 seconds
+[2023-12-10T23:04:59.838+0000] {processor.py:157} INFO - Started process (PID=87) to work on /opt/airflow/dags/fundamental_data_pipeline.py
+[2023-12-10T23:04:59.839+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/fundamental_data_pipeline.py for tasks to queue
+[2023-12-10T23:04:59.841+0000] {logging_mixin.py:154} INFO - [2023-12-10T23:04:59.841+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/fundamental_data_pipeline.py
+[2023-12-10T23:04:59.866+0000] {logging_mixin.py:154} INFO - [2023-12-10T23:04:59.860+0000] {dagbag.py:346} ERROR - Failed to import: /opt/airflow/dags/fundamental_data_pipeline.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 342, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/fundamental_data_pipeline.py", line 5, in <module>
+    from libs.financials_api_get import get_fundamental_data
+ModuleNotFoundError: No module named 'libs'
+[2023-12-10T23:04:59.873+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/fundamental_data_pipeline.py
+[2023-12-10T23:04:59.894+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/fundamental_data_pipeline.py took 0.058 seconds
+[2023-12-10T23:05:30.034+0000] {processor.py:157} INFO - Started process (PID=95) to work on /opt/airflow/dags/fundamental_data_pipeline.py
+[2023-12-10T23:05:30.035+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/fundamental_data_pipeline.py for tasks to queue
+[2023-12-10T23:05:30.039+0000] {logging_mixin.py:154} INFO - [2023-12-10T23:05:30.038+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/fundamental_data_pipeline.py
+[2023-12-10T23:05:30.075+0000] {logging_mixin.py:154} INFO - [2023-12-10T23:05:30.069+0000] {dagbag.py:346} ERROR - Failed to import: /opt/airflow/dags/fundamental_data_pipeline.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 342, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/fundamental_data_pipeline.py", line 5, in <module>
+    from libs.financials_api_get import get_fundamental_data
+ModuleNotFoundError: No module named 'libs'
+[2023-12-10T23:05:30.077+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/fundamental_data_pipeline.py
+[2023-12-10T23:05:30.134+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/fundamental_data_pipeline.py took 0.103 seconds
+[2023-12-10T23:06:00.227+0000] {processor.py:157} INFO - Started process (PID=103) to work on /opt/airflow/dags/fundamental_data_pipeline.py
+[2023-12-10T23:06:00.228+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/fundamental_data_pipeline.py for tasks to queue
+[2023-12-10T23:06:00.230+0000] {logging_mixin.py:154} INFO - [2023-12-10T23:06:00.230+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/fundamental_data_pipeline.py
+[2023-12-10T23:06:00.255+0000] {logging_mixin.py:154} INFO - [2023-12-10T23:06:00.250+0000] {dagbag.py:346} ERROR - Failed to import: /opt/airflow/dags/fundamental_data_pipeline.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 342, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/fundamental_data_pipeline.py", line 5, in <module>
+    from libs.financials_api_get import get_fundamental_data
+ModuleNotFoundError: No module named 'libs'
+[2023-12-10T23:06:00.257+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/fundamental_data_pipeline.py
+[2023-12-10T23:06:00.275+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/fundamental_data_pipeline.py took 0.050 seconds
+[2023-12-10T23:06:30.402+0000] {processor.py:157} INFO - Started process (PID=111) to work on /opt/airflow/dags/fundamental_data_pipeline.py
+[2023-12-10T23:06:30.403+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/fundamental_data_pipeline.py for tasks to queue
+[2023-12-10T23:06:30.406+0000] {logging_mixin.py:154} INFO - [2023-12-10T23:06:30.405+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/fundamental_data_pipeline.py
+[2023-12-10T23:06:30.431+0000] {logging_mixin.py:154} INFO - [2023-12-10T23:06:30.426+0000] {dagbag.py:346} ERROR - Failed to import: /opt/airflow/dags/fundamental_data_pipeline.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 342, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/fundamental_data_pipeline.py", line 5, in <module>
+    from libs.financials_api_get import get_fundamental_data
+ModuleNotFoundError: No module named 'libs'
+[2023-12-10T23:06:30.433+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/fundamental_data_pipeline.py
+[2023-12-10T23:06:30.451+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/fundamental_data_pipeline.py took 0.052 seconds
+[2023-12-10T23:07:00.668+0000] {processor.py:157} INFO - Started process (PID=119) to work on /opt/airflow/dags/fundamental_data_pipeline.py
+[2023-12-10T23:07:00.669+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/fundamental_data_pipeline.py for tasks to queue
+[2023-12-10T23:07:00.674+0000] {logging_mixin.py:154} INFO - [2023-12-10T23:07:00.673+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/fundamental_data_pipeline.py
+[2023-12-10T23:07:00.708+0000] {logging_mixin.py:154} INFO - [2023-12-10T23:07:00.701+0000] {dagbag.py:346} ERROR - Failed to import: /opt/airflow/dags/fundamental_data_pipeline.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 342, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/fundamental_data_pipeline.py", line 5, in <module>
+    from libs.financials_api_get import get_fundamental_data
+ModuleNotFoundError: No module named 'libs'
+[2023-12-10T23:07:00.709+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/fundamental_data_pipeline.py
+[2023-12-10T23:07:00.728+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/fundamental_data_pipeline.py took 0.064 seconds
+[2023-12-10T23:07:30.829+0000] {processor.py:157} INFO - Started process (PID=127) to work on /opt/airflow/dags/fundamental_data_pipeline.py
+[2023-12-10T23:07:30.830+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/fundamental_data_pipeline.py for tasks to queue
+[2023-12-10T23:07:30.833+0000] {logging_mixin.py:154} INFO - [2023-12-10T23:07:30.833+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/fundamental_data_pipeline.py
+[2023-12-10T23:07:30.857+0000] {logging_mixin.py:154} INFO - [2023-12-10T23:07:30.852+0000] {dagbag.py:346} ERROR - Failed to import: /opt/airflow/dags/fundamental_data_pipeline.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 342, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/fundamental_data_pipeline.py", line 5, in <module>
+    from libs.financials_api_get import get_fundamental_data
+ModuleNotFoundError: No module named 'libs'
+[2023-12-10T23:07:30.859+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/fundamental_data_pipeline.py
+[2023-12-10T23:07:30.878+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/fundamental_data_pipeline.py took 0.052 seconds

@@ -1,0 +1,63 @@
+[2024-02-01T13:13:30.650+0000] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: calculating_gross_margin.downloading_fundamentals manual__2024-02-01T13:13:22.501542+00:00 [queued]>
+[2024-02-01T13:13:30.661+0000] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: calculating_gross_margin.downloading_fundamentals manual__2024-02-01T13:13:22.501542+00:00 [queued]>
+[2024-02-01T13:13:30.662+0000] {taskinstance.py:1361} INFO - Starting attempt 1 of 2
+[2024-02-01T13:13:30.678+0000] {taskinstance.py:1382} INFO - Executing <Task(PythonOperator): downloading_fundamentals> on 2024-02-01 13:13:22.501542+00:00
+[2024-02-01T13:13:30.684+0000] {standard_task_runner.py:57} INFO - Started process 149 to run task
+[2024-02-01T13:13:30.687+0000] {standard_task_runner.py:84} INFO - Running: ['***', 'tasks', 'run', 'calculating_gross_margin', 'downloading_fundamentals', 'manual__2024-02-01T13:13:22.501542+00:00', '--job-id', '152', '--raw', '--subdir', 'DAGS_FOLDER/fundamental_data_pipeline.py', '--cfg-path', '/tmp/tmpq2g4hlso']
+[2024-02-01T13:13:30.691+0000] {standard_task_runner.py:85} INFO - Job 152: Subtask downloading_fundamentals
+[2024-02-01T13:13:30.777+0000] {task_command.py:416} INFO - Running <TaskInstance: calculating_gross_margin.downloading_fundamentals manual__2024-02-01T13:13:22.501542+00:00 [running]> on host 2bde46af8daf
+[2024-02-01T13:13:31.038+0000] {taskinstance.py:1662} INFO - Exporting env vars: AIRFLOW_CTX_DAG_EMAIL='gerardchurch133@outlook.com' AIRFLOW_CTX_DAG_OWNER='Airflow' AIRFLOW_CTX_DAG_ID='calculating_gross_margin' AIRFLOW_CTX_TASK_ID='downloading_fundamentals' AIRFLOW_CTX_EXECUTION_DATE='2024-02-01T13:13:22.501542+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2024-02-01T13:13:22.501542+00:00'
+[2024-02-01T13:13:33.230+0000] {_universal.py:514} INFO - Request URL: 'https://datalakeuksouth2311.table.core.windows.net/fundamentalsraw()?$filter=REDACTED'
+Request method: 'GET'
+Request headers:
+    'x-ms-version': 'REDACTED'
+    'DataServiceVersion': 'REDACTED'
+    'Accept': 'application/json;odata=minimalmetadata'
+    'x-ms-client-request-id': 'b34cb39c-c103-11ee-9c1f-0242ac180007'
+    'x-ms-date': 'REDACTED'
+    'Date': 'Thu, 01 Feb 2024 13:13:33 GMT'
+    'User-Agent': 'azsdk-python-data-tables/12.5.0 Python/3.8.18 (Linux-5.10.16.3-microsoft-standard-WSL2-x86_64-with-glibc2.2.5)'
+    'Authorization': 'REDACTED'
+No body was attached to the request
+[2024-02-01T13:13:33.419+0000] {_universal.py:550} INFO - Response status: 200
+Response headers:
+    'Cache-Control': 'no-cache'
+    'Transfer-Encoding': 'chunked'
+    'Content-Type': 'application/json;odata=minimalmetadata;streaming=true;charset=utf-8'
+    'Server': 'Windows-Azure-Table/1.0 Microsoft-HTTPAPI/2.0'
+    'x-ms-request-id': 'eb6f9f27-6002-0053-3d10-55a31a000000'
+    'x-ms-client-request-id': 'b34cb39c-c103-11ee-9c1f-0242ac180007'
+    'x-ms-version': 'REDACTED'
+    'X-Content-Type-Options': 'REDACTED'
+    'Date': 'Thu, 01 Feb 2024 13:13:34 GMT'
+[2024-02-01T13:13:33.443+0000] {_universal.py:511} INFO - Request URL: 'https://datalakeuksouth2311.table.core.windows.net/fundamentalsraw'
+Request method: 'POST'
+Request headers:
+    'Content-Type': 'application/json;odata=nometadata'
+    'Content-Length': '18120'
+    'x-ms-version': 'REDACTED'
+    'DataServiceVersion': 'REDACTED'
+    'Accept': 'application/json;odata=minimalmetadata'
+    'x-ms-client-request-id': 'b36da0a2-c103-11ee-9c1f-0242ac180007'
+    'x-ms-date': 'REDACTED'
+    'Date': 'Thu, 01 Feb 2024 13:13:33 GMT'
+    'User-Agent': 'azsdk-python-data-tables/12.5.0 Python/3.8.18 (Linux-5.10.16.3-microsoft-standard-WSL2-x86_64-with-glibc2.2.5)'
+    'Authorization': 'REDACTED'
+A body is sent with the request
+[2024-02-01T13:13:33.493+0000] {_universal.py:550} INFO - Response status: 201
+Response headers:
+    'Cache-Control': 'no-cache'
+    'Transfer-Encoding': 'chunked'
+    'Content-Type': 'application/json;odata=minimalmetadata;streaming=true;charset=utf-8'
+    'ETag': 'W/"datetime'2024-02-01T13%3A13%3A35.8621722Z'"'
+    'Location': 'REDACTED'
+    'Server': 'Windows-Azure-Table/1.0 Microsoft-HTTPAPI/2.0'
+    'x-ms-request-id': 'eb6f9f3c-6002-0053-4f10-55a31a000000'
+    'x-ms-client-request-id': 'b36da0a2-c103-11ee-9c1f-0242ac180007'
+    'x-ms-version': 'REDACTED'
+    'X-Content-Type-Options': 'REDACTED'
+    'Date': 'Thu, 01 Feb 2024 13:13:34 GMT'
+[2024-02-01T13:13:33.497+0000] {python.py:194} INFO - Done. Returned value was: None
+[2024-02-01T13:13:33.514+0000] {taskinstance.py:1400} INFO - Marking task as SUCCESS. dag_id=calculating_gross_margin, task_id=downloading_fundamentals, execution_date=20240201T131322, start_date=20240201T131330, end_date=20240201T131333
+[2024-02-01T13:13:33.598+0000] {local_task_job_runner.py:228} INFO - Task exited with return code 0
+[2024-02-01T13:13:33.639+0000] {taskinstance.py:2778} INFO - 1 downstream tasks scheduled from follow-on schedule check

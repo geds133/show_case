@@ -1,0 +1,148 @@
+[2024-01-31T21:19:10.521+0000] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: calculating_gross_margin.downloading_fundamentals manual__2024-01-31T21:13:39.901724+00:00 [queued]>
+[2024-01-31T21:19:10.542+0000] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: calculating_gross_margin.downloading_fundamentals manual__2024-01-31T21:13:39.901724+00:00 [queued]>
+[2024-01-31T21:19:10.543+0000] {taskinstance.py:1361} INFO - Starting attempt 2 of 2
+[2024-01-31T21:19:10.563+0000] {taskinstance.py:1382} INFO - Executing <Task(PythonOperator): downloading_fundamentals> on 2024-01-31 21:13:39.901724+00:00
+[2024-01-31T21:19:10.651+0000] {standard_task_runner.py:57} INFO - Started process 231 to run task
+[2024-01-31T21:19:10.662+0000] {standard_task_runner.py:84} INFO - Running: ['***', 'tasks', 'run', 'calculating_gross_margin', 'downloading_fundamentals', 'manual__2024-01-31T21:13:39.901724+00:00', '--job-id', '101', '--raw', '--subdir', 'DAGS_FOLDER/fundamental_data_pipeline.py', '--cfg-path', '/tmp/tmpz2hxwvc6']
+[2024-01-31T21:19:10.668+0000] {standard_task_runner.py:85} INFO - Job 101: Subtask downloading_fundamentals
+[2024-01-31T21:19:10.770+0000] {task_command.py:416} INFO - Running <TaskInstance: calculating_gross_margin.downloading_fundamentals manual__2024-01-31T21:13:39.901724+00:00 [running]> on host 66a208939447
+[2024-01-31T21:19:10.901+0000] {taskinstance.py:1662} INFO - Exporting env vars: AIRFLOW_CTX_DAG_EMAIL='gerardchurch133@outlook.com' AIRFLOW_CTX_DAG_OWNER='Airflow' AIRFLOW_CTX_DAG_ID='calculating_gross_margin' AIRFLOW_CTX_TASK_ID='downloading_fundamentals' AIRFLOW_CTX_EXECUTION_DATE='2024-01-31T21:13:39.901724+00:00' AIRFLOW_CTX_TRY_NUMBER='2' AIRFLOW_CTX_DAG_RUN_ID='manual__2024-01-31T21:13:39.901724+00:00'
+[2024-01-31T21:19:13.597+0000] {_universal.py:511} INFO - Request URL: 'https://datalakeuksouth2311.table.core.windows.net/fundamentalsraw/fundamentalsraw'
+Request method: 'POST'
+Request headers:
+    'Content-Type': 'application/json;odata=nometadata'
+    'Content-Length': '18176'
+    'x-ms-version': 'REDACTED'
+    'DataServiceVersion': 'REDACTED'
+    'Accept': 'application/json;odata=minimalmetadata'
+    'x-ms-client-request-id': '61e657d6-c07e-11ee-8ae0-0242ac150007'
+    'x-ms-date': 'REDACTED'
+    'Date': 'Wed, 31 Jan 2024 21:19:13 GMT'
+    'User-Agent': 'azsdk-python-data-tables/12.5.0 Python/3.8.18 (Linux-5.10.16.3-microsoft-standard-WSL2-x86_64-with-glibc2.2.5)'
+    'Authorization': 'REDACTED'
+A body is sent with the request
+[2024-01-31T21:19:13.968+0000] {_universal.py:550} INFO - Response status: 201
+Response headers:
+    'Cache-Control': 'no-cache'
+    'Transfer-Encoding': 'chunked'
+    'Content-Type': 'application/json;odata=minimalmetadata;streaming=true;charset=utf-8'
+    'ETag': 'W/"datetime'2024-01-31T21%3A19%3A15.8024905Z'"'
+    'Location': 'REDACTED'
+    'Server': 'Windows-Azure-Table/1.0 Microsoft-HTTPAPI/2.0'
+    'x-ms-request-id': '2c6916e1-2002-0020-5f8b-54fb89000000'
+    'x-ms-client-request-id': '61e657d6-c07e-11ee-8ae0-0242ac150007'
+    'x-ms-version': 'REDACTED'
+    'X-Content-Type-Options': 'REDACTED'
+    'Date': 'Wed, 31 Jan 2024 21:19:15 GMT'
+[2024-01-31T21:19:13.981+0000] {_universal.py:511} INFO - Request URL: 'https://datalakeuksouth2311.table.core.windows.net/fundamentalsraw/fundamentalsraw'
+Request method: 'POST'
+Request headers:
+    'Content-Type': 'application/json;odata=nometadata'
+    'Content-Length': '18126'
+    'x-ms-version': 'REDACTED'
+    'DataServiceVersion': 'REDACTED'
+    'Accept': 'application/json;odata=minimalmetadata'
+    'x-ms-client-request-id': '62210c6e-c07e-11ee-8ae0-0242ac150007'
+    'x-ms-date': 'REDACTED'
+    'Date': 'Wed, 31 Jan 2024 21:19:13 GMT'
+    'User-Agent': 'azsdk-python-data-tables/12.5.0 Python/3.8.18 (Linux-5.10.16.3-microsoft-standard-WSL2-x86_64-with-glibc2.2.5)'
+    'Authorization': 'REDACTED'
+A body is sent with the request
+[2024-01-31T21:19:14.145+0000] {_universal.py:550} INFO - Response status: 201
+Response headers:
+    'Cache-Control': 'no-cache'
+    'Transfer-Encoding': 'chunked'
+    'Content-Type': 'application/json;odata=minimalmetadata;streaming=true;charset=utf-8'
+    'ETag': 'W/"datetime'2024-01-31T21%3A19%3A15.9368986Z'"'
+    'Location': 'REDACTED'
+    'Server': 'Windows-Azure-Table/1.0 Microsoft-HTTPAPI/2.0'
+    'x-ms-request-id': '2c6916e8-2002-0020-648b-54fb89000000'
+    'x-ms-client-request-id': '62210c6e-c07e-11ee-8ae0-0242ac150007'
+    'x-ms-version': 'REDACTED'
+    'X-Content-Type-Options': 'REDACTED'
+    'Date': 'Wed, 31 Jan 2024 21:19:15 GMT'
+[2024-01-31T21:19:14.150+0000] {_universal.py:511} INFO - Request URL: 'https://datalakeuksouth2311.table.core.windows.net/fundamentalsraw/fundamentalsraw'
+Request method: 'POST'
+Request headers:
+    'Content-Type': 'application/json;odata=nometadata'
+    'Content-Length': '18146'
+    'x-ms-version': 'REDACTED'
+    'DataServiceVersion': 'REDACTED'
+    'Accept': 'application/json;odata=minimalmetadata'
+    'x-ms-client-request-id': '623acbae-c07e-11ee-8ae0-0242ac150007'
+    'x-ms-date': 'REDACTED'
+    'Date': 'Wed, 31 Jan 2024 21:19:14 GMT'
+    'User-Agent': 'azsdk-python-data-tables/12.5.0 Python/3.8.18 (Linux-5.10.16.3-microsoft-standard-WSL2-x86_64-with-glibc2.2.5)'
+    'Authorization': 'REDACTED'
+A body is sent with the request
+[2024-01-31T21:19:14.291+0000] {_universal.py:550} INFO - Response status: 201
+Response headers:
+    'Cache-Control': 'no-cache'
+    'Transfer-Encoding': 'chunked'
+    'Content-Type': 'application/json;odata=minimalmetadata;streaming=true;charset=utf-8'
+    'ETag': 'W/"datetime'2024-01-31T21%3A19%3A16.0792729Z'"'
+    'Location': 'REDACTED'
+    'Server': 'Windows-Azure-Table/1.0 Microsoft-HTTPAPI/2.0'
+    'x-ms-request-id': '2c6916ef-2002-0020-6b8b-54fb89000000'
+    'x-ms-client-request-id': '623acbae-c07e-11ee-8ae0-0242ac150007'
+    'x-ms-version': 'REDACTED'
+    'X-Content-Type-Options': 'REDACTED'
+    'Date': 'Wed, 31 Jan 2024 21:19:15 GMT'
+[2024-01-31T21:19:14.296+0000] {_universal.py:511} INFO - Request URL: 'https://datalakeuksouth2311.table.core.windows.net/fundamentalsraw/fundamentalsraw'
+Request method: 'POST'
+Request headers:
+    'Content-Type': 'application/json;odata=nometadata'
+    'Content-Length': '18120'
+    'x-ms-version': 'REDACTED'
+    'DataServiceVersion': 'REDACTED'
+    'Accept': 'application/json;odata=minimalmetadata'
+    'x-ms-client-request-id': '62512b7e-c07e-11ee-8ae0-0242ac150007'
+    'x-ms-date': 'REDACTED'
+    'Date': 'Wed, 31 Jan 2024 21:19:14 GMT'
+    'User-Agent': 'azsdk-python-data-tables/12.5.0 Python/3.8.18 (Linux-5.10.16.3-microsoft-standard-WSL2-x86_64-with-glibc2.2.5)'
+    'Authorization': 'REDACTED'
+A body is sent with the request
+[2024-01-31T21:19:14.408+0000] {_universal.py:550} INFO - Response status: 201
+Response headers:
+    'Cache-Control': 'no-cache'
+    'Transfer-Encoding': 'chunked'
+    'Content-Type': 'application/json;odata=minimalmetadata;streaming=true;charset=utf-8'
+    'ETag': 'W/"datetime'2024-01-31T21%3A19%3A16.1957628Z'"'
+    'Location': 'REDACTED'
+    'Server': 'Windows-Azure-Table/1.0 Microsoft-HTTPAPI/2.0'
+    'x-ms-request-id': '2c6916f4-2002-0020-708b-54fb89000000'
+    'x-ms-client-request-id': '62512b7e-c07e-11ee-8ae0-0242ac150007'
+    'x-ms-version': 'REDACTED'
+    'X-Content-Type-Options': 'REDACTED'
+    'Date': 'Wed, 31 Jan 2024 21:19:15 GMT'
+[2024-01-31T21:19:14.415+0000] {_universal.py:511} INFO - Request URL: 'https://datalakeuksouth2311.table.core.windows.net/fundamentalsraw/fundamentalsraw'
+Request method: 'POST'
+Request headers:
+    'Content-Type': 'application/json;odata=nometadata'
+    'Content-Length': '17937'
+    'x-ms-version': 'REDACTED'
+    'DataServiceVersion': 'REDACTED'
+    'Accept': 'application/json;odata=minimalmetadata'
+    'x-ms-client-request-id': '62633fe4-c07e-11ee-8ae0-0242ac150007'
+    'x-ms-date': 'REDACTED'
+    'Date': 'Wed, 31 Jan 2024 21:19:14 GMT'
+    'User-Agent': 'azsdk-python-data-tables/12.5.0 Python/3.8.18 (Linux-5.10.16.3-microsoft-standard-WSL2-x86_64-with-glibc2.2.5)'
+    'Authorization': 'REDACTED'
+A body is sent with the request
+[2024-01-31T21:19:14.506+0000] {_universal.py:550} INFO - Response status: 201
+Response headers:
+    'Cache-Control': 'no-cache'
+    'Transfer-Encoding': 'chunked'
+    'Content-Type': 'application/json;odata=minimalmetadata;streaming=true;charset=utf-8'
+    'ETag': 'W/"datetime'2024-01-31T21%3A19%3A16.3212089Z'"'
+    'Location': 'REDACTED'
+    'Server': 'Windows-Azure-Table/1.0 Microsoft-HTTPAPI/2.0'
+    'x-ms-request-id': '2c6916f8-2002-0020-748b-54fb89000000'
+    'x-ms-client-request-id': '62633fe4-c07e-11ee-8ae0-0242ac150007'
+    'x-ms-version': 'REDACTED'
+    'X-Content-Type-Options': 'REDACTED'
+    'Date': 'Wed, 31 Jan 2024 21:19:15 GMT'
+[2024-01-31T21:19:14.510+0000] {python.py:194} INFO - Done. Returned value was: None
+[2024-01-31T21:19:14.524+0000] {taskinstance.py:1400} INFO - Marking task as SUCCESS. dag_id=calculating_gross_margin, task_id=downloading_fundamentals, execution_date=20240131T211339, start_date=20240131T211910, end_date=20240131T211914
+[2024-01-31T21:19:14.574+0000] {local_task_job_runner.py:228} INFO - Task exited with return code 0
+[2024-01-31T21:19:14.623+0000] {taskinstance.py:2778} INFO - 1 downstream tasks scheduled from follow-on schedule check

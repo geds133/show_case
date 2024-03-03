@@ -108,20 +108,6 @@ default_args = {
 with DAG(dag_id="calculating_gross_margin", schedule="@daily", default_args=default_args, catchup=False) as dag:
 
     # Checking API status is available
-    #wait_for_api = HttpSensor(
-    #    task_id='wait_for_api',
-    #    http_conn_id='rapid_api',
-    #    endpoint='symbols/get-financials',
-    #    headers={"X-RapidAPI-Key": os.environ['rapidapi_key'], "X-RapidAPI-Host": "seeking-alpha.p.rapidapi.com"},
-    #    request_params={"symbol": f"{ticker}", "target_currency": "USD", "period_type": "annual",
-    #               "statement_type": "income-statement"},
-    #    method='GET',
-    #    response_check=lambda response: response.status_code == 200,
-    #    mode='poke',
-    #    timeout=300,
-    #    poke_interval=60,
-    #)
-    # Checking API status is available
     check_for_new_data = HttpSensor(
         task_id='checking_api_for_data',
         http_conn_id='rapid_api',

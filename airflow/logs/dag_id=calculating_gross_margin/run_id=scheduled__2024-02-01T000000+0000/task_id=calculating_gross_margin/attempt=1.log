@@ -1,0 +1,83 @@
+[2024-02-03T18:07:58.965+0000] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: calculating_gross_margin.calculating_gross_margin scheduled__2024-02-01T00:00:00+00:00 [queued]>
+[2024-02-03T18:07:58.975+0000] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: calculating_gross_margin.calculating_gross_margin scheduled__2024-02-01T00:00:00+00:00 [queued]>
+[2024-02-03T18:07:58.976+0000] {taskinstance.py:1361} INFO - Starting attempt 1 of 2
+[2024-02-03T18:07:58.991+0000] {taskinstance.py:1382} INFO - Executing <Task(PythonOperator): calculating_gross_margin> on 2024-02-01 00:00:00+00:00
+[2024-02-03T18:07:58.998+0000] {standard_task_runner.py:57} INFO - Started process 7260 to run task
+[2024-02-03T18:07:59.002+0000] {standard_task_runner.py:84} INFO - Running: ['***', 'tasks', 'run', 'calculating_gross_margin', 'calculating_gross_margin', 'scheduled__2024-02-01T00:00:00+00:00', '--job-id', '169', '--raw', '--subdir', 'DAGS_FOLDER/fundamental_data_pipeline.py', '--cfg-path', '/tmp/tmpo4vzuwt9']
+[2024-02-03T18:07:59.009+0000] {standard_task_runner.py:85} INFO - Job 169: Subtask calculating_gross_margin
+[2024-02-03T18:07:59.067+0000] {task_command.py:416} INFO - Running <TaskInstance: calculating_gross_margin.calculating_gross_margin scheduled__2024-02-01T00:00:00+00:00 [running]> on host 617d7a1a687e
+[2024-02-03T18:07:59.142+0000] {taskinstance.py:1662} INFO - Exporting env vars: AIRFLOW_CTX_DAG_EMAIL='gerardchurch133@outlook.com' AIRFLOW_CTX_DAG_OWNER='Airflow' AIRFLOW_CTX_DAG_ID='calculating_gross_margin' AIRFLOW_CTX_TASK_ID='calculating_gross_margin' AIRFLOW_CTX_EXECUTION_DATE='2024-02-01T00:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2024-02-01T00:00:00+00:00'
+[2024-02-03T18:08:13.315+0000] {_universal.py:514} INFO - Request URL: 'https://datalakeuksouth2311.table.core.windows.net/fundamentalsraw()?$filter=REDACTED'
+Request method: 'GET'
+Request headers:
+    'x-ms-version': 'REDACTED'
+    'DataServiceVersion': 'REDACTED'
+    'Accept': 'application/json;odata=minimalmetadata'
+    'x-ms-client-request-id': '3242c058-c2bf-11ee-a2e4-0242ac120005'
+    'x-ms-date': 'REDACTED'
+    'Date': 'Sat, 03 Feb 2024 18:08:13 GMT'
+    'User-Agent': 'azsdk-python-data-tables/12.5.0 Python/3.8.18 (Linux-5.10.16.3-microsoft-standard-WSL2-x86_64-with-glibc2.2.5)'
+    'Authorization': 'REDACTED'
+No body was attached to the request
+[2024-02-03T18:08:13.728+0000] {_universal.py:550} INFO - Response status: 200
+Response headers:
+    'Cache-Control': 'no-cache'
+    'Transfer-Encoding': 'chunked'
+    'Content-Type': 'application/json;odata=minimalmetadata;streaming=true;charset=utf-8'
+    'Server': 'Windows-Azure-Table/1.0 Microsoft-HTTPAPI/2.0'
+    'x-ms-request-id': 'd2909c7e-2002-000f-3fcb-56f642000000'
+    'x-ms-client-request-id': '3242c058-c2bf-11ee-a2e4-0242ac120005'
+    'x-ms-version': 'REDACTED'
+    'X-Content-Type-Options': 'REDACTED'
+    'Date': 'Sat, 03 Feb 2024 18:08:15 GMT'
+[2024-02-03T18:08:18.656+0000] {_universal.py:514} INFO - Request URL: 'https://datalakeuksouth2311.table.core.windows.net/fundamentals()?$filter=REDACTED'
+Request method: 'GET'
+Request headers:
+    'x-ms-version': 'REDACTED'
+    'DataServiceVersion': 'REDACTED'
+    'Accept': 'application/json;odata=minimalmetadata'
+    'x-ms-client-request-id': '3576681a-c2bf-11ee-a2e4-0242ac120005'
+    'x-ms-date': 'REDACTED'
+    'Date': 'Sat, 03 Feb 2024 18:08:18 GMT'
+    'User-Agent': 'azsdk-python-data-tables/12.5.0 Python/3.8.18 (Linux-5.10.16.3-microsoft-standard-WSL2-x86_64-with-glibc2.2.5)'
+    'Authorization': 'REDACTED'
+No body was attached to the request
+[2024-02-03T18:08:18.682+0000] {_universal.py:550} INFO - Response status: 200
+Response headers:
+    'Cache-Control': 'no-cache'
+    'Transfer-Encoding': 'chunked'
+    'Content-Type': 'application/json;odata=minimalmetadata;streaming=true;charset=utf-8'
+    'Server': 'Windows-Azure-Table/1.0 Microsoft-HTTPAPI/2.0'
+    'x-ms-request-id': 'd2909d7b-2002-000f-28cb-56f642000000'
+    'x-ms-client-request-id': '3576681a-c2bf-11ee-a2e4-0242ac120005'
+    'x-ms-version': 'REDACTED'
+    'X-Content-Type-Options': 'REDACTED'
+    'Date': 'Sat, 03 Feb 2024 18:08:20 GMT'
+[2024-02-03T18:08:18.730+0000] {taskinstance.py:1937} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/pandas/core/indexes/base.py", line 3653, in get_loc
+    return self._engine.get_loc(casted_key)
+  File "pandas/_libs/index.pyx", line 147, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/index.pyx", line 176, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/hashtable_class_helper.pxi", line 7080, in pandas._libs.hashtable.PyObjectHashTable.get_item
+  File "pandas/_libs/hashtable_class_helper.pxi", line 7088, in pandas._libs.hashtable.PyObjectHashTable.get_item
+KeyError: 'RowKey'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/operators/python.py", line 192, in execute
+    return_value = self.execute_callable()
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/operators/python.py", line 209, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+  File "/opt/airflow/dags/fundamental_data_pipeline.py", line 90, in get_gross_margin
+    new_core_entities = fundamentals_raw[~fundamentals_raw['RowKey'].isin(fundamentals_core['RowKey'].tolist())]
+  File "/home/airflow/.local/lib/python3.8/site-packages/pandas/core/frame.py", line 3761, in __getitem__
+    indexer = self.columns.get_loc(key)
+  File "/home/airflow/.local/lib/python3.8/site-packages/pandas/core/indexes/base.py", line 3655, in get_loc
+    raise KeyError(key) from err
+KeyError: 'RowKey'
+[2024-02-03T18:08:18.925+0000] {taskinstance.py:1400} INFO - Marking task as UP_FOR_RETRY. dag_id=calculating_gross_margin, task_id=calculating_gross_margin, execution_date=20240201T000000, start_date=20240203T180758, end_date=20240203T180818
+[2024-02-03T18:08:19.060+0000] {standard_task_runner.py:104} ERROR - Failed to execute job 169 for task calculating_gross_margin ('RowKey'; 7260)
+[2024-02-03T18:08:19.146+0000] {local_task_job_runner.py:228} INFO - Task exited with return code 1
+[2024-02-03T18:08:19.587+0000] {taskinstance.py:2778} INFO - 0 downstream tasks scheduled from follow-on schedule check

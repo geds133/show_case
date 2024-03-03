@@ -1,0 +1,15 @@
+[2024-02-01T09:27:22.700+0000] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: calculating_gross_margin.wait_for_api scheduled__2024-01-31T00:00:00+00:00 [queued]>
+[2024-02-01T09:27:22.710+0000] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: calculating_gross_margin.wait_for_api scheduled__2024-01-31T00:00:00+00:00 [queued]>
+[2024-02-01T09:27:22.711+0000] {taskinstance.py:1361} INFO - Starting attempt 1 of 2
+[2024-02-01T09:27:22.726+0000] {taskinstance.py:1382} INFO - Executing <Task(HttpSensor): wait_for_api> on 2024-01-31 00:00:00+00:00
+[2024-02-01T09:27:22.742+0000] {standard_task_runner.py:57} INFO - Started process 71 to run task
+[2024-02-01T09:27:22.748+0000] {standard_task_runner.py:84} INFO - Running: ['***', 'tasks', 'run', 'calculating_gross_margin', 'wait_for_api', 'scheduled__2024-01-31T00:00:00+00:00', '--job-id', '108', '--raw', '--subdir', 'DAGS_FOLDER/fundamental_data_pipeline.py', '--cfg-path', '/tmp/tmp_3xgl95j']
+[2024-02-01T09:27:22.755+0000] {standard_task_runner.py:85} INFO - Job 108: Subtask wait_for_api
+[2024-02-01T09:27:22.838+0000] {task_command.py:416} INFO - Running <TaskInstance: calculating_gross_margin.wait_for_api scheduled__2024-01-31T00:00:00+00:00 [running]> on host 3dac598680fc
+[2024-02-01T09:27:22.931+0000] {taskinstance.py:1662} INFO - Exporting env vars: AIRFLOW_CTX_DAG_EMAIL='gerardchurch133@outlook.com' AIRFLOW_CTX_DAG_OWNER='Airflow' AIRFLOW_CTX_DAG_ID='calculating_gross_margin' AIRFLOW_CTX_TASK_ID='wait_for_api' AIRFLOW_CTX_EXECUTION_DATE='2024-01-31T00:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2024-01-31T00:00:00+00:00'
+[2024-02-01T09:27:22.933+0000] {http.py:130} INFO - Poking: symbols/get-financials
+[2024-02-01T09:27:22.954+0000] {base.py:73} INFO - Using connection ID 'rapid_api' for task execution.
+[2024-02-01T09:27:25.822+0000] {base.py:287} INFO - Success criteria met. Exiting.
+[2024-02-01T09:27:25.830+0000] {taskinstance.py:1400} INFO - Marking task as SUCCESS. dag_id=calculating_gross_margin, task_id=wait_for_api, execution_date=20240131T000000, start_date=20240201T092722, end_date=20240201T092725
+[2024-02-01T09:27:25.853+0000] {local_task_job_runner.py:228} INFO - Task exited with return code 0
+[2024-02-01T09:27:25.885+0000] {taskinstance.py:2778} INFO - 1 downstream tasks scheduled from follow-on schedule check

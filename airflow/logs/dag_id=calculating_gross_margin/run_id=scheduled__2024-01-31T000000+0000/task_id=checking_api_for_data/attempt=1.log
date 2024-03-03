@@ -1,0 +1,238 @@
+[2024-02-01T09:27:27.559+0000] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: calculating_gross_margin.checking_api_for_data scheduled__2024-01-31T00:00:00+00:00 [queued]>
+[2024-02-01T09:27:27.570+0000] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: calculating_gross_margin.checking_api_for_data scheduled__2024-01-31T00:00:00+00:00 [queued]>
+[2024-02-01T09:27:27.571+0000] {taskinstance.py:1361} INFO - Starting attempt 1 of 2
+[2024-02-01T09:27:27.586+0000] {taskinstance.py:1382} INFO - Executing <Task(HttpSensor): checking_api_for_data> on 2024-01-31 00:00:00+00:00
+[2024-02-01T09:27:27.594+0000] {standard_task_runner.py:57} INFO - Started process 74 to run task
+[2024-02-01T09:27:27.598+0000] {standard_task_runner.py:84} INFO - Running: ['***', 'tasks', 'run', 'calculating_gross_margin', 'checking_api_for_data', 'scheduled__2024-01-31T00:00:00+00:00', '--job-id', '109', '--raw', '--subdir', 'DAGS_FOLDER/fundamental_data_pipeline.py', '--cfg-path', '/tmp/tmpedbov_ea']
+[2024-02-01T09:27:27.602+0000] {standard_task_runner.py:85} INFO - Job 109: Subtask checking_api_for_data
+[2024-02-01T09:27:27.659+0000] {task_command.py:416} INFO - Running <TaskInstance: calculating_gross_margin.checking_api_for_data scheduled__2024-01-31T00:00:00+00:00 [running]> on host 3dac598680fc
+[2024-02-01T09:27:27.735+0000] {taskinstance.py:1662} INFO - Exporting env vars: AIRFLOW_CTX_DAG_EMAIL='gerardchurch133@outlook.com' AIRFLOW_CTX_DAG_OWNER='Airflow' AIRFLOW_CTX_DAG_ID='calculating_gross_margin' AIRFLOW_CTX_TASK_ID='checking_api_for_data' AIRFLOW_CTX_EXECUTION_DATE='2024-01-31T00:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2024-01-31T00:00:00+00:00'
+[2024-02-01T09:27:27.736+0000] {http.py:130} INFO - Poking: symbols/get-financials
+[2024-02-01T09:27:27.747+0000] {base.py:73} INFO - Using connection ID 'rapid_api' for task execution.
+[2024-02-01T09:27:30.281+0000] {_universal.py:514} INFO - Request URL: 'https://datalakeuksouth2311.table.core.windows.net/fundamentalsraw()?$filter=REDACTED'
+Request method: 'GET'
+Request headers:
+    'x-ms-version': 'REDACTED'
+    'DataServiceVersion': 'REDACTED'
+    'Accept': 'application/json;odata=minimalmetadata'
+    'x-ms-client-request-id': '1f270c22-c0e4-11ee-b6d6-0242ac120004'
+    'x-ms-date': 'REDACTED'
+    'Date': 'Thu, 01 Feb 2024 09:27:30 GMT'
+    'User-Agent': 'azsdk-python-data-tables/12.5.0 Python/3.8.18 (Linux-5.10.16.3-microsoft-standard-WSL2-x86_64-with-glibc2.2.5)'
+    'Authorization': 'REDACTED'
+No body was attached to the request
+[2024-02-01T09:27:30.397+0000] {_universal.py:550} INFO - Response status: 200
+Response headers:
+    'Cache-Control': 'no-cache'
+    'Transfer-Encoding': 'chunked'
+    'Content-Type': 'application/json;odata=minimalmetadata;streaming=true;charset=utf-8'
+    'Server': 'Windows-Azure-Table/1.0 Microsoft-HTTPAPI/2.0'
+    'x-ms-request-id': 'e7aad85a-f002-0041-1bf0-54d8ca000000'
+    'x-ms-client-request-id': '1f270c22-c0e4-11ee-b6d6-0242ac120004'
+    'x-ms-version': 'REDACTED'
+    'X-Content-Type-Options': 'REDACTED'
+    'Date': 'Thu, 01 Feb 2024 09:27:31 GMT'
+[2024-02-01T09:28:30.442+0000] {http.py:130} INFO - Poking: symbols/get-financials
+[2024-02-01T09:28:30.558+0000] {base.py:73} INFO - Using connection ID 'rapid_api' for task execution.
+[2024-02-01T09:28:32.081+0000] {_universal.py:514} INFO - Request URL: 'https://datalakeuksouth2311.table.core.windows.net/fundamentalsraw()?$filter=REDACTED'
+Request method: 'GET'
+Request headers:
+    'x-ms-version': 'REDACTED'
+    'DataServiceVersion': 'REDACTED'
+    'Accept': 'application/json;odata=minimalmetadata'
+    'x-ms-client-request-id': '43fd16ae-c0e4-11ee-b6d6-0242ac120004'
+    'x-ms-date': 'REDACTED'
+    'Date': 'Thu, 01 Feb 2024 09:28:32 GMT'
+    'User-Agent': 'azsdk-python-data-tables/12.5.0 Python/3.8.18 (Linux-5.10.16.3-microsoft-standard-WSL2-x86_64-with-glibc2.2.5)'
+    'Authorization': 'REDACTED'
+No body was attached to the request
+[2024-02-01T09:28:32.208+0000] {_universal.py:550} INFO - Response status: 200
+Response headers:
+    'Cache-Control': 'no-cache'
+    'Transfer-Encoding': 'chunked'
+    'Content-Type': 'application/json;odata=minimalmetadata;streaming=true;charset=utf-8'
+    'Server': 'Windows-Azure-Table/1.0 Microsoft-HTTPAPI/2.0'
+    'x-ms-request-id': 'e685a933-8002-0039-14f1-547b32000000'
+    'x-ms-client-request-id': '43fd16ae-c0e4-11ee-b6d6-0242ac120004'
+    'x-ms-version': 'REDACTED'
+    'X-Content-Type-Options': 'REDACTED'
+    'Date': 'Thu, 01 Feb 2024 09:28:33 GMT'
+[2024-02-01T09:29:32.265+0000] {http.py:130} INFO - Poking: symbols/get-financials
+[2024-02-01T09:29:32.273+0000] {base.py:73} INFO - Using connection ID 'rapid_api' for task execution.
+[2024-02-01T09:29:33.731+0000] {_universal.py:514} INFO - Request URL: 'https://datalakeuksouth2311.table.core.windows.net/fundamentalsraw()?$filter=REDACTED'
+Request method: 'GET'
+Request headers:
+    'x-ms-version': 'REDACTED'
+    'DataServiceVersion': 'REDACTED'
+    'Accept': 'application/json;odata=minimalmetadata'
+    'x-ms-client-request-id': '68bc40c8-c0e4-11ee-b6d6-0242ac120004'
+    'x-ms-date': 'REDACTED'
+    'Date': 'Thu, 01 Feb 2024 09:29:33 GMT'
+    'User-Agent': 'azsdk-python-data-tables/12.5.0 Python/3.8.18 (Linux-5.10.16.3-microsoft-standard-WSL2-x86_64-with-glibc2.2.5)'
+    'Authorization': 'REDACTED'
+No body was attached to the request
+[2024-02-01T09:29:33.831+0000] {_universal.py:550} INFO - Response status: 200
+Response headers:
+    'Cache-Control': 'no-cache'
+    'Transfer-Encoding': 'chunked'
+    'Content-Type': 'application/json;odata=minimalmetadata;streaming=true;charset=utf-8'
+    'Server': 'Windows-Azure-Table/1.0 Microsoft-HTTPAPI/2.0'
+    'x-ms-request-id': '3bb6d8f9-c002-0038-7cf1-5424ee000000'
+    'x-ms-client-request-id': '68bc40c8-c0e4-11ee-b6d6-0242ac120004'
+    'x-ms-version': 'REDACTED'
+    'X-Content-Type-Options': 'REDACTED'
+    'Date': 'Thu, 01 Feb 2024 09:29:35 GMT'
+[2024-02-01T09:30:33.895+0000] {http.py:130} INFO - Poking: symbols/get-financials
+[2024-02-01T09:30:33.906+0000] {base.py:73} INFO - Using connection ID 'rapid_api' for task execution.
+[2024-02-01T09:30:36.144+0000] {_universal.py:514} INFO - Request URL: 'https://datalakeuksouth2311.table.core.windows.net/fundamentalsraw()?$filter=REDACTED'
+Request method: 'GET'
+Request headers:
+    'x-ms-version': 'REDACTED'
+    'DataServiceVersion': 'REDACTED'
+    'Accept': 'application/json;odata=minimalmetadata'
+    'x-ms-client-request-id': '8defc7ac-c0e4-11ee-b6d6-0242ac120004'
+    'x-ms-date': 'REDACTED'
+    'Date': 'Thu, 01 Feb 2024 09:30:36 GMT'
+    'User-Agent': 'azsdk-python-data-tables/12.5.0 Python/3.8.18 (Linux-5.10.16.3-microsoft-standard-WSL2-x86_64-with-glibc2.2.5)'
+    'Authorization': 'REDACTED'
+No body was attached to the request
+[2024-02-01T09:30:36.320+0000] {_universal.py:550} INFO - Response status: 200
+Response headers:
+    'Cache-Control': 'no-cache'
+    'Transfer-Encoding': 'chunked'
+    'Content-Type': 'application/json;odata=minimalmetadata;streaming=true;charset=utf-8'
+    'Server': 'Windows-Azure-Table/1.0 Microsoft-HTTPAPI/2.0'
+    'x-ms-request-id': '89cacbf3-c002-0017-06f1-542925000000'
+    'x-ms-client-request-id': '8defc7ac-c0e4-11ee-b6d6-0242ac120004'
+    'x-ms-version': 'REDACTED'
+    'X-Content-Type-Options': 'REDACTED'
+    'Date': 'Thu, 01 Feb 2024 09:30:38 GMT'
+[2024-02-01T09:31:36.384+0000] {http.py:130} INFO - Poking: symbols/get-financials
+[2024-02-01T09:31:36.392+0000] {base.py:73} INFO - Using connection ID 'rapid_api' for task execution.
+[2024-02-01T09:31:38.120+0000] {_universal.py:514} INFO - Request URL: 'https://datalakeuksouth2311.table.core.windows.net/fundamentalsraw()?$filter=REDACTED'
+Request method: 'GET'
+Request headers:
+    'x-ms-version': 'REDACTED'
+    'DataServiceVersion': 'REDACTED'
+    'Accept': 'application/json;odata=minimalmetadata'
+    'x-ms-client-request-id': 'b2e08038-c0e4-11ee-b6d6-0242ac120004'
+    'x-ms-date': 'REDACTED'
+    'Date': 'Thu, 01 Feb 2024 09:31:38 GMT'
+    'User-Agent': 'azsdk-python-data-tables/12.5.0 Python/3.8.18 (Linux-5.10.16.3-microsoft-standard-WSL2-x86_64-with-glibc2.2.5)'
+    'Authorization': 'REDACTED'
+No body was attached to the request
+[2024-02-01T09:31:38.277+0000] {_universal.py:550} INFO - Response status: 200
+Response headers:
+    'Cache-Control': 'no-cache'
+    'Transfer-Encoding': 'chunked'
+    'Content-Type': 'application/json;odata=minimalmetadata;streaming=true;charset=utf-8'
+    'Server': 'Windows-Azure-Table/1.0 Microsoft-HTTPAPI/2.0'
+    'x-ms-request-id': 'abff2206-e002-002f-73f1-548de5000000'
+    'x-ms-client-request-id': 'b2e08038-c0e4-11ee-b6d6-0242ac120004'
+    'x-ms-version': 'REDACTED'
+    'X-Content-Type-Options': 'REDACTED'
+    'Date': 'Thu, 01 Feb 2024 09:31:40 GMT'
+[2024-02-01T09:32:38.341+0000] {http.py:130} INFO - Poking: symbols/get-financials
+[2024-02-01T09:32:38.349+0000] {base.py:73} INFO - Using connection ID 'rapid_api' for task execution.
+[2024-02-01T09:32:42.745+0000] {_universal.py:514} INFO - Request URL: 'https://datalakeuksouth2311.table.core.windows.net/fundamentalsraw()?$filter=REDACTED'
+Request method: 'GET'
+Request headers:
+    'x-ms-version': 'REDACTED'
+    'DataServiceVersion': 'REDACTED'
+    'Accept': 'application/json;odata=minimalmetadata'
+    'x-ms-client-request-id': 'd965934c-c0e4-11ee-b6d6-0242ac120004'
+    'x-ms-date': 'REDACTED'
+    'Date': 'Thu, 01 Feb 2024 09:32:42 GMT'
+    'User-Agent': 'azsdk-python-data-tables/12.5.0 Python/3.8.18 (Linux-5.10.16.3-microsoft-standard-WSL2-x86_64-with-glibc2.2.5)'
+    'Authorization': 'REDACTED'
+No body was attached to the request
+[2024-02-01T09:32:42.869+0000] {_universal.py:550} INFO - Response status: 200
+Response headers:
+    'Cache-Control': 'no-cache'
+    'Transfer-Encoding': 'chunked'
+    'Content-Type': 'application/json;odata=minimalmetadata;streaming=true;charset=utf-8'
+    'Server': 'Windows-Azure-Table/1.0 Microsoft-HTTPAPI/2.0'
+    'x-ms-request-id': 'ee551d08-5002-0058-5ef1-545871000000'
+    'x-ms-client-request-id': 'd965934c-c0e4-11ee-b6d6-0242ac120004'
+    'x-ms-version': 'REDACTED'
+    'X-Content-Type-Options': 'REDACTED'
+    'Date': 'Thu, 01 Feb 2024 09:32:44 GMT'
+[2024-02-01T09:32:42.886+0000] {taskinstance.py:1937} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/sensors/base.py", line 274, in execute
+    raise AirflowSensorTimeout(message)
+airflow.exceptions.AirflowSensorTimeout: Sensor has timed out; run duration of 315.1380607 seconds exceeds the specified timeout of 300.0.
+[2024-02-01T09:32:42.929+0000] {taskinstance.py:1400} INFO - Immediate failure requested. Marking task as FAILED. dag_id=calculating_gross_margin, task_id=checking_api_for_data, execution_date=20240131T000000, start_date=20240201T092727, end_date=20240201T093242
+[2024-02-01T09:32:43.025+0000] {warnings.py:109} WARNING - /home/***/.local/lib/python3.8/site-packages/***/utils/email.py:154: RemovedInAirflow3Warning: Fetching SMTP credentials from configuration variables will be deprecated in a future release. Please set credentials using a connection instead.
+  send_mime_email(e_from=mail_from, e_to=recipients, mime_msg=msg, conn_id=conn_id, dryrun=dryrun)
+
+[2024-02-01T09:32:43.027+0000] {configuration.py:1050} WARNING - section/key [smtp/smtp_user] not found in config
+[2024-02-01T09:32:43.027+0000] {email.py:270} INFO - Email alerting: attempt 1
+[2024-02-01T09:32:43.034+0000] {configuration.py:1050} WARNING - section/key [smtp/smtp_user] not found in config
+[2024-02-01T09:32:43.034+0000] {email.py:270} INFO - Email alerting: attempt 1
+[2024-02-01T09:32:43.035+0000] {taskinstance.py:2007} ERROR - Failed to send email to: gerardchurch133@outlook.com
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/taskinstance.py", line 1518, in _run_raw_task
+    self._execute_task_with_callbacks(context, test_mode, session=session)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/taskinstance.py", line 1681, in _execute_task_with_callbacks
+    result = self._execute_task(context, task_orig)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/taskinstance.py", line 1744, in _execute_task
+    result = execute_callable(context=context, **execute_callable_kwargs)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/sensors/base.py", line 274, in execute
+    raise AirflowSensorTimeout(message)
+airflow.exceptions.AirflowSensorTimeout: Sensor has timed out; run duration of 315.1380607 seconds exceeds the specified timeout of 300.0.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/taskinstance.py", line 2420, in email_alert
+    send_email(task.email, subject, html_content)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/utils/email.py", line 80, in send_email
+    return backend(
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/utils/email.py", line 154, in send_email_smtp
+    send_mime_email(e_from=mail_from, e_to=recipients, mime_msg=msg, conn_id=conn_id, dryrun=dryrun)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/utils/email.py", line 272, in send_mime_email
+    smtp_conn = _get_smtp_connection(smtp_host, smtp_port, smtp_timeout, smtp_ssl)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/utils/email.py", line 316, in _get_smtp_connection
+    return smtplib.SMTP(host=host, port=port, timeout=timeout)
+  File "/usr/local/lib/python3.8/smtplib.py", line 255, in __init__
+    (code, msg) = self.connect(host, port)
+  File "/usr/local/lib/python3.8/smtplib.py", line 339, in connect
+    self.sock = self._get_socket(host, port, self.timeout)
+  File "/usr/local/lib/python3.8/smtplib.py", line 310, in _get_socket
+    return socket.create_connection((host, port), timeout,
+  File "/usr/local/lib/python3.8/socket.py", line 808, in create_connection
+    raise err
+  File "/usr/local/lib/python3.8/socket.py", line 796, in create_connection
+    sock.connect(sa)
+OSError: [Errno 99] Cannot assign requested address
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/taskinstance.py", line 2005, in handle_failure
+    self.email_alert(error, task)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/taskinstance.py", line 2422, in email_alert
+    send_email(task.email, subject, html_content_err)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/utils/email.py", line 80, in send_email
+    return backend(
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/utils/email.py", line 154, in send_email_smtp
+    send_mime_email(e_from=mail_from, e_to=recipients, mime_msg=msg, conn_id=conn_id, dryrun=dryrun)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/utils/email.py", line 272, in send_mime_email
+    smtp_conn = _get_smtp_connection(smtp_host, smtp_port, smtp_timeout, smtp_ssl)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/utils/email.py", line 316, in _get_smtp_connection
+    return smtplib.SMTP(host=host, port=port, timeout=timeout)
+  File "/usr/local/lib/python3.8/smtplib.py", line 255, in __init__
+    (code, msg) = self.connect(host, port)
+  File "/usr/local/lib/python3.8/smtplib.py", line 339, in connect
+    self.sock = self._get_socket(host, port, self.timeout)
+  File "/usr/local/lib/python3.8/smtplib.py", line 310, in _get_socket
+    return socket.create_connection((host, port), timeout,
+  File "/usr/local/lib/python3.8/socket.py", line 808, in create_connection
+    raise err
+  File "/usr/local/lib/python3.8/socket.py", line 796, in create_connection
+    sock.connect(sa)
+OSError: [Errno 99] Cannot assign requested address
+[2024-02-01T09:32:43.075+0000] {standard_task_runner.py:104} ERROR - Failed to execute job 109 for task checking_api_for_data (Sensor has timed out; run duration of 315.1380607 seconds exceeds the specified timeout of 300.0.; 74)
+[2024-02-01T09:32:43.135+0000] {local_task_job_runner.py:228} INFO - Task exited with return code 1
+[2024-02-01T09:32:43.252+0000] {taskinstance.py:2778} INFO - 0 downstream tasks scheduled from follow-on schedule check

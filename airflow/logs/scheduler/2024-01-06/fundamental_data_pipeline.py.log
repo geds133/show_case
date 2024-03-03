@@ -1,0 +1,857 @@
+[2024-01-06T19:27:37.126+0000] {processor.py:157} INFO - Started process (PID=39) to work on /opt/airflow/dags/fundamental_data_pipeline.py
+[2024-01-06T19:27:37.128+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/fundamental_data_pipeline.py for tasks to queue
+[2024-01-06T19:27:37.134+0000] {logging_mixin.py:154} INFO - [2024-01-06T19:27:37.133+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/fundamental_data_pipeline.py
+[2024-01-06T19:27:39.562+0000] {processor.py:839} INFO - DAG(s) dict_keys(['downloading_fundamentals']) retrieved from /opt/airflow/dags/fundamental_data_pipeline.py
+[2024-01-06T19:27:39.993+0000] {logging_mixin.py:154} INFO - [2024-01-06T19:27:39.991+0000] {manager.py:499} INFO - Created Permission View: %s
+[2024-01-06T19:27:40.010+0000] {logging_mixin.py:154} INFO - [2024-01-06T19:27:40.009+0000] {manager.py:499} INFO - Created Permission View: %s
+[2024-01-06T19:27:40.019+0000] {logging_mixin.py:154} INFO - [2024-01-06T19:27:40.019+0000] {manager.py:499} INFO - Created Permission View: %s
+[2024-01-06T19:27:40.020+0000] {logging_mixin.py:154} INFO - [2024-01-06T19:27:40.020+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-01-06T19:27:40.041+0000] {logging_mixin.py:154} INFO - [2024-01-06T19:27:40.041+0000] {dag.py:2963} INFO - Creating ORM DAG for downloading_fundamentals
+[2024-01-06T19:27:40.059+0000] {logging_mixin.py:154} INFO - [2024-01-06T19:27:40.059+0000] {dag.py:3722} INFO - Setting next_dagrun for downloading_fundamentals to 2024-01-05T00:00:00+00:00, run_after=2024-01-06T00:00:00+00:00
+[2024-01-06T19:27:40.099+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/fundamental_data_pipeline.py took 2.981 seconds
+[2024-01-06T19:28:10.398+0000] {processor.py:157} INFO - Started process (PID=48) to work on /opt/airflow/dags/fundamental_data_pipeline.py
+[2024-01-06T19:28:10.399+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/fundamental_data_pipeline.py for tasks to queue
+[2024-01-06T19:28:10.412+0000] {logging_mixin.py:154} INFO - [2024-01-06T19:28:10.411+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/fundamental_data_pipeline.py
+[2024-01-06T19:28:11.418+0000] {processor.py:839} INFO - DAG(s) dict_keys(['downloading_fundamentals']) retrieved from /opt/airflow/dags/fundamental_data_pipeline.py
+[2024-01-06T19:28:11.438+0000] {logging_mixin.py:154} INFO - [2024-01-06T19:28:11.437+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-01-06T19:28:11.456+0000] {logging_mixin.py:154} INFO - [2024-01-06T19:28:11.456+0000] {dag.py:3722} INFO - Setting next_dagrun for downloading_fundamentals to 2024-01-05T00:00:00+00:00, run_after=2024-01-06T00:00:00+00:00
+[2024-01-06T19:28:11.475+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/fundamental_data_pipeline.py took 1.088 seconds
+[2024-01-06T19:28:41.621+0000] {processor.py:157} INFO - Started process (PID=58) to work on /opt/airflow/dags/fundamental_data_pipeline.py
+[2024-01-06T19:28:41.623+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/fundamental_data_pipeline.py for tasks to queue
+[2024-01-06T19:28:41.636+0000] {logging_mixin.py:154} INFO - [2024-01-06T19:28:41.635+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/fundamental_data_pipeline.py
+[2024-01-06T19:28:42.725+0000] {processor.py:839} INFO - DAG(s) dict_keys(['downloading_fundamentals']) retrieved from /opt/airflow/dags/fundamental_data_pipeline.py
+[2024-01-06T19:28:42.755+0000] {logging_mixin.py:154} INFO - [2024-01-06T19:28:42.755+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-01-06T19:28:42.783+0000] {logging_mixin.py:154} INFO - [2024-01-06T19:28:42.782+0000] {dag.py:3722} INFO - Setting next_dagrun for downloading_fundamentals to 2024-01-05T00:00:00+00:00, run_after=2024-01-06T00:00:00+00:00
+[2024-01-06T19:28:42.804+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/fundamental_data_pipeline.py took 1.197 seconds
+[2024-01-06T19:29:12.974+0000] {processor.py:157} INFO - Started process (PID=67) to work on /opt/airflow/dags/fundamental_data_pipeline.py
+[2024-01-06T19:29:12.975+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/fundamental_data_pipeline.py for tasks to queue
+[2024-01-06T19:29:12.976+0000] {logging_mixin.py:154} INFO - [2024-01-06T19:29:12.976+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/fundamental_data_pipeline.py
+[2024-01-06T19:29:13.347+0000] {processor.py:839} INFO - DAG(s) dict_keys(['downloading_fundamentals']) retrieved from /opt/airflow/dags/fundamental_data_pipeline.py
+[2024-01-06T19:29:13.366+0000] {logging_mixin.py:154} INFO - [2024-01-06T19:29:13.366+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-01-06T19:29:13.384+0000] {logging_mixin.py:154} INFO - [2024-01-06T19:29:13.384+0000] {dag.py:3722} INFO - Setting next_dagrun for downloading_fundamentals to 2024-01-05T00:00:00+00:00, run_after=2024-01-06T00:00:00+00:00
+[2024-01-06T19:29:13.401+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/fundamental_data_pipeline.py took 0.430 seconds
+[2024-01-06T19:29:43.589+0000] {processor.py:157} INFO - Started process (PID=76) to work on /opt/airflow/dags/fundamental_data_pipeline.py
+[2024-01-06T19:29:43.590+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/fundamental_data_pipeline.py for tasks to queue
+[2024-01-06T19:29:43.592+0000] {logging_mixin.py:154} INFO - [2024-01-06T19:29:43.591+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/fundamental_data_pipeline.py
+[2024-01-06T19:29:43.997+0000] {processor.py:839} INFO - DAG(s) dict_keys(['downloading_fundamentals']) retrieved from /opt/airflow/dags/fundamental_data_pipeline.py
+[2024-01-06T19:29:44.020+0000] {logging_mixin.py:154} INFO - [2024-01-06T19:29:44.020+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-01-06T19:29:44.037+0000] {logging_mixin.py:154} INFO - [2024-01-06T19:29:44.037+0000] {dag.py:3722} INFO - Setting next_dagrun for downloading_fundamentals to 2024-01-05T00:00:00+00:00, run_after=2024-01-06T00:00:00+00:00
+[2024-01-06T19:29:44.054+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/fundamental_data_pipeline.py took 0.469 seconds
+[2024-01-06T19:30:14.239+0000] {processor.py:157} INFO - Started process (PID=85) to work on /opt/airflow/dags/fundamental_data_pipeline.py
+[2024-01-06T19:30:14.240+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/fundamental_data_pipeline.py for tasks to queue
+[2024-01-06T19:30:14.242+0000] {logging_mixin.py:154} INFO - [2024-01-06T19:30:14.242+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/fundamental_data_pipeline.py
+[2024-01-06T19:30:14.648+0000] {processor.py:839} INFO - DAG(s) dict_keys(['downloading_fundamentals']) retrieved from /opt/airflow/dags/fundamental_data_pipeline.py
+[2024-01-06T19:30:14.668+0000] {logging_mixin.py:154} INFO - [2024-01-06T19:30:14.667+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-01-06T19:30:14.687+0000] {logging_mixin.py:154} INFO - [2024-01-06T19:30:14.686+0000] {dag.py:3722} INFO - Setting next_dagrun for downloading_fundamentals to 2024-01-05T00:00:00+00:00, run_after=2024-01-06T00:00:00+00:00
+[2024-01-06T19:30:14.703+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/fundamental_data_pipeline.py took 0.467 seconds
+[2024-01-06T19:30:44.887+0000] {processor.py:157} INFO - Started process (PID=94) to work on /opt/airflow/dags/fundamental_data_pipeline.py
+[2024-01-06T19:30:44.888+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/fundamental_data_pipeline.py for tasks to queue
+[2024-01-06T19:30:44.890+0000] {logging_mixin.py:154} INFO - [2024-01-06T19:30:44.890+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/fundamental_data_pipeline.py
+[2024-01-06T19:30:45.318+0000] {processor.py:839} INFO - DAG(s) dict_keys(['downloading_fundamentals']) retrieved from /opt/airflow/dags/fundamental_data_pipeline.py
+[2024-01-06T19:30:45.339+0000] {logging_mixin.py:154} INFO - [2024-01-06T19:30:45.339+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-01-06T19:30:45.359+0000] {logging_mixin.py:154} INFO - [2024-01-06T19:30:45.359+0000] {dag.py:3722} INFO - Setting next_dagrun for downloading_fundamentals to 2024-01-05T00:00:00+00:00, run_after=2024-01-06T00:00:00+00:00
+[2024-01-06T19:30:45.377+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/fundamental_data_pipeline.py took 0.494 seconds
+[2024-01-06T19:31:15.555+0000] {processor.py:157} INFO - Started process (PID=103) to work on /opt/airflow/dags/fundamental_data_pipeline.py
+[2024-01-06T19:31:15.556+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/fundamental_data_pipeline.py for tasks to queue
+[2024-01-06T19:31:15.572+0000] {logging_mixin.py:154} INFO - [2024-01-06T19:31:15.569+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/fundamental_data_pipeline.py
+[2024-01-06T19:31:15.952+0000] {processor.py:839} INFO - DAG(s) dict_keys(['downloading_fundamentals']) retrieved from /opt/airflow/dags/fundamental_data_pipeline.py
+[2024-01-06T19:31:15.971+0000] {logging_mixin.py:154} INFO - [2024-01-06T19:31:15.971+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-01-06T19:31:15.989+0000] {logging_mixin.py:154} INFO - [2024-01-06T19:31:15.989+0000] {dag.py:3722} INFO - Setting next_dagrun for downloading_fundamentals to 2024-01-05T00:00:00+00:00, run_after=2024-01-06T00:00:00+00:00
+[2024-01-06T19:31:16.005+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/fundamental_data_pipeline.py took 0.453 seconds
+[2024-01-06T19:31:46.189+0000] {processor.py:157} INFO - Started process (PID=112) to work on /opt/airflow/dags/fundamental_data_pipeline.py
+[2024-01-06T19:31:46.190+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/fundamental_data_pipeline.py for tasks to queue
+[2024-01-06T19:31:46.192+0000] {logging_mixin.py:154} INFO - [2024-01-06T19:31:46.192+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/fundamental_data_pipeline.py
+[2024-01-06T19:31:46.557+0000] {processor.py:839} INFO - DAG(s) dict_keys(['downloading_fundamentals']) retrieved from /opt/airflow/dags/fundamental_data_pipeline.py
+[2024-01-06T19:31:46.576+0000] {logging_mixin.py:154} INFO - [2024-01-06T19:31:46.576+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-01-06T19:31:46.594+0000] {logging_mixin.py:154} INFO - [2024-01-06T19:31:46.594+0000] {dag.py:3722} INFO - Setting next_dagrun for downloading_fundamentals to 2024-01-05T00:00:00+00:00, run_after=2024-01-06T00:00:00+00:00
+[2024-01-06T19:31:46.611+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/fundamental_data_pipeline.py took 0.426 seconds
+[2024-01-06T19:32:16.797+0000] {processor.py:157} INFO - Started process (PID=121) to work on /opt/airflow/dags/fundamental_data_pipeline.py
+[2024-01-06T19:32:16.798+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/fundamental_data_pipeline.py for tasks to queue
+[2024-01-06T19:32:16.800+0000] {logging_mixin.py:154} INFO - [2024-01-06T19:32:16.800+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/fundamental_data_pipeline.py
+[2024-01-06T19:32:17.175+0000] {processor.py:839} INFO - DAG(s) dict_keys(['downloading_fundamentals']) retrieved from /opt/airflow/dags/fundamental_data_pipeline.py
+[2024-01-06T19:32:17.197+0000] {logging_mixin.py:154} INFO - [2024-01-06T19:32:17.195+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-01-06T19:32:17.221+0000] {logging_mixin.py:154} INFO - [2024-01-06T19:32:17.220+0000] {dag.py:3722} INFO - Setting next_dagrun for downloading_fundamentals to 2024-01-05T00:00:00+00:00, run_after=2024-01-06T00:00:00+00:00
+[2024-01-06T19:32:17.243+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/fundamental_data_pipeline.py took 0.450 seconds
+[2024-01-06T19:32:47.540+0000] {processor.py:157} INFO - Started process (PID=130) to work on /opt/airflow/dags/fundamental_data_pipeline.py
+[2024-01-06T19:32:47.541+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/fundamental_data_pipeline.py for tasks to queue
+[2024-01-06T19:32:47.543+0000] {logging_mixin.py:154} INFO - [2024-01-06T19:32:47.543+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/fundamental_data_pipeline.py
+[2024-01-06T19:32:48.025+0000] {processor.py:839} INFO - DAG(s) dict_keys(['downloading_fundamentals']) retrieved from /opt/airflow/dags/fundamental_data_pipeline.py
+[2024-01-06T19:32:48.045+0000] {logging_mixin.py:154} INFO - [2024-01-06T19:32:48.044+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-01-06T19:32:48.064+0000] {logging_mixin.py:154} INFO - [2024-01-06T19:32:48.064+0000] {dag.py:3722} INFO - Setting next_dagrun for downloading_fundamentals to 2024-01-05T00:00:00+00:00, run_after=2024-01-06T00:00:00+00:00
+[2024-01-06T19:32:48.080+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/fundamental_data_pipeline.py took 0.543 seconds
+[2024-01-06T19:33:18.245+0000] {processor.py:157} INFO - Started process (PID=139) to work on /opt/airflow/dags/fundamental_data_pipeline.py
+[2024-01-06T19:33:18.246+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/fundamental_data_pipeline.py for tasks to queue
+[2024-01-06T19:33:18.248+0000] {logging_mixin.py:154} INFO - [2024-01-06T19:33:18.248+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/fundamental_data_pipeline.py
+[2024-01-06T19:33:18.625+0000] {processor.py:839} INFO - DAG(s) dict_keys(['downloading_fundamentals']) retrieved from /opt/airflow/dags/fundamental_data_pipeline.py
+[2024-01-06T19:33:18.644+0000] {logging_mixin.py:154} INFO - [2024-01-06T19:33:18.643+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-01-06T19:33:18.661+0000] {logging_mixin.py:154} INFO - [2024-01-06T19:33:18.660+0000] {dag.py:3722} INFO - Setting next_dagrun for downloading_fundamentals to 2024-01-05T00:00:00+00:00, run_after=2024-01-06T00:00:00+00:00
+[2024-01-06T19:33:18.678+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/fundamental_data_pipeline.py took 0.436 seconds
+[2024-01-06T19:33:48.867+0000] {processor.py:157} INFO - Started process (PID=148) to work on /opt/airflow/dags/fundamental_data_pipeline.py
+[2024-01-06T19:33:48.869+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/fundamental_data_pipeline.py for tasks to queue
+[2024-01-06T19:33:48.871+0000] {logging_mixin.py:154} INFO - [2024-01-06T19:33:48.871+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/fundamental_data_pipeline.py
+[2024-01-06T19:33:49.255+0000] {processor.py:839} INFO - DAG(s) dict_keys(['downloading_fundamentals']) retrieved from /opt/airflow/dags/fundamental_data_pipeline.py
+[2024-01-06T19:33:49.274+0000] {logging_mixin.py:154} INFO - [2024-01-06T19:33:49.273+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-01-06T19:33:49.291+0000] {logging_mixin.py:154} INFO - [2024-01-06T19:33:49.291+0000] {dag.py:3722} INFO - Setting next_dagrun for downloading_fundamentals to 2024-01-05T00:00:00+00:00, run_after=2024-01-06T00:00:00+00:00
+[2024-01-06T19:33:49.307+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/fundamental_data_pipeline.py took 0.443 seconds
+[2024-01-06T19:34:19.483+0000] {processor.py:157} INFO - Started process (PID=157) to work on /opt/airflow/dags/fundamental_data_pipeline.py
+[2024-01-06T19:34:19.484+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/fundamental_data_pipeline.py for tasks to queue
+[2024-01-06T19:34:19.487+0000] {logging_mixin.py:154} INFO - [2024-01-06T19:34:19.486+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/fundamental_data_pipeline.py
+[2024-01-06T19:34:19.862+0000] {processor.py:839} INFO - DAG(s) dict_keys(['downloading_fundamentals']) retrieved from /opt/airflow/dags/fundamental_data_pipeline.py
+[2024-01-06T19:34:19.883+0000] {logging_mixin.py:154} INFO - [2024-01-06T19:34:19.883+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-01-06T19:34:19.903+0000] {logging_mixin.py:154} INFO - [2024-01-06T19:34:19.903+0000] {dag.py:3722} INFO - Setting next_dagrun for downloading_fundamentals to 2024-01-05T00:00:00+00:00, run_after=2024-01-06T00:00:00+00:00
+[2024-01-06T19:34:19.921+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/fundamental_data_pipeline.py took 0.440 seconds
+[2024-01-06T19:34:50.102+0000] {processor.py:157} INFO - Started process (PID=166) to work on /opt/airflow/dags/fundamental_data_pipeline.py
+[2024-01-06T19:34:50.103+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/fundamental_data_pipeline.py for tasks to queue
+[2024-01-06T19:34:50.106+0000] {logging_mixin.py:154} INFO - [2024-01-06T19:34:50.105+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/fundamental_data_pipeline.py
+[2024-01-06T19:34:50.550+0000] {processor.py:839} INFO - DAG(s) dict_keys(['downloading_fundamentals']) retrieved from /opt/airflow/dags/fundamental_data_pipeline.py
+[2024-01-06T19:34:50.573+0000] {logging_mixin.py:154} INFO - [2024-01-06T19:34:50.573+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-01-06T19:34:50.596+0000] {logging_mixin.py:154} INFO - [2024-01-06T19:34:50.596+0000] {dag.py:3722} INFO - Setting next_dagrun for downloading_fundamentals to 2024-01-05T00:00:00+00:00, run_after=2024-01-06T00:00:00+00:00
+[2024-01-06T19:34:50.615+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/fundamental_data_pipeline.py took 0.516 seconds
+[2024-01-06T19:35:20.808+0000] {processor.py:157} INFO - Started process (PID=175) to work on /opt/airflow/dags/fundamental_data_pipeline.py
+[2024-01-06T19:35:20.809+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/fundamental_data_pipeline.py for tasks to queue
+[2024-01-06T19:35:20.812+0000] {logging_mixin.py:154} INFO - [2024-01-06T19:35:20.811+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/fundamental_data_pipeline.py
+[2024-01-06T19:35:21.231+0000] {processor.py:839} INFO - DAG(s) dict_keys(['downloading_fundamentals']) retrieved from /opt/airflow/dags/fundamental_data_pipeline.py
+[2024-01-06T19:35:21.251+0000] {logging_mixin.py:154} INFO - [2024-01-06T19:35:21.251+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-01-06T19:35:21.269+0000] {logging_mixin.py:154} INFO - [2024-01-06T19:35:21.269+0000] {dag.py:3722} INFO - Setting next_dagrun for downloading_fundamentals to 2024-01-05T00:00:00+00:00, run_after=2024-01-06T00:00:00+00:00
+[2024-01-06T19:35:21.286+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/fundamental_data_pipeline.py took 0.480 seconds
+[2024-01-06T19:35:51.470+0000] {processor.py:157} INFO - Started process (PID=184) to work on /opt/airflow/dags/fundamental_data_pipeline.py
+[2024-01-06T19:35:51.471+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/fundamental_data_pipeline.py for tasks to queue
+[2024-01-06T19:35:51.473+0000] {logging_mixin.py:154} INFO - [2024-01-06T19:35:51.473+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/fundamental_data_pipeline.py
+[2024-01-06T19:35:51.886+0000] {processor.py:839} INFO - DAG(s) dict_keys(['downloading_fundamentals']) retrieved from /opt/airflow/dags/fundamental_data_pipeline.py
+[2024-01-06T19:35:51.906+0000] {logging_mixin.py:154} INFO - [2024-01-06T19:35:51.906+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-01-06T19:35:51.925+0000] {logging_mixin.py:154} INFO - [2024-01-06T19:35:51.925+0000] {dag.py:3722} INFO - Setting next_dagrun for downloading_fundamentals to 2024-01-05T00:00:00+00:00, run_after=2024-01-06T00:00:00+00:00
+[2024-01-06T19:35:51.943+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/fundamental_data_pipeline.py took 0.476 seconds
+[2024-01-06T19:36:22.154+0000] {processor.py:157} INFO - Started process (PID=193) to work on /opt/airflow/dags/fundamental_data_pipeline.py
+[2024-01-06T19:36:22.155+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/fundamental_data_pipeline.py for tasks to queue
+[2024-01-06T19:36:22.157+0000] {logging_mixin.py:154} INFO - [2024-01-06T19:36:22.157+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/fundamental_data_pipeline.py
+[2024-01-06T19:36:22.586+0000] {processor.py:839} INFO - DAG(s) dict_keys(['downloading_fundamentals']) retrieved from /opt/airflow/dags/fundamental_data_pipeline.py
+[2024-01-06T19:36:22.605+0000] {logging_mixin.py:154} INFO - [2024-01-06T19:36:22.605+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-01-06T19:36:22.623+0000] {logging_mixin.py:154} INFO - [2024-01-06T19:36:22.623+0000] {dag.py:3722} INFO - Setting next_dagrun for downloading_fundamentals to 2024-01-06T00:00:00+00:00, run_after=2024-01-07T00:00:00+00:00
+[2024-01-06T19:36:22.640+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/fundamental_data_pipeline.py took 0.489 seconds
+[2024-01-06T19:36:52.849+0000] {processor.py:157} INFO - Started process (PID=202) to work on /opt/airflow/dags/fundamental_data_pipeline.py
+[2024-01-06T19:36:52.851+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/fundamental_data_pipeline.py for tasks to queue
+[2024-01-06T19:36:52.853+0000] {logging_mixin.py:154} INFO - [2024-01-06T19:36:52.853+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/fundamental_data_pipeline.py
+[2024-01-06T19:36:53.296+0000] {processor.py:839} INFO - DAG(s) dict_keys(['downloading_fundamentals']) retrieved from /opt/airflow/dags/fundamental_data_pipeline.py
+[2024-01-06T19:36:53.318+0000] {logging_mixin.py:154} INFO - [2024-01-06T19:36:53.317+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-01-06T19:36:53.340+0000] {logging_mixin.py:154} INFO - [2024-01-06T19:36:53.340+0000] {dag.py:3722} INFO - Setting next_dagrun for downloading_fundamentals to 2024-01-06T00:00:00+00:00, run_after=2024-01-07T00:00:00+00:00
+[2024-01-06T19:36:53.362+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/fundamental_data_pipeline.py took 0.516 seconds
+[2024-01-06T19:37:23.503+0000] {processor.py:157} INFO - Started process (PID=211) to work on /opt/airflow/dags/fundamental_data_pipeline.py
+[2024-01-06T19:37:23.504+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/fundamental_data_pipeline.py for tasks to queue
+[2024-01-06T19:37:23.507+0000] {logging_mixin.py:154} INFO - [2024-01-06T19:37:23.507+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/fundamental_data_pipeline.py
+[2024-01-06T19:37:23.894+0000] {processor.py:839} INFO - DAG(s) dict_keys(['downloading_fundamentals']) retrieved from /opt/airflow/dags/fundamental_data_pipeline.py
+[2024-01-06T19:37:23.913+0000] {logging_mixin.py:154} INFO - [2024-01-06T19:37:23.913+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-01-06T19:37:23.933+0000] {logging_mixin.py:154} INFO - [2024-01-06T19:37:23.933+0000] {dag.py:3722} INFO - Setting next_dagrun for downloading_fundamentals to 2024-01-06T00:00:00+00:00, run_after=2024-01-07T00:00:00+00:00
+[2024-01-06T19:37:23.950+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/fundamental_data_pipeline.py took 0.450 seconds
+[2024-01-06T19:37:54.129+0000] {processor.py:157} INFO - Started process (PID=220) to work on /opt/airflow/dags/fundamental_data_pipeline.py
+[2024-01-06T19:37:54.130+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/fundamental_data_pipeline.py for tasks to queue
+[2024-01-06T19:37:54.132+0000] {logging_mixin.py:154} INFO - [2024-01-06T19:37:54.132+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/fundamental_data_pipeline.py
+[2024-01-06T19:37:54.500+0000] {processor.py:839} INFO - DAG(s) dict_keys(['downloading_fundamentals']) retrieved from /opt/airflow/dags/fundamental_data_pipeline.py
+[2024-01-06T19:37:54.520+0000] {logging_mixin.py:154} INFO - [2024-01-06T19:37:54.519+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-01-06T19:37:54.540+0000] {logging_mixin.py:154} INFO - [2024-01-06T19:37:54.540+0000] {dag.py:3722} INFO - Setting next_dagrun for downloading_fundamentals to 2024-01-06T00:00:00+00:00, run_after=2024-01-07T00:00:00+00:00
+[2024-01-06T19:37:54.558+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/fundamental_data_pipeline.py took 0.432 seconds
+[2024-01-06T19:38:24.744+0000] {processor.py:157} INFO - Started process (PID=229) to work on /opt/airflow/dags/fundamental_data_pipeline.py
+[2024-01-06T19:38:24.745+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/fundamental_data_pipeline.py for tasks to queue
+[2024-01-06T19:38:24.747+0000] {logging_mixin.py:154} INFO - [2024-01-06T19:38:24.747+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/fundamental_data_pipeline.py
+[2024-01-06T19:38:25.127+0000] {processor.py:839} INFO - DAG(s) dict_keys(['downloading_fundamentals']) retrieved from /opt/airflow/dags/fundamental_data_pipeline.py
+[2024-01-06T19:38:25.147+0000] {logging_mixin.py:154} INFO - [2024-01-06T19:38:25.147+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-01-06T19:38:25.166+0000] {logging_mixin.py:154} INFO - [2024-01-06T19:38:25.165+0000] {dag.py:3722} INFO - Setting next_dagrun for downloading_fundamentals to 2024-01-06T00:00:00+00:00, run_after=2024-01-07T00:00:00+00:00
+[2024-01-06T19:38:25.183+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/fundamental_data_pipeline.py took 0.442 seconds
+[2024-01-06T19:38:55.368+0000] {processor.py:157} INFO - Started process (PID=238) to work on /opt/airflow/dags/fundamental_data_pipeline.py
+[2024-01-06T19:38:55.369+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/fundamental_data_pipeline.py for tasks to queue
+[2024-01-06T19:38:55.371+0000] {logging_mixin.py:154} INFO - [2024-01-06T19:38:55.371+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/fundamental_data_pipeline.py
+[2024-01-06T19:38:55.807+0000] {processor.py:839} INFO - DAG(s) dict_keys(['downloading_fundamentals']) retrieved from /opt/airflow/dags/fundamental_data_pipeline.py
+[2024-01-06T19:38:55.828+0000] {logging_mixin.py:154} INFO - [2024-01-06T19:38:55.827+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-01-06T19:38:55.848+0000] {logging_mixin.py:154} INFO - [2024-01-06T19:38:55.848+0000] {dag.py:3722} INFO - Setting next_dagrun for downloading_fundamentals to 2024-01-06T00:00:00+00:00, run_after=2024-01-07T00:00:00+00:00
+[2024-01-06T19:38:55.866+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/fundamental_data_pipeline.py took 0.501 seconds
+[2024-01-06T19:39:26.060+0000] {processor.py:157} INFO - Started process (PID=247) to work on /opt/airflow/dags/fundamental_data_pipeline.py
+[2024-01-06T19:39:26.061+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/fundamental_data_pipeline.py for tasks to queue
+[2024-01-06T19:39:26.063+0000] {logging_mixin.py:154} INFO - [2024-01-06T19:39:26.063+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/fundamental_data_pipeline.py
+[2024-01-06T19:39:26.445+0000] {processor.py:839} INFO - DAG(s) dict_keys(['downloading_fundamentals']) retrieved from /opt/airflow/dags/fundamental_data_pipeline.py
+[2024-01-06T19:39:26.464+0000] {logging_mixin.py:154} INFO - [2024-01-06T19:39:26.464+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-01-06T19:39:26.483+0000] {logging_mixin.py:154} INFO - [2024-01-06T19:39:26.483+0000] {dag.py:3722} INFO - Setting next_dagrun for downloading_fundamentals to 2024-01-06T00:00:00+00:00, run_after=2024-01-07T00:00:00+00:00
+[2024-01-06T19:39:26.500+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/fundamental_data_pipeline.py took 0.444 seconds
+[2024-01-06T19:39:56.702+0000] {processor.py:157} INFO - Started process (PID=256) to work on /opt/airflow/dags/fundamental_data_pipeline.py
+[2024-01-06T19:39:56.704+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/fundamental_data_pipeline.py for tasks to queue
+[2024-01-06T19:39:56.706+0000] {logging_mixin.py:154} INFO - [2024-01-06T19:39:56.706+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/fundamental_data_pipeline.py
+[2024-01-06T19:39:57.358+0000] {processor.py:839} INFO - DAG(s) dict_keys(['downloading_fundamentals']) retrieved from /opt/airflow/dags/fundamental_data_pipeline.py
+[2024-01-06T19:39:57.378+0000] {logging_mixin.py:154} INFO - [2024-01-06T19:39:57.377+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-01-06T19:39:57.397+0000] {logging_mixin.py:154} INFO - [2024-01-06T19:39:57.397+0000] {dag.py:3722} INFO - Setting next_dagrun for downloading_fundamentals to 2024-01-06T00:00:00+00:00, run_after=2024-01-07T00:00:00+00:00
+[2024-01-06T19:39:57.422+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/fundamental_data_pipeline.py took 0.723 seconds
+[2024-01-06T19:40:27.626+0000] {processor.py:157} INFO - Started process (PID=272) to work on /opt/airflow/dags/fundamental_data_pipeline.py
+[2024-01-06T19:40:27.627+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/fundamental_data_pipeline.py for tasks to queue
+[2024-01-06T19:40:27.629+0000] {logging_mixin.py:154} INFO - [2024-01-06T19:40:27.629+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/fundamental_data_pipeline.py
+[2024-01-06T19:40:28.040+0000] {processor.py:839} INFO - DAG(s) dict_keys(['downloading_fundamentals']) retrieved from /opt/airflow/dags/fundamental_data_pipeline.py
+[2024-01-06T19:40:28.060+0000] {logging_mixin.py:154} INFO - [2024-01-06T19:40:28.059+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-01-06T19:40:28.079+0000] {logging_mixin.py:154} INFO - [2024-01-06T19:40:28.079+0000] {dag.py:3722} INFO - Setting next_dagrun for downloading_fundamentals to 2024-01-06T00:00:00+00:00, run_after=2024-01-07T00:00:00+00:00
+[2024-01-06T19:40:28.096+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/fundamental_data_pipeline.py took 0.474 seconds
+[2024-01-06T19:40:58.270+0000] {processor.py:157} INFO - Started process (PID=281) to work on /opt/airflow/dags/fundamental_data_pipeline.py
+[2024-01-06T19:40:58.271+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/fundamental_data_pipeline.py for tasks to queue
+[2024-01-06T19:40:58.273+0000] {logging_mixin.py:154} INFO - [2024-01-06T19:40:58.272+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/fundamental_data_pipeline.py
+[2024-01-06T19:40:58.655+0000] {processor.py:839} INFO - DAG(s) dict_keys(['downloading_fundamentals']) retrieved from /opt/airflow/dags/fundamental_data_pipeline.py
+[2024-01-06T19:40:58.674+0000] {logging_mixin.py:154} INFO - [2024-01-06T19:40:58.674+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-01-06T19:40:58.694+0000] {logging_mixin.py:154} INFO - [2024-01-06T19:40:58.694+0000] {dag.py:3722} INFO - Setting next_dagrun for downloading_fundamentals to 2024-01-06T00:00:00+00:00, run_after=2024-01-07T00:00:00+00:00
+[2024-01-06T19:40:58.710+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/fundamental_data_pipeline.py took 0.444 seconds
+[2024-01-06T19:41:28.900+0000] {processor.py:157} INFO - Started process (PID=290) to work on /opt/airflow/dags/fundamental_data_pipeline.py
+[2024-01-06T19:41:28.902+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/fundamental_data_pipeline.py for tasks to queue
+[2024-01-06T19:41:28.904+0000] {logging_mixin.py:154} INFO - [2024-01-06T19:41:28.904+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/fundamental_data_pipeline.py
+[2024-01-06T19:41:29.263+0000] {processor.py:839} INFO - DAG(s) dict_keys(['downloading_fundamentals']) retrieved from /opt/airflow/dags/fundamental_data_pipeline.py
+[2024-01-06T19:41:29.283+0000] {logging_mixin.py:154} INFO - [2024-01-06T19:41:29.282+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-01-06T19:41:29.301+0000] {logging_mixin.py:154} INFO - [2024-01-06T19:41:29.301+0000] {dag.py:3722} INFO - Setting next_dagrun for downloading_fundamentals to 2024-01-06T00:00:00+00:00, run_after=2024-01-07T00:00:00+00:00
+[2024-01-06T19:41:29.318+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/fundamental_data_pipeline.py took 0.422 seconds
+[2024-01-06T19:41:59.509+0000] {processor.py:157} INFO - Started process (PID=299) to work on /opt/airflow/dags/fundamental_data_pipeline.py
+[2024-01-06T19:41:59.510+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/fundamental_data_pipeline.py for tasks to queue
+[2024-01-06T19:41:59.512+0000] {logging_mixin.py:154} INFO - [2024-01-06T19:41:59.512+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/fundamental_data_pipeline.py
+[2024-01-06T19:41:59.906+0000] {processor.py:839} INFO - DAG(s) dict_keys(['downloading_fundamentals']) retrieved from /opt/airflow/dags/fundamental_data_pipeline.py
+[2024-01-06T19:41:59.926+0000] {logging_mixin.py:154} INFO - [2024-01-06T19:41:59.925+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-01-06T19:41:59.944+0000] {logging_mixin.py:154} INFO - [2024-01-06T19:41:59.944+0000] {dag.py:3722} INFO - Setting next_dagrun for downloading_fundamentals to 2024-01-06T00:00:00+00:00, run_after=2024-01-07T00:00:00+00:00
+[2024-01-06T19:41:59.961+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/fundamental_data_pipeline.py took 0.455 seconds
+[2024-01-06T19:42:30.145+0000] {processor.py:157} INFO - Started process (PID=308) to work on /opt/airflow/dags/fundamental_data_pipeline.py
+[2024-01-06T19:42:30.146+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/fundamental_data_pipeline.py for tasks to queue
+[2024-01-06T19:42:30.148+0000] {logging_mixin.py:154} INFO - [2024-01-06T19:42:30.148+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/fundamental_data_pipeline.py
+[2024-01-06T19:42:30.570+0000] {processor.py:839} INFO - DAG(s) dict_keys(['downloading_fundamentals']) retrieved from /opt/airflow/dags/fundamental_data_pipeline.py
+[2024-01-06T19:42:30.592+0000] {logging_mixin.py:154} INFO - [2024-01-06T19:42:30.591+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-01-06T19:42:30.613+0000] {logging_mixin.py:154} INFO - [2024-01-06T19:42:30.613+0000] {dag.py:3722} INFO - Setting next_dagrun for downloading_fundamentals to 2024-01-06T00:00:00+00:00, run_after=2024-01-07T00:00:00+00:00
+[2024-01-06T19:42:30.632+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/fundamental_data_pipeline.py took 0.490 seconds
+[2024-01-06T19:43:00.864+0000] {processor.py:157} INFO - Started process (PID=317) to work on /opt/airflow/dags/fundamental_data_pipeline.py
+[2024-01-06T19:43:00.865+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/fundamental_data_pipeline.py for tasks to queue
+[2024-01-06T19:43:00.867+0000] {logging_mixin.py:154} INFO - [2024-01-06T19:43:00.867+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/fundamental_data_pipeline.py
+[2024-01-06T19:43:01.229+0000] {processor.py:839} INFO - DAG(s) dict_keys(['downloading_fundamentals']) retrieved from /opt/airflow/dags/fundamental_data_pipeline.py
+[2024-01-06T19:43:01.249+0000] {logging_mixin.py:154} INFO - [2024-01-06T19:43:01.248+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-01-06T19:43:01.269+0000] {logging_mixin.py:154} INFO - [2024-01-06T19:43:01.269+0000] {dag.py:3722} INFO - Setting next_dagrun for downloading_fundamentals to 2024-01-06T00:00:00+00:00, run_after=2024-01-07T00:00:00+00:00
+[2024-01-06T19:43:01.286+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/fundamental_data_pipeline.py took 0.425 seconds
+[2024-01-06T19:43:31.461+0000] {processor.py:157} INFO - Started process (PID=326) to work on /opt/airflow/dags/fundamental_data_pipeline.py
+[2024-01-06T19:43:31.462+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/fundamental_data_pipeline.py for tasks to queue
+[2024-01-06T19:43:31.464+0000] {logging_mixin.py:154} INFO - [2024-01-06T19:43:31.464+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/fundamental_data_pipeline.py
+[2024-01-06T19:43:31.850+0000] {processor.py:839} INFO - DAG(s) dict_keys(['downloading_fundamentals']) retrieved from /opt/airflow/dags/fundamental_data_pipeline.py
+[2024-01-06T19:43:31.868+0000] {logging_mixin.py:154} INFO - [2024-01-06T19:43:31.868+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-01-06T19:43:31.890+0000] {logging_mixin.py:154} INFO - [2024-01-06T19:43:31.890+0000] {dag.py:3722} INFO - Setting next_dagrun for downloading_fundamentals to 2024-01-06T00:00:00+00:00, run_after=2024-01-07T00:00:00+00:00
+[2024-01-06T19:43:31.905+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/fundamental_data_pipeline.py took 0.447 seconds
+[2024-01-06T19:44:02.101+0000] {processor.py:157} INFO - Started process (PID=335) to work on /opt/airflow/dags/fundamental_data_pipeline.py
+[2024-01-06T19:44:02.102+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/fundamental_data_pipeline.py for tasks to queue
+[2024-01-06T19:44:02.105+0000] {logging_mixin.py:154} INFO - [2024-01-06T19:44:02.104+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/fundamental_data_pipeline.py
+[2024-01-06T19:44:02.462+0000] {processor.py:839} INFO - DAG(s) dict_keys(['downloading_fundamentals']) retrieved from /opt/airflow/dags/fundamental_data_pipeline.py
+[2024-01-06T19:44:02.481+0000] {logging_mixin.py:154} INFO - [2024-01-06T19:44:02.481+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-01-06T19:44:02.500+0000] {logging_mixin.py:154} INFO - [2024-01-06T19:44:02.500+0000] {dag.py:3722} INFO - Setting next_dagrun for downloading_fundamentals to 2024-01-06T00:00:00+00:00, run_after=2024-01-07T00:00:00+00:00
+[2024-01-06T19:44:02.516+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/fundamental_data_pipeline.py took 0.418 seconds
+[2024-01-06T19:44:32.695+0000] {processor.py:157} INFO - Started process (PID=344) to work on /opt/airflow/dags/fundamental_data_pipeline.py
+[2024-01-06T19:44:32.696+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/fundamental_data_pipeline.py for tasks to queue
+[2024-01-06T19:44:32.698+0000] {logging_mixin.py:154} INFO - [2024-01-06T19:44:32.698+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/fundamental_data_pipeline.py
+[2024-01-06T19:44:33.085+0000] {processor.py:839} INFO - DAG(s) dict_keys(['downloading_fundamentals']) retrieved from /opt/airflow/dags/fundamental_data_pipeline.py
+[2024-01-06T19:44:33.105+0000] {logging_mixin.py:154} INFO - [2024-01-06T19:44:33.104+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-01-06T19:44:33.122+0000] {logging_mixin.py:154} INFO - [2024-01-06T19:44:33.122+0000] {dag.py:3722} INFO - Setting next_dagrun for downloading_fundamentals to 2024-01-06T00:00:00+00:00, run_after=2024-01-07T00:00:00+00:00
+[2024-01-06T19:44:33.139+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/fundamental_data_pipeline.py took 0.448 seconds
+[2024-01-06T19:45:03.325+0000] {processor.py:157} INFO - Started process (PID=353) to work on /opt/airflow/dags/fundamental_data_pipeline.py
+[2024-01-06T19:45:03.327+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/fundamental_data_pipeline.py for tasks to queue
+[2024-01-06T19:45:03.329+0000] {logging_mixin.py:154} INFO - [2024-01-06T19:45:03.329+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/fundamental_data_pipeline.py
+[2024-01-06T19:45:03.692+0000] {processor.py:839} INFO - DAG(s) dict_keys(['downloading_fundamentals']) retrieved from /opt/airflow/dags/fundamental_data_pipeline.py
+[2024-01-06T19:45:03.715+0000] {logging_mixin.py:154} INFO - [2024-01-06T19:45:03.714+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-01-06T19:45:03.734+0000] {logging_mixin.py:154} INFO - [2024-01-06T19:45:03.734+0000] {dag.py:3722} INFO - Setting next_dagrun for downloading_fundamentals to 2024-01-06T00:00:00+00:00, run_after=2024-01-07T00:00:00+00:00
+[2024-01-06T19:45:03.750+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/fundamental_data_pipeline.py took 0.428 seconds
+[2024-01-06T19:45:33.927+0000] {processor.py:157} INFO - Started process (PID=362) to work on /opt/airflow/dags/fundamental_data_pipeline.py
+[2024-01-06T19:45:33.928+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/fundamental_data_pipeline.py for tasks to queue
+[2024-01-06T19:45:33.930+0000] {logging_mixin.py:154} INFO - [2024-01-06T19:45:33.930+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/fundamental_data_pipeline.py
+[2024-01-06T19:45:34.347+0000] {processor.py:839} INFO - DAG(s) dict_keys(['downloading_fundamentals']) retrieved from /opt/airflow/dags/fundamental_data_pipeline.py
+[2024-01-06T19:45:34.368+0000] {logging_mixin.py:154} INFO - [2024-01-06T19:45:34.367+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-01-06T19:45:34.388+0000] {logging_mixin.py:154} INFO - [2024-01-06T19:45:34.388+0000] {dag.py:3722} INFO - Setting next_dagrun for downloading_fundamentals to 2024-01-06T00:00:00+00:00, run_after=2024-01-07T00:00:00+00:00
+[2024-01-06T19:45:34.405+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/fundamental_data_pipeline.py took 0.481 seconds
+[2024-01-06T19:47:42.711+0000] {processor.py:157} INFO - Started process (PID=38) to work on /opt/airflow/dags/fundamental_data_pipeline.py
+[2024-01-06T19:47:42.713+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/fundamental_data_pipeline.py for tasks to queue
+[2024-01-06T19:47:42.718+0000] {logging_mixin.py:154} INFO - [2024-01-06T19:47:42.718+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/fundamental_data_pipeline.py
+[2024-01-06T19:47:43.854+0000] {processor.py:839} INFO - DAG(s) dict_keys(['downloading_fundamentals']) retrieved from /opt/airflow/dags/fundamental_data_pipeline.py
+[2024-01-06T19:47:44.080+0000] {logging_mixin.py:154} INFO - [2024-01-06T19:47:44.079+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-01-06T19:47:44.118+0000] {logging_mixin.py:154} INFO - [2024-01-06T19:47:44.118+0000] {dag.py:3722} INFO - Setting next_dagrun for downloading_fundamentals to 2024-01-06T00:00:00+00:00, run_after=2024-01-07T00:00:00+00:00
+[2024-01-06T19:47:44.159+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/fundamental_data_pipeline.py took 1.451 seconds
+[2024-01-06T19:48:14.553+0000] {processor.py:157} INFO - Started process (PID=47) to work on /opt/airflow/dags/fundamental_data_pipeline.py
+[2024-01-06T19:48:14.555+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/fundamental_data_pipeline.py for tasks to queue
+[2024-01-06T19:48:14.575+0000] {logging_mixin.py:154} INFO - [2024-01-06T19:48:14.574+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/fundamental_data_pipeline.py
+[2024-01-06T19:48:15.945+0000] {processor.py:839} INFO - DAG(s) dict_keys(['downloading_fundamentals']) retrieved from /opt/airflow/dags/fundamental_data_pipeline.py
+[2024-01-06T19:48:15.987+0000] {logging_mixin.py:154} INFO - [2024-01-06T19:48:15.986+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-01-06T19:48:16.018+0000] {logging_mixin.py:154} INFO - [2024-01-06T19:48:16.017+0000] {dag.py:3722} INFO - Setting next_dagrun for downloading_fundamentals to 2024-01-06T00:00:00+00:00, run_after=2024-01-07T00:00:00+00:00
+[2024-01-06T19:48:16.040+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/fundamental_data_pipeline.py took 1.504 seconds
+[2024-01-06T19:48:46.252+0000] {processor.py:157} INFO - Started process (PID=56) to work on /opt/airflow/dags/fundamental_data_pipeline.py
+[2024-01-06T19:48:46.253+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/fundamental_data_pipeline.py for tasks to queue
+[2024-01-06T19:48:46.255+0000] {logging_mixin.py:154} INFO - [2024-01-06T19:48:46.254+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/fundamental_data_pipeline.py
+[2024-01-06T19:48:46.635+0000] {processor.py:839} INFO - DAG(s) dict_keys(['downloading_fundamentals']) retrieved from /opt/airflow/dags/fundamental_data_pipeline.py
+[2024-01-06T19:48:46.658+0000] {logging_mixin.py:154} INFO - [2024-01-06T19:48:46.657+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-01-06T19:48:46.682+0000] {logging_mixin.py:154} INFO - [2024-01-06T19:48:46.681+0000] {dag.py:3722} INFO - Setting next_dagrun for downloading_fundamentals to 2024-01-06T00:00:00+00:00, run_after=2024-01-07T00:00:00+00:00
+[2024-01-06T19:48:46.703+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/fundamental_data_pipeline.py took 0.454 seconds
+[2024-01-06T19:49:16.892+0000] {processor.py:157} INFO - Started process (PID=65) to work on /opt/airflow/dags/fundamental_data_pipeline.py
+[2024-01-06T19:49:16.893+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/fundamental_data_pipeline.py for tasks to queue
+[2024-01-06T19:49:16.895+0000] {logging_mixin.py:154} INFO - [2024-01-06T19:49:16.895+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/fundamental_data_pipeline.py
+[2024-01-06T19:49:17.268+0000] {processor.py:839} INFO - DAG(s) dict_keys(['downloading_fundamentals']) retrieved from /opt/airflow/dags/fundamental_data_pipeline.py
+[2024-01-06T19:49:17.287+0000] {logging_mixin.py:154} INFO - [2024-01-06T19:49:17.287+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-01-06T19:49:17.307+0000] {logging_mixin.py:154} INFO - [2024-01-06T19:49:17.307+0000] {dag.py:3722} INFO - Setting next_dagrun for downloading_fundamentals to 2024-01-06T00:00:00+00:00, run_after=2024-01-07T00:00:00+00:00
+[2024-01-06T19:49:17.323+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/fundamental_data_pipeline.py took 0.434 seconds
+[2024-01-06T19:49:47.509+0000] {processor.py:157} INFO - Started process (PID=74) to work on /opt/airflow/dags/fundamental_data_pipeline.py
+[2024-01-06T19:49:47.510+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/fundamental_data_pipeline.py for tasks to queue
+[2024-01-06T19:49:47.512+0000] {logging_mixin.py:154} INFO - [2024-01-06T19:49:47.512+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/fundamental_data_pipeline.py
+[2024-01-06T19:49:47.922+0000] {processor.py:839} INFO - DAG(s) dict_keys(['downloading_fundamentals']) retrieved from /opt/airflow/dags/fundamental_data_pipeline.py
+[2024-01-06T19:49:47.945+0000] {logging_mixin.py:154} INFO - [2024-01-06T19:49:47.944+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-01-06T19:49:47.965+0000] {logging_mixin.py:154} INFO - [2024-01-06T19:49:47.965+0000] {dag.py:3722} INFO - Setting next_dagrun for downloading_fundamentals to 2024-01-06T00:00:00+00:00, run_after=2024-01-07T00:00:00+00:00
+[2024-01-06T19:49:47.982+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/fundamental_data_pipeline.py took 0.477 seconds
+[2024-01-06T19:50:18.203+0000] {processor.py:157} INFO - Started process (PID=83) to work on /opt/airflow/dags/fundamental_data_pipeline.py
+[2024-01-06T19:50:18.205+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/fundamental_data_pipeline.py for tasks to queue
+[2024-01-06T19:50:18.207+0000] {logging_mixin.py:154} INFO - [2024-01-06T19:50:18.207+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/fundamental_data_pipeline.py
+[2024-01-06T19:50:18.598+0000] {processor.py:839} INFO - DAG(s) dict_keys(['downloading_fundamentals']) retrieved from /opt/airflow/dags/fundamental_data_pipeline.py
+[2024-01-06T19:50:18.619+0000] {logging_mixin.py:154} INFO - [2024-01-06T19:50:18.618+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-01-06T19:50:18.637+0000] {logging_mixin.py:154} INFO - [2024-01-06T19:50:18.636+0000] {dag.py:3722} INFO - Setting next_dagrun for downloading_fundamentals to 2024-01-06T00:00:00+00:00, run_after=2024-01-07T00:00:00+00:00
+[2024-01-06T19:50:18.653+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/fundamental_data_pipeline.py took 0.453 seconds
+[2024-01-06T19:50:48.870+0000] {processor.py:157} INFO - Started process (PID=92) to work on /opt/airflow/dags/fundamental_data_pipeline.py
+[2024-01-06T19:50:48.871+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/fundamental_data_pipeline.py for tasks to queue
+[2024-01-06T19:50:48.873+0000] {logging_mixin.py:154} INFO - [2024-01-06T19:50:48.873+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/fundamental_data_pipeline.py
+[2024-01-06T19:50:49.226+0000] {processor.py:839} INFO - DAG(s) dict_keys(['downloading_fundamentals']) retrieved from /opt/airflow/dags/fundamental_data_pipeline.py
+[2024-01-06T19:50:49.244+0000] {logging_mixin.py:154} INFO - [2024-01-06T19:50:49.244+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-01-06T19:50:49.264+0000] {logging_mixin.py:154} INFO - [2024-01-06T19:50:49.264+0000] {dag.py:3722} INFO - Setting next_dagrun for downloading_fundamentals to 2024-01-06T00:00:00+00:00, run_after=2024-01-07T00:00:00+00:00
+[2024-01-06T19:50:49.281+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/fundamental_data_pipeline.py took 0.414 seconds
+[2024-01-06T19:51:19.458+0000] {processor.py:157} INFO - Started process (PID=101) to work on /opt/airflow/dags/fundamental_data_pipeline.py
+[2024-01-06T19:51:19.459+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/fundamental_data_pipeline.py for tasks to queue
+[2024-01-06T19:51:19.461+0000] {logging_mixin.py:154} INFO - [2024-01-06T19:51:19.461+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/fundamental_data_pipeline.py
+[2024-01-06T19:51:19.867+0000] {processor.py:839} INFO - DAG(s) dict_keys(['downloading_fundamentals']) retrieved from /opt/airflow/dags/fundamental_data_pipeline.py
+[2024-01-06T19:51:19.887+0000] {logging_mixin.py:154} INFO - [2024-01-06T19:51:19.887+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-01-06T19:51:19.909+0000] {logging_mixin.py:154} INFO - [2024-01-06T19:51:19.909+0000] {dag.py:3722} INFO - Setting next_dagrun for downloading_fundamentals to 2024-01-06T00:00:00+00:00, run_after=2024-01-07T00:00:00+00:00
+[2024-01-06T19:51:19.928+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/fundamental_data_pipeline.py took 0.473 seconds
+[2024-01-06T19:51:50.138+0000] {processor.py:157} INFO - Started process (PID=110) to work on /opt/airflow/dags/fundamental_data_pipeline.py
+[2024-01-06T19:51:50.140+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/fundamental_data_pipeline.py for tasks to queue
+[2024-01-06T19:51:50.144+0000] {logging_mixin.py:154} INFO - [2024-01-06T19:51:50.143+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/fundamental_data_pipeline.py
+[2024-01-06T19:51:50.699+0000] {processor.py:839} INFO - DAG(s) dict_keys(['downloading_fundamentals']) retrieved from /opt/airflow/dags/fundamental_data_pipeline.py
+[2024-01-06T19:51:50.769+0000] {logging_mixin.py:154} INFO - [2024-01-06T19:51:50.768+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-01-06T19:51:50.810+0000] {logging_mixin.py:154} INFO - [2024-01-06T19:51:50.809+0000] {dag.py:3722} INFO - Setting next_dagrun for downloading_fundamentals to 2024-01-06T00:00:00+00:00, run_after=2024-01-07T00:00:00+00:00
+[2024-01-06T19:51:50.858+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/fundamental_data_pipeline.py took 0.725 seconds
+[2024-01-06T19:52:21.046+0000] {processor.py:157} INFO - Started process (PID=119) to work on /opt/airflow/dags/fundamental_data_pipeline.py
+[2024-01-06T19:52:21.047+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/fundamental_data_pipeline.py for tasks to queue
+[2024-01-06T19:52:21.051+0000] {logging_mixin.py:154} INFO - [2024-01-06T19:52:21.050+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/fundamental_data_pipeline.py
+[2024-01-06T19:52:21.496+0000] {processor.py:839} INFO - DAG(s) dict_keys(['downloading_fundamentals']) retrieved from /opt/airflow/dags/fundamental_data_pipeline.py
+[2024-01-06T19:52:21.518+0000] {logging_mixin.py:154} INFO - [2024-01-06T19:52:21.517+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-01-06T19:52:21.537+0000] {logging_mixin.py:154} INFO - [2024-01-06T19:52:21.537+0000] {dag.py:3722} INFO - Setting next_dagrun for downloading_fundamentals to 2024-01-06T00:00:00+00:00, run_after=2024-01-07T00:00:00+00:00
+[2024-01-06T19:52:21.558+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/fundamental_data_pipeline.py took 0.517 seconds
+[2024-01-06T19:52:51.798+0000] {processor.py:157} INFO - Started process (PID=128) to work on /opt/airflow/dags/fundamental_data_pipeline.py
+[2024-01-06T19:52:51.799+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/fundamental_data_pipeline.py for tasks to queue
+[2024-01-06T19:52:51.801+0000] {logging_mixin.py:154} INFO - [2024-01-06T19:52:51.801+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/fundamental_data_pipeline.py
+[2024-01-06T19:52:52.212+0000] {processor.py:839} INFO - DAG(s) dict_keys(['downloading_fundamentals']) retrieved from /opt/airflow/dags/fundamental_data_pipeline.py
+[2024-01-06T19:52:52.231+0000] {logging_mixin.py:154} INFO - [2024-01-06T19:52:52.231+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-01-06T19:52:52.250+0000] {logging_mixin.py:154} INFO - [2024-01-06T19:52:52.250+0000] {dag.py:3722} INFO - Setting next_dagrun for downloading_fundamentals to 2024-01-06T00:00:00+00:00, run_after=2024-01-07T00:00:00+00:00
+[2024-01-06T19:52:52.267+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/fundamental_data_pipeline.py took 0.473 seconds
+[2024-01-06T19:53:22.359+0000] {processor.py:157} INFO - Started process (PID=138) to work on /opt/airflow/dags/fundamental_data_pipeline.py
+[2024-01-06T19:53:22.360+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/fundamental_data_pipeline.py for tasks to queue
+[2024-01-06T19:53:22.362+0000] {logging_mixin.py:154} INFO - [2024-01-06T19:53:22.362+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/fundamental_data_pipeline.py
+[2024-01-06T19:53:22.790+0000] {processor.py:839} INFO - DAG(s) dict_keys(['downloading_fundamentals']) retrieved from /opt/airflow/dags/fundamental_data_pipeline.py
+[2024-01-06T19:53:22.809+0000] {logging_mixin.py:154} INFO - [2024-01-06T19:53:22.809+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-01-06T19:53:22.828+0000] {logging_mixin.py:154} INFO - [2024-01-06T19:53:22.827+0000] {dag.py:3722} INFO - Setting next_dagrun for downloading_fundamentals to 2024-01-06T00:00:00+00:00, run_after=2024-01-07T00:00:00+00:00
+[2024-01-06T19:53:22.846+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/fundamental_data_pipeline.py took 0.490 seconds
+[2024-01-06T19:53:53.032+0000] {processor.py:157} INFO - Started process (PID=147) to work on /opt/airflow/dags/fundamental_data_pipeline.py
+[2024-01-06T19:53:53.033+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/fundamental_data_pipeline.py for tasks to queue
+[2024-01-06T19:53:53.035+0000] {logging_mixin.py:154} INFO - [2024-01-06T19:53:53.035+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/fundamental_data_pipeline.py
+[2024-01-06T19:53:53.397+0000] {processor.py:839} INFO - DAG(s) dict_keys(['downloading_fundamentals']) retrieved from /opt/airflow/dags/fundamental_data_pipeline.py
+[2024-01-06T19:53:53.417+0000] {logging_mixin.py:154} INFO - [2024-01-06T19:53:53.417+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-01-06T19:53:53.436+0000] {logging_mixin.py:154} INFO - [2024-01-06T19:53:53.436+0000] {dag.py:3722} INFO - Setting next_dagrun for downloading_fundamentals to 2024-01-06T00:00:00+00:00, run_after=2024-01-07T00:00:00+00:00
+[2024-01-06T19:53:53.453+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/fundamental_data_pipeline.py took 0.424 seconds
+[2024-01-06T19:54:23.685+0000] {processor.py:157} INFO - Started process (PID=156) to work on /opt/airflow/dags/fundamental_data_pipeline.py
+[2024-01-06T19:54:23.688+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/fundamental_data_pipeline.py for tasks to queue
+[2024-01-06T19:54:23.690+0000] {logging_mixin.py:154} INFO - [2024-01-06T19:54:23.690+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/fundamental_data_pipeline.py
+[2024-01-06T19:58:01.732+0000] {processor.py:157} INFO - Started process (PID=39) to work on /opt/airflow/dags/fundamental_data_pipeline.py
+[2024-01-06T19:58:01.733+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/fundamental_data_pipeline.py for tasks to queue
+[2024-01-06T19:58:01.740+0000] {logging_mixin.py:154} INFO - [2024-01-06T19:58:01.739+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/fundamental_data_pipeline.py
+[2024-01-06T19:58:07.338+0000] {processor.py:839} INFO - DAG(s) dict_keys(['downloading_fundamentals']) retrieved from /opt/airflow/dags/fundamental_data_pipeline.py
+[2024-01-06T19:58:07.621+0000] {logging_mixin.py:154} INFO - [2024-01-06T19:58:07.621+0000] {manager.py:499} INFO - Created Permission View: %s
+[2024-01-06T19:58:07.634+0000] {logging_mixin.py:154} INFO - [2024-01-06T19:58:07.633+0000] {manager.py:499} INFO - Created Permission View: %s
+[2024-01-06T19:58:07.642+0000] {logging_mixin.py:154} INFO - [2024-01-06T19:58:07.642+0000] {manager.py:499} INFO - Created Permission View: %s
+[2024-01-06T19:58:07.643+0000] {logging_mixin.py:154} INFO - [2024-01-06T19:58:07.643+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-01-06T19:58:07.655+0000] {logging_mixin.py:154} INFO - [2024-01-06T19:58:07.654+0000] {dag.py:2963} INFO - Creating ORM DAG for downloading_fundamentals
+[2024-01-06T19:58:07.666+0000] {logging_mixin.py:154} INFO - [2024-01-06T19:58:07.666+0000] {dag.py:3722} INFO - Setting next_dagrun for downloading_fundamentals to 2024-01-05T00:00:00+00:00, run_after=2024-01-06T00:00:00+00:00
+[2024-01-06T19:58:07.692+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/fundamental_data_pipeline.py took 5.967 seconds
+[2024-01-06T19:58:38.474+0000] {processor.py:157} INFO - Started process (PID=48) to work on /opt/airflow/dags/fundamental_data_pipeline.py
+[2024-01-06T19:58:38.476+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/fundamental_data_pipeline.py for tasks to queue
+[2024-01-06T19:58:38.521+0000] {logging_mixin.py:154} INFO - [2024-01-06T19:58:38.519+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/fundamental_data_pipeline.py
+[2024-01-06T19:58:41.383+0000] {processor.py:839} INFO - DAG(s) dict_keys(['downloading_fundamentals']) retrieved from /opt/airflow/dags/fundamental_data_pipeline.py
+[2024-01-06T19:58:41.433+0000] {logging_mixin.py:154} INFO - [2024-01-06T19:58:41.433+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-01-06T19:58:41.493+0000] {logging_mixin.py:154} INFO - [2024-01-06T19:58:41.492+0000] {dag.py:3722} INFO - Setting next_dagrun for downloading_fundamentals to 2024-01-05T00:00:00+00:00, run_after=2024-01-06T00:00:00+00:00
+[2024-01-06T19:58:41.519+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/fundamental_data_pipeline.py took 3.096 seconds
+[2024-01-06T19:59:11.701+0000] {processor.py:157} INFO - Started process (PID=57) to work on /opt/airflow/dags/fundamental_data_pipeline.py
+[2024-01-06T19:59:11.703+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/fundamental_data_pipeline.py for tasks to queue
+[2024-01-06T19:59:11.707+0000] {logging_mixin.py:154} INFO - [2024-01-06T19:59:11.707+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/fundamental_data_pipeline.py
+[2024-01-06T19:59:12.407+0000] {processor.py:839} INFO - DAG(s) dict_keys(['downloading_fundamentals']) retrieved from /opt/airflow/dags/fundamental_data_pipeline.py
+[2024-01-06T19:59:12.429+0000] {logging_mixin.py:154} INFO - [2024-01-06T19:59:12.428+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-01-06T19:59:12.451+0000] {logging_mixin.py:154} INFO - [2024-01-06T19:59:12.451+0000] {dag.py:3722} INFO - Setting next_dagrun for downloading_fundamentals to 2024-01-05T00:00:00+00:00, run_after=2024-01-06T00:00:00+00:00
+[2024-01-06T19:59:12.472+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/fundamental_data_pipeline.py took 0.775 seconds
+[2024-01-06T19:59:42.714+0000] {processor.py:157} INFO - Started process (PID=66) to work on /opt/airflow/dags/fundamental_data_pipeline.py
+[2024-01-06T19:59:42.715+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/fundamental_data_pipeline.py for tasks to queue
+[2024-01-06T19:59:42.721+0000] {logging_mixin.py:154} INFO - [2024-01-06T19:59:42.720+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/fundamental_data_pipeline.py
+[2024-01-06T19:59:43.280+0000] {processor.py:839} INFO - DAG(s) dict_keys(['downloading_fundamentals']) retrieved from /opt/airflow/dags/fundamental_data_pipeline.py
+[2024-01-06T19:59:43.309+0000] {logging_mixin.py:154} INFO - [2024-01-06T19:59:43.309+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-01-06T19:59:43.332+0000] {logging_mixin.py:154} INFO - [2024-01-06T19:59:43.331+0000] {dag.py:3722} INFO - Setting next_dagrun for downloading_fundamentals to 2024-01-05T00:00:00+00:00, run_after=2024-01-06T00:00:00+00:00
+[2024-01-06T19:59:43.348+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/fundamental_data_pipeline.py took 0.639 seconds
+[2024-01-06T20:00:13.578+0000] {processor.py:157} INFO - Started process (PID=75) to work on /opt/airflow/dags/fundamental_data_pipeline.py
+[2024-01-06T20:00:13.579+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/fundamental_data_pipeline.py for tasks to queue
+[2024-01-06T20:00:13.582+0000] {logging_mixin.py:154} INFO - [2024-01-06T20:00:13.581+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/fundamental_data_pipeline.py
+[2024-01-06T20:00:14.128+0000] {processor.py:839} INFO - DAG(s) dict_keys(['downloading_fundamentals']) retrieved from /opt/airflow/dags/fundamental_data_pipeline.py
+[2024-01-06T20:00:14.163+0000] {logging_mixin.py:154} INFO - [2024-01-06T20:00:14.162+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-01-06T20:00:14.182+0000] {logging_mixin.py:154} INFO - [2024-01-06T20:00:14.182+0000] {dag.py:3722} INFO - Setting next_dagrun for downloading_fundamentals to 2024-01-05T00:00:00+00:00, run_after=2024-01-06T00:00:00+00:00
+[2024-01-06T20:00:14.201+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/fundamental_data_pipeline.py took 0.626 seconds
+[2024-01-06T20:00:44.954+0000] {processor.py:157} INFO - Started process (PID=84) to work on /opt/airflow/dags/fundamental_data_pipeline.py
+[2024-01-06T20:00:44.956+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/fundamental_data_pipeline.py for tasks to queue
+[2024-01-06T20:00:44.960+0000] {logging_mixin.py:154} INFO - [2024-01-06T20:00:44.960+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/fundamental_data_pipeline.py
+[2024-01-06T20:00:45.517+0000] {processor.py:839} INFO - DAG(s) dict_keys(['downloading_fundamentals']) retrieved from /opt/airflow/dags/fundamental_data_pipeline.py
+[2024-01-06T20:00:45.543+0000] {logging_mixin.py:154} INFO - [2024-01-06T20:00:45.542+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-01-06T20:00:45.564+0000] {logging_mixin.py:154} INFO - [2024-01-06T20:00:45.564+0000] {dag.py:3722} INFO - Setting next_dagrun for downloading_fundamentals to 2024-01-05T00:00:00+00:00, run_after=2024-01-06T00:00:00+00:00
+[2024-01-06T20:00:45.586+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/fundamental_data_pipeline.py took 0.637 seconds
+[2024-01-06T20:01:15.793+0000] {processor.py:157} INFO - Started process (PID=93) to work on /opt/airflow/dags/fundamental_data_pipeline.py
+[2024-01-06T20:01:15.794+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/fundamental_data_pipeline.py for tasks to queue
+[2024-01-06T20:01:15.797+0000] {logging_mixin.py:154} INFO - [2024-01-06T20:01:15.797+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/fundamental_data_pipeline.py
+[2024-01-06T20:01:16.222+0000] {processor.py:839} INFO - DAG(s) dict_keys(['downloading_fundamentals']) retrieved from /opt/airflow/dags/fundamental_data_pipeline.py
+[2024-01-06T20:01:16.245+0000] {logging_mixin.py:154} INFO - [2024-01-06T20:01:16.245+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-01-06T20:01:16.267+0000] {logging_mixin.py:154} INFO - [2024-01-06T20:01:16.267+0000] {dag.py:3722} INFO - Setting next_dagrun for downloading_fundamentals to 2024-01-05T00:00:00+00:00, run_after=2024-01-06T00:00:00+00:00
+[2024-01-06T20:01:16.289+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/fundamental_data_pipeline.py took 0.500 seconds
+[2024-01-06T20:01:46.475+0000] {processor.py:157} INFO - Started process (PID=102) to work on /opt/airflow/dags/fundamental_data_pipeline.py
+[2024-01-06T20:01:46.476+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/fundamental_data_pipeline.py for tasks to queue
+[2024-01-06T20:01:46.478+0000] {logging_mixin.py:154} INFO - [2024-01-06T20:01:46.478+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/fundamental_data_pipeline.py
+[2024-01-06T20:01:46.893+0000] {processor.py:839} INFO - DAG(s) dict_keys(['downloading_fundamentals']) retrieved from /opt/airflow/dags/fundamental_data_pipeline.py
+[2024-01-06T20:01:46.915+0000] {logging_mixin.py:154} INFO - [2024-01-06T20:01:46.915+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-01-06T20:01:46.938+0000] {logging_mixin.py:154} INFO - [2024-01-06T20:01:46.938+0000] {dag.py:3722} INFO - Setting next_dagrun for downloading_fundamentals to 2024-01-05T00:00:00+00:00, run_after=2024-01-06T00:00:00+00:00
+[2024-01-06T20:01:46.958+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/fundamental_data_pipeline.py took 0.487 seconds
+[2024-01-06T20:02:17.156+0000] {processor.py:157} INFO - Started process (PID=111) to work on /opt/airflow/dags/fundamental_data_pipeline.py
+[2024-01-06T20:02:17.158+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/fundamental_data_pipeline.py for tasks to queue
+[2024-01-06T20:02:17.161+0000] {logging_mixin.py:154} INFO - [2024-01-06T20:02:17.160+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/fundamental_data_pipeline.py
+[2024-01-06T20:02:17.619+0000] {processor.py:839} INFO - DAG(s) dict_keys(['downloading_fundamentals']) retrieved from /opt/airflow/dags/fundamental_data_pipeline.py
+[2024-01-06T20:02:17.640+0000] {logging_mixin.py:154} INFO - [2024-01-06T20:02:17.640+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-01-06T20:02:17.661+0000] {logging_mixin.py:154} INFO - [2024-01-06T20:02:17.661+0000] {dag.py:3722} INFO - Setting next_dagrun for downloading_fundamentals to 2024-01-05T00:00:00+00:00, run_after=2024-01-06T00:00:00+00:00
+[2024-01-06T20:02:17.681+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/fundamental_data_pipeline.py took 0.528 seconds
+[2024-01-06T20:02:47.793+0000] {processor.py:157} INFO - Started process (PID=120) to work on /opt/airflow/dags/fundamental_data_pipeline.py
+[2024-01-06T20:02:47.794+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/fundamental_data_pipeline.py for tasks to queue
+[2024-01-06T20:02:47.796+0000] {logging_mixin.py:154} INFO - [2024-01-06T20:02:47.796+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/fundamental_data_pipeline.py
+[2024-01-06T20:02:48.198+0000] {processor.py:839} INFO - DAG(s) dict_keys(['downloading_fundamentals']) retrieved from /opt/airflow/dags/fundamental_data_pipeline.py
+[2024-01-06T20:02:48.218+0000] {logging_mixin.py:154} INFO - [2024-01-06T20:02:48.218+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-01-06T20:02:48.238+0000] {logging_mixin.py:154} INFO - [2024-01-06T20:02:48.237+0000] {dag.py:3722} INFO - Setting next_dagrun for downloading_fundamentals to 2024-01-05T00:00:00+00:00, run_after=2024-01-06T00:00:00+00:00
+[2024-01-06T20:02:48.255+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/fundamental_data_pipeline.py took 0.465 seconds
+[2024-01-06T20:03:18.437+0000] {processor.py:157} INFO - Started process (PID=136) to work on /opt/airflow/dags/fundamental_data_pipeline.py
+[2024-01-06T20:03:18.438+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/fundamental_data_pipeline.py for tasks to queue
+[2024-01-06T20:03:18.442+0000] {logging_mixin.py:154} INFO - [2024-01-06T20:03:18.441+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/fundamental_data_pipeline.py
+[2024-01-06T20:03:18.830+0000] {processor.py:839} INFO - DAG(s) dict_keys(['downloading_fundamentals']) retrieved from /opt/airflow/dags/fundamental_data_pipeline.py
+[2024-01-06T20:03:18.850+0000] {logging_mixin.py:154} INFO - [2024-01-06T20:03:18.850+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-01-06T20:03:18.868+0000] {logging_mixin.py:154} INFO - [2024-01-06T20:03:18.868+0000] {dag.py:3722} INFO - Setting next_dagrun for downloading_fundamentals to 2024-01-05T00:00:00+00:00, run_after=2024-01-06T00:00:00+00:00
+[2024-01-06T20:03:18.886+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/fundamental_data_pipeline.py took 0.453 seconds
+[2024-01-06T20:03:49.100+0000] {processor.py:157} INFO - Started process (PID=145) to work on /opt/airflow/dags/fundamental_data_pipeline.py
+[2024-01-06T20:03:49.101+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/fundamental_data_pipeline.py for tasks to queue
+[2024-01-06T20:03:49.104+0000] {logging_mixin.py:154} INFO - [2024-01-06T20:03:49.103+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/fundamental_data_pipeline.py
+[2024-01-06T20:03:49.639+0000] {processor.py:839} INFO - DAG(s) dict_keys(['downloading_fundamentals']) retrieved from /opt/airflow/dags/fundamental_data_pipeline.py
+[2024-01-06T20:03:49.676+0000] {logging_mixin.py:154} INFO - [2024-01-06T20:03:49.675+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-01-06T20:03:49.713+0000] {logging_mixin.py:154} INFO - [2024-01-06T20:03:49.713+0000] {dag.py:3722} INFO - Setting next_dagrun for downloading_fundamentals to 2024-01-05T00:00:00+00:00, run_after=2024-01-06T00:00:00+00:00
+[2024-01-06T20:03:49.737+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/fundamental_data_pipeline.py took 0.641 seconds
+[2024-01-06T20:04:19.821+0000] {processor.py:157} INFO - Started process (PID=154) to work on /opt/airflow/dags/fundamental_data_pipeline.py
+[2024-01-06T20:04:19.823+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/fundamental_data_pipeline.py for tasks to queue
+[2024-01-06T20:04:19.826+0000] {logging_mixin.py:154} INFO - [2024-01-06T20:04:19.825+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/fundamental_data_pipeline.py
+[2024-01-06T20:04:20.490+0000] {processor.py:839} INFO - DAG(s) dict_keys(['downloading_fundamentals']) retrieved from /opt/airflow/dags/fundamental_data_pipeline.py
+[2024-01-06T20:04:20.534+0000] {logging_mixin.py:154} INFO - [2024-01-06T20:04:20.533+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-01-06T20:04:20.568+0000] {logging_mixin.py:154} INFO - [2024-01-06T20:04:20.567+0000] {dag.py:3722} INFO - Setting next_dagrun for downloading_fundamentals to 2024-01-05T00:00:00+00:00, run_after=2024-01-06T00:00:00+00:00
+[2024-01-06T20:04:20.603+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/fundamental_data_pipeline.py took 0.786 seconds
+[2024-01-06T20:04:50.874+0000] {processor.py:157} INFO - Started process (PID=163) to work on /opt/airflow/dags/fundamental_data_pipeline.py
+[2024-01-06T20:04:50.876+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/fundamental_data_pipeline.py for tasks to queue
+[2024-01-06T20:04:50.881+0000] {logging_mixin.py:154} INFO - [2024-01-06T20:04:50.880+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/fundamental_data_pipeline.py
+[2024-01-06T20:04:51.847+0000] {processor.py:839} INFO - DAG(s) dict_keys(['downloading_fundamentals']) retrieved from /opt/airflow/dags/fundamental_data_pipeline.py
+[2024-01-06T20:04:51.870+0000] {logging_mixin.py:154} INFO - [2024-01-06T20:04:51.870+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-01-06T20:04:51.897+0000] {logging_mixin.py:154} INFO - [2024-01-06T20:04:51.897+0000] {dag.py:3722} INFO - Setting next_dagrun for downloading_fundamentals to 2024-01-05T00:00:00+00:00, run_after=2024-01-06T00:00:00+00:00
+[2024-01-06T20:04:51.925+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/fundamental_data_pipeline.py took 1.057 seconds
+[2024-01-06T20:05:22.040+0000] {processor.py:157} INFO - Started process (PID=172) to work on /opt/airflow/dags/fundamental_data_pipeline.py
+[2024-01-06T20:05:22.041+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/fundamental_data_pipeline.py for tasks to queue
+[2024-01-06T20:05:22.044+0000] {logging_mixin.py:154} INFO - [2024-01-06T20:05:22.044+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/fundamental_data_pipeline.py
+[2024-01-06T20:05:22.591+0000] {processor.py:839} INFO - DAG(s) dict_keys(['downloading_fundamentals']) retrieved from /opt/airflow/dags/fundamental_data_pipeline.py
+[2024-01-06T20:05:22.639+0000] {logging_mixin.py:154} INFO - [2024-01-06T20:05:22.638+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-01-06T20:05:22.677+0000] {logging_mixin.py:154} INFO - [2024-01-06T20:05:22.677+0000] {dag.py:3722} INFO - Setting next_dagrun for downloading_fundamentals to 2024-01-05T00:00:00+00:00, run_after=2024-01-06T00:00:00+00:00
+[2024-01-06T20:05:22.705+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/fundamental_data_pipeline.py took 0.670 seconds
+[2024-01-06T20:05:52.925+0000] {processor.py:157} INFO - Started process (PID=181) to work on /opt/airflow/dags/fundamental_data_pipeline.py
+[2024-01-06T20:05:52.926+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/fundamental_data_pipeline.py for tasks to queue
+[2024-01-06T20:05:52.930+0000] {logging_mixin.py:154} INFO - [2024-01-06T20:05:52.929+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/fundamental_data_pipeline.py
+[2024-01-06T20:05:53.409+0000] {processor.py:839} INFO - DAG(s) dict_keys(['downloading_fundamentals']) retrieved from /opt/airflow/dags/fundamental_data_pipeline.py
+[2024-01-06T20:05:53.437+0000] {logging_mixin.py:154} INFO - [2024-01-06T20:05:53.436+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-01-06T20:05:53.471+0000] {logging_mixin.py:154} INFO - [2024-01-06T20:05:53.471+0000] {dag.py:3722} INFO - Setting next_dagrun for downloading_fundamentals to 2024-01-05T00:00:00+00:00, run_after=2024-01-06T00:00:00+00:00
+[2024-01-06T20:05:53.500+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/fundamental_data_pipeline.py took 0.579 seconds
+[2024-01-06T20:06:23.707+0000] {processor.py:157} INFO - Started process (PID=191) to work on /opt/airflow/dags/fundamental_data_pipeline.py
+[2024-01-06T20:06:23.709+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/fundamental_data_pipeline.py for tasks to queue
+[2024-01-06T20:06:23.712+0000] {logging_mixin.py:154} INFO - [2024-01-06T20:06:23.712+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/fundamental_data_pipeline.py
+[2024-01-06T20:06:24.429+0000] {processor.py:839} INFO - DAG(s) dict_keys(['downloading_fundamentals']) retrieved from /opt/airflow/dags/fundamental_data_pipeline.py
+[2024-01-06T20:06:24.453+0000] {logging_mixin.py:154} INFO - [2024-01-06T20:06:24.452+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-01-06T20:06:24.473+0000] {logging_mixin.py:154} INFO - [2024-01-06T20:06:24.473+0000] {dag.py:3722} INFO - Setting next_dagrun for downloading_fundamentals to 2024-01-05T00:00:00+00:00, run_after=2024-01-06T00:00:00+00:00
+[2024-01-06T20:06:24.491+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/fundamental_data_pipeline.py took 0.788 seconds
+[2024-01-06T20:06:54.643+0000] {processor.py:157} INFO - Started process (PID=200) to work on /opt/airflow/dags/fundamental_data_pipeline.py
+[2024-01-06T20:06:54.644+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/fundamental_data_pipeline.py for tasks to queue
+[2024-01-06T20:06:54.647+0000] {logging_mixin.py:154} INFO - [2024-01-06T20:06:54.647+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/fundamental_data_pipeline.py
+[2024-01-06T20:06:55.072+0000] {processor.py:839} INFO - DAG(s) dict_keys(['downloading_fundamentals']) retrieved from /opt/airflow/dags/fundamental_data_pipeline.py
+[2024-01-06T20:06:55.105+0000] {logging_mixin.py:154} INFO - [2024-01-06T20:06:55.104+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-01-06T20:06:55.137+0000] {logging_mixin.py:154} INFO - [2024-01-06T20:06:55.136+0000] {dag.py:3722} INFO - Setting next_dagrun for downloading_fundamentals to 2024-01-05T00:00:00+00:00, run_after=2024-01-06T00:00:00+00:00
+[2024-01-06T20:06:55.159+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/fundamental_data_pipeline.py took 0.519 seconds
+[2024-01-06T20:07:25.346+0000] {processor.py:157} INFO - Started process (PID=209) to work on /opt/airflow/dags/fundamental_data_pipeline.py
+[2024-01-06T20:07:25.347+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/fundamental_data_pipeline.py for tasks to queue
+[2024-01-06T20:07:25.349+0000] {logging_mixin.py:154} INFO - [2024-01-06T20:07:25.349+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/fundamental_data_pipeline.py
+[2024-01-06T20:07:25.765+0000] {processor.py:839} INFO - DAG(s) dict_keys(['downloading_fundamentals']) retrieved from /opt/airflow/dags/fundamental_data_pipeline.py
+[2024-01-06T20:07:25.786+0000] {logging_mixin.py:154} INFO - [2024-01-06T20:07:25.785+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-01-06T20:07:25.821+0000] {logging_mixin.py:154} INFO - [2024-01-06T20:07:25.821+0000] {dag.py:3722} INFO - Setting next_dagrun for downloading_fundamentals to 2024-01-05T00:00:00+00:00, run_after=2024-01-06T00:00:00+00:00
+[2024-01-06T20:07:25.846+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/fundamental_data_pipeline.py took 0.503 seconds
+[2024-01-06T20:07:55.997+0000] {processor.py:157} INFO - Started process (PID=218) to work on /opt/airflow/dags/fundamental_data_pipeline.py
+[2024-01-06T20:07:55.998+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/fundamental_data_pipeline.py for tasks to queue
+[2024-01-06T20:07:56.000+0000] {logging_mixin.py:154} INFO - [2024-01-06T20:07:56.000+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/fundamental_data_pipeline.py
+[2024-01-06T20:07:56.682+0000] {processor.py:839} INFO - DAG(s) dict_keys(['downloading_fundamentals']) retrieved from /opt/airflow/dags/fundamental_data_pipeline.py
+[2024-01-06T20:07:56.727+0000] {logging_mixin.py:154} INFO - [2024-01-06T20:07:56.726+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-01-06T20:07:56.755+0000] {logging_mixin.py:154} INFO - [2024-01-06T20:07:56.755+0000] {dag.py:3722} INFO - Setting next_dagrun for downloading_fundamentals to 2024-01-05T00:00:00+00:00, run_after=2024-01-06T00:00:00+00:00
+[2024-01-06T20:07:56.780+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/fundamental_data_pipeline.py took 0.786 seconds
+[2024-01-06T20:08:26.990+0000] {processor.py:157} INFO - Started process (PID=227) to work on /opt/airflow/dags/fundamental_data_pipeline.py
+[2024-01-06T20:08:26.991+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/fundamental_data_pipeline.py for tasks to queue
+[2024-01-06T20:08:26.998+0000] {logging_mixin.py:154} INFO - [2024-01-06T20:08:26.998+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/fundamental_data_pipeline.py
+[2024-01-06T20:08:27.504+0000] {processor.py:839} INFO - DAG(s) dict_keys(['downloading_fundamentals']) retrieved from /opt/airflow/dags/fundamental_data_pipeline.py
+[2024-01-06T20:08:27.524+0000] {logging_mixin.py:154} INFO - [2024-01-06T20:08:27.523+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-01-06T20:08:27.549+0000] {logging_mixin.py:154} INFO - [2024-01-06T20:08:27.549+0000] {dag.py:3722} INFO - Setting next_dagrun for downloading_fundamentals to 2024-01-05T00:00:00+00:00, run_after=2024-01-06T00:00:00+00:00
+[2024-01-06T20:08:27.571+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/fundamental_data_pipeline.py took 0.585 seconds
+[2024-01-06T20:08:57.775+0000] {processor.py:157} INFO - Started process (PID=236) to work on /opt/airflow/dags/fundamental_data_pipeline.py
+[2024-01-06T20:08:57.776+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/fundamental_data_pipeline.py for tasks to queue
+[2024-01-06T20:08:57.778+0000] {logging_mixin.py:154} INFO - [2024-01-06T20:08:57.778+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/fundamental_data_pipeline.py
+[2024-01-06T20:08:58.166+0000] {processor.py:839} INFO - DAG(s) dict_keys(['downloading_fundamentals']) retrieved from /opt/airflow/dags/fundamental_data_pipeline.py
+[2024-01-06T20:08:58.201+0000] {logging_mixin.py:154} INFO - [2024-01-06T20:08:58.201+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-01-06T20:08:58.230+0000] {logging_mixin.py:154} INFO - [2024-01-06T20:08:58.230+0000] {dag.py:3722} INFO - Setting next_dagrun for downloading_fundamentals to 2024-01-05T00:00:00+00:00, run_after=2024-01-06T00:00:00+00:00
+[2024-01-06T20:08:58.266+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/fundamental_data_pipeline.py took 0.494 seconds
+[2024-01-06T20:09:28.482+0000] {processor.py:157} INFO - Started process (PID=245) to work on /opt/airflow/dags/fundamental_data_pipeline.py
+[2024-01-06T20:09:28.484+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/fundamental_data_pipeline.py for tasks to queue
+[2024-01-06T20:09:28.487+0000] {logging_mixin.py:154} INFO - [2024-01-06T20:09:28.487+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/fundamental_data_pipeline.py
+[2024-01-06T20:09:28.896+0000] {processor.py:839} INFO - DAG(s) dict_keys(['downloading_fundamentals']) retrieved from /opt/airflow/dags/fundamental_data_pipeline.py
+[2024-01-06T20:09:28.916+0000] {logging_mixin.py:154} INFO - [2024-01-06T20:09:28.915+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-01-06T20:09:28.934+0000] {logging_mixin.py:154} INFO - [2024-01-06T20:09:28.934+0000] {dag.py:3722} INFO - Setting next_dagrun for downloading_fundamentals to 2024-01-05T00:00:00+00:00, run_after=2024-01-06T00:00:00+00:00
+[2024-01-06T20:09:28.950+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/fundamental_data_pipeline.py took 0.474 seconds
+[2024-01-06T20:09:59.123+0000] {processor.py:157} INFO - Started process (PID=254) to work on /opt/airflow/dags/fundamental_data_pipeline.py
+[2024-01-06T20:09:59.124+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/fundamental_data_pipeline.py for tasks to queue
+[2024-01-06T20:09:59.127+0000] {logging_mixin.py:154} INFO - [2024-01-06T20:09:59.127+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/fundamental_data_pipeline.py
+[2024-01-06T20:09:59.772+0000] {processor.py:839} INFO - DAG(s) dict_keys(['downloading_fundamentals']) retrieved from /opt/airflow/dags/fundamental_data_pipeline.py
+[2024-01-06T20:09:59.798+0000] {logging_mixin.py:154} INFO - [2024-01-06T20:09:59.797+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-01-06T20:09:59.824+0000] {logging_mixin.py:154} INFO - [2024-01-06T20:09:59.824+0000] {dag.py:3722} INFO - Setting next_dagrun for downloading_fundamentals to 2024-01-05T00:00:00+00:00, run_after=2024-01-06T00:00:00+00:00
+[2024-01-06T20:09:59.859+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/fundamental_data_pipeline.py took 0.738 seconds
+[2024-01-06T20:10:30.084+0000] {processor.py:157} INFO - Started process (PID=263) to work on /opt/airflow/dags/fundamental_data_pipeline.py
+[2024-01-06T20:10:30.086+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/fundamental_data_pipeline.py for tasks to queue
+[2024-01-06T20:10:30.088+0000] {logging_mixin.py:154} INFO - [2024-01-06T20:10:30.088+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/fundamental_data_pipeline.py
+[2024-01-06T20:10:30.486+0000] {processor.py:839} INFO - DAG(s) dict_keys(['downloading_fundamentals']) retrieved from /opt/airflow/dags/fundamental_data_pipeline.py
+[2024-01-06T20:10:30.506+0000] {logging_mixin.py:154} INFO - [2024-01-06T20:10:30.506+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-01-06T20:10:30.527+0000] {logging_mixin.py:154} INFO - [2024-01-06T20:10:30.526+0000] {dag.py:3722} INFO - Setting next_dagrun for downloading_fundamentals to 2024-01-05T00:00:00+00:00, run_after=2024-01-06T00:00:00+00:00
+[2024-01-06T20:10:30.547+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/fundamental_data_pipeline.py took 0.467 seconds
+[2024-01-06T20:11:00.726+0000] {processor.py:157} INFO - Started process (PID=272) to work on /opt/airflow/dags/fundamental_data_pipeline.py
+[2024-01-06T20:11:00.727+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/fundamental_data_pipeline.py for tasks to queue
+[2024-01-06T20:11:00.729+0000] {logging_mixin.py:154} INFO - [2024-01-06T20:11:00.729+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/fundamental_data_pipeline.py
+[2024-01-06T20:11:01.139+0000] {processor.py:839} INFO - DAG(s) dict_keys(['downloading_fundamentals']) retrieved from /opt/airflow/dags/fundamental_data_pipeline.py
+[2024-01-06T20:11:01.160+0000] {logging_mixin.py:154} INFO - [2024-01-06T20:11:01.159+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-01-06T20:11:01.179+0000] {logging_mixin.py:154} INFO - [2024-01-06T20:11:01.178+0000] {dag.py:3722} INFO - Setting next_dagrun for downloading_fundamentals to 2024-01-05T00:00:00+00:00, run_after=2024-01-06T00:00:00+00:00
+[2024-01-06T20:11:01.194+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/fundamental_data_pipeline.py took 0.472 seconds
+[2024-01-06T20:11:31.390+0000] {processor.py:157} INFO - Started process (PID=281) to work on /opt/airflow/dags/fundamental_data_pipeline.py
+[2024-01-06T20:11:31.391+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/fundamental_data_pipeline.py for tasks to queue
+[2024-01-06T20:11:31.393+0000] {logging_mixin.py:154} INFO - [2024-01-06T20:11:31.393+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/fundamental_data_pipeline.py
+[2024-01-06T20:11:31.803+0000] {processor.py:839} INFO - DAG(s) dict_keys(['downloading_fundamentals']) retrieved from /opt/airflow/dags/fundamental_data_pipeline.py
+[2024-01-06T20:11:31.827+0000] {logging_mixin.py:154} INFO - [2024-01-06T20:11:31.827+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-01-06T20:11:31.849+0000] {logging_mixin.py:154} INFO - [2024-01-06T20:11:31.849+0000] {dag.py:3722} INFO - Setting next_dagrun for downloading_fundamentals to 2024-01-05T00:00:00+00:00, run_after=2024-01-06T00:00:00+00:00
+[2024-01-06T20:11:31.871+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/fundamental_data_pipeline.py took 0.484 seconds
+[2024-01-06T20:12:02.094+0000] {processor.py:157} INFO - Started process (PID=290) to work on /opt/airflow/dags/fundamental_data_pipeline.py
+[2024-01-06T20:12:02.097+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/fundamental_data_pipeline.py for tasks to queue
+[2024-01-06T20:12:02.100+0000] {logging_mixin.py:154} INFO - [2024-01-06T20:12:02.100+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/fundamental_data_pipeline.py
+[2024-01-06T20:12:02.497+0000] {processor.py:839} INFO - DAG(s) dict_keys(['downloading_fundamentals']) retrieved from /opt/airflow/dags/fundamental_data_pipeline.py
+[2024-01-06T20:12:02.517+0000] {logging_mixin.py:154} INFO - [2024-01-06T20:12:02.517+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-01-06T20:12:02.535+0000] {logging_mixin.py:154} INFO - [2024-01-06T20:12:02.535+0000] {dag.py:3722} INFO - Setting next_dagrun for downloading_fundamentals to 2024-01-05T00:00:00+00:00, run_after=2024-01-06T00:00:00+00:00
+[2024-01-06T20:12:02.553+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/fundamental_data_pipeline.py took 0.464 seconds
+[2024-01-06T20:12:32.784+0000] {processor.py:157} INFO - Started process (PID=299) to work on /opt/airflow/dags/fundamental_data_pipeline.py
+[2024-01-06T20:12:32.785+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/fundamental_data_pipeline.py for tasks to queue
+[2024-01-06T20:12:32.788+0000] {logging_mixin.py:154} INFO - [2024-01-06T20:12:32.788+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/fundamental_data_pipeline.py
+[2024-01-06T20:12:33.292+0000] {processor.py:839} INFO - DAG(s) dict_keys(['downloading_fundamentals']) retrieved from /opt/airflow/dags/fundamental_data_pipeline.py
+[2024-01-06T20:12:33.315+0000] {logging_mixin.py:154} INFO - [2024-01-06T20:12:33.314+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-01-06T20:12:33.335+0000] {logging_mixin.py:154} INFO - [2024-01-06T20:12:33.335+0000] {dag.py:3722} INFO - Setting next_dagrun for downloading_fundamentals to 2024-01-05T00:00:00+00:00, run_after=2024-01-06T00:00:00+00:00
+[2024-01-06T20:12:33.356+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/fundamental_data_pipeline.py took 0.576 seconds
+[2024-01-06T20:13:03.548+0000] {processor.py:157} INFO - Started process (PID=308) to work on /opt/airflow/dags/fundamental_data_pipeline.py
+[2024-01-06T20:13:03.549+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/fundamental_data_pipeline.py for tasks to queue
+[2024-01-06T20:13:03.552+0000] {logging_mixin.py:154} INFO - [2024-01-06T20:13:03.552+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/fundamental_data_pipeline.py
+[2024-01-06T20:13:04.013+0000] {processor.py:839} INFO - DAG(s) dict_keys(['downloading_fundamentals']) retrieved from /opt/airflow/dags/fundamental_data_pipeline.py
+[2024-01-06T20:13:04.035+0000] {logging_mixin.py:154} INFO - [2024-01-06T20:13:04.034+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-01-06T20:13:04.057+0000] {logging_mixin.py:154} INFO - [2024-01-06T20:13:04.057+0000] {dag.py:3722} INFO - Setting next_dagrun for downloading_fundamentals to 2024-01-05T00:00:00+00:00, run_after=2024-01-06T00:00:00+00:00
+[2024-01-06T20:13:04.081+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/fundamental_data_pipeline.py took 0.535 seconds
+[2024-01-06T20:13:34.324+0000] {processor.py:157} INFO - Started process (PID=317) to work on /opt/airflow/dags/fundamental_data_pipeline.py
+[2024-01-06T20:13:34.326+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/fundamental_data_pipeline.py for tasks to queue
+[2024-01-06T20:13:34.331+0000] {logging_mixin.py:154} INFO - [2024-01-06T20:13:34.330+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/fundamental_data_pipeline.py
+[2024-01-06T20:13:35.401+0000] {processor.py:839} INFO - DAG(s) dict_keys(['downloading_fundamentals']) retrieved from /opt/airflow/dags/fundamental_data_pipeline.py
+[2024-01-06T20:13:35.426+0000] {logging_mixin.py:154} INFO - [2024-01-06T20:13:35.425+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-01-06T20:13:35.454+0000] {logging_mixin.py:154} INFO - [2024-01-06T20:13:35.453+0000] {dag.py:3722} INFO - Setting next_dagrun for downloading_fundamentals to 2024-01-05T00:00:00+00:00, run_after=2024-01-06T00:00:00+00:00
+[2024-01-06T20:13:35.482+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/fundamental_data_pipeline.py took 1.163 seconds
+[2024-01-06T20:14:05.674+0000] {processor.py:157} INFO - Started process (PID=326) to work on /opt/airflow/dags/fundamental_data_pipeline.py
+[2024-01-06T20:14:05.681+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/fundamental_data_pipeline.py for tasks to queue
+[2024-01-06T20:14:05.690+0000] {logging_mixin.py:154} INFO - [2024-01-06T20:14:05.688+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/fundamental_data_pipeline.py
+[2024-01-06T20:14:07.198+0000] {processor.py:839} INFO - DAG(s) dict_keys(['downloading_fundamentals']) retrieved from /opt/airflow/dags/fundamental_data_pipeline.py
+[2024-01-06T20:14:07.239+0000] {logging_mixin.py:154} INFO - [2024-01-06T20:14:07.239+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-01-06T20:14:07.275+0000] {logging_mixin.py:154} INFO - [2024-01-06T20:14:07.274+0000] {dag.py:3722} INFO - Setting next_dagrun for downloading_fundamentals to 2024-01-05T00:00:00+00:00, run_after=2024-01-06T00:00:00+00:00
+[2024-01-06T20:14:07.311+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/fundamental_data_pipeline.py took 1.649 seconds
+[2024-01-06T20:14:37.632+0000] {processor.py:157} INFO - Started process (PID=335) to work on /opt/airflow/dags/fundamental_data_pipeline.py
+[2024-01-06T20:14:37.633+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/fundamental_data_pipeline.py for tasks to queue
+[2024-01-06T20:14:37.636+0000] {logging_mixin.py:154} INFO - [2024-01-06T20:14:37.635+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/fundamental_data_pipeline.py
+[2024-01-06T20:14:38.787+0000] {processor.py:839} INFO - DAG(s) dict_keys(['downloading_fundamentals']) retrieved from /opt/airflow/dags/fundamental_data_pipeline.py
+[2024-01-06T20:14:38.853+0000] {logging_mixin.py:154} INFO - [2024-01-06T20:14:38.851+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-01-06T20:14:38.890+0000] {logging_mixin.py:154} INFO - [2024-01-06T20:14:38.890+0000] {dag.py:3722} INFO - Setting next_dagrun for downloading_fundamentals to 2024-01-05T00:00:00+00:00, run_after=2024-01-06T00:00:00+00:00
+[2024-01-06T20:14:38.910+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/fundamental_data_pipeline.py took 1.282 seconds
+[2024-01-06T20:15:09.204+0000] {processor.py:157} INFO - Started process (PID=344) to work on /opt/airflow/dags/fundamental_data_pipeline.py
+[2024-01-06T20:15:09.207+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/fundamental_data_pipeline.py for tasks to queue
+[2024-01-06T20:15:09.215+0000] {logging_mixin.py:154} INFO - [2024-01-06T20:15:09.215+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/fundamental_data_pipeline.py
+[2024-01-06T20:15:09.963+0000] {processor.py:839} INFO - DAG(s) dict_keys(['downloading_fundamentals']) retrieved from /opt/airflow/dags/fundamental_data_pipeline.py
+[2024-01-06T20:15:10.003+0000] {logging_mixin.py:154} INFO - [2024-01-06T20:15:10.002+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-01-06T20:15:10.049+0000] {logging_mixin.py:154} INFO - [2024-01-06T20:15:10.049+0000] {dag.py:3722} INFO - Setting next_dagrun for downloading_fundamentals to 2024-01-05T00:00:00+00:00, run_after=2024-01-06T00:00:00+00:00
+[2024-01-06T20:15:10.083+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/fundamental_data_pipeline.py took 0.886 seconds
+[2024-01-06T20:15:40.378+0000] {processor.py:157} INFO - Started process (PID=353) to work on /opt/airflow/dags/fundamental_data_pipeline.py
+[2024-01-06T20:15:40.380+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/fundamental_data_pipeline.py for tasks to queue
+[2024-01-06T20:15:40.383+0000] {logging_mixin.py:154} INFO - [2024-01-06T20:15:40.382+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/fundamental_data_pipeline.py
+[2024-01-06T20:15:41.105+0000] {processor.py:839} INFO - DAG(s) dict_keys(['downloading_fundamentals']) retrieved from /opt/airflow/dags/fundamental_data_pipeline.py
+[2024-01-06T20:15:41.150+0000] {logging_mixin.py:154} INFO - [2024-01-06T20:15:41.149+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-01-06T20:15:41.195+0000] {logging_mixin.py:154} INFO - [2024-01-06T20:15:41.195+0000] {dag.py:3722} INFO - Setting next_dagrun for downloading_fundamentals to 2024-01-05T00:00:00+00:00, run_after=2024-01-06T00:00:00+00:00
+[2024-01-06T20:15:41.229+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/fundamental_data_pipeline.py took 0.855 seconds
+[2024-01-06T20:16:11.362+0000] {processor.py:157} INFO - Started process (PID=362) to work on /opt/airflow/dags/fundamental_data_pipeline.py
+[2024-01-06T20:16:11.363+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/fundamental_data_pipeline.py for tasks to queue
+[2024-01-06T20:16:11.365+0000] {logging_mixin.py:154} INFO - [2024-01-06T20:16:11.365+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/fundamental_data_pipeline.py
+[2024-01-06T20:16:12.180+0000] {processor.py:839} INFO - DAG(s) dict_keys(['downloading_fundamentals']) retrieved from /opt/airflow/dags/fundamental_data_pipeline.py
+[2024-01-06T20:16:12.222+0000] {logging_mixin.py:154} INFO - [2024-01-06T20:16:12.221+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-01-06T20:16:12.248+0000] {logging_mixin.py:154} INFO - [2024-01-06T20:16:12.248+0000] {dag.py:3722} INFO - Setting next_dagrun for downloading_fundamentals to 2024-01-05T00:00:00+00:00, run_after=2024-01-06T00:00:00+00:00
+[2024-01-06T20:16:12.274+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/fundamental_data_pipeline.py took 0.916 seconds
+[2024-01-06T20:16:42.533+0000] {processor.py:157} INFO - Started process (PID=372) to work on /opt/airflow/dags/fundamental_data_pipeline.py
+[2024-01-06T20:16:42.535+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/fundamental_data_pipeline.py for tasks to queue
+[2024-01-06T20:16:42.539+0000] {logging_mixin.py:154} INFO - [2024-01-06T20:16:42.538+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/fundamental_data_pipeline.py
+[2024-01-06T20:16:43.064+0000] {processor.py:839} INFO - DAG(s) dict_keys(['downloading_fundamentals']) retrieved from /opt/airflow/dags/fundamental_data_pipeline.py
+[2024-01-06T20:16:43.138+0000] {logging_mixin.py:154} INFO - [2024-01-06T20:16:43.137+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-01-06T20:16:43.168+0000] {logging_mixin.py:154} INFO - [2024-01-06T20:16:43.168+0000] {dag.py:3722} INFO - Setting next_dagrun for downloading_fundamentals to 2024-01-05T00:00:00+00:00, run_after=2024-01-06T00:00:00+00:00
+[2024-01-06T20:16:43.191+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/fundamental_data_pipeline.py took 0.661 seconds
+[2024-01-06T20:17:13.427+0000] {processor.py:157} INFO - Started process (PID=381) to work on /opt/airflow/dags/fundamental_data_pipeline.py
+[2024-01-06T20:17:13.428+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/fundamental_data_pipeline.py for tasks to queue
+[2024-01-06T20:17:13.431+0000] {logging_mixin.py:154} INFO - [2024-01-06T20:17:13.431+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/fundamental_data_pipeline.py
+[2024-01-06T20:17:14.307+0000] {processor.py:839} INFO - DAG(s) dict_keys(['downloading_fundamentals']) retrieved from /opt/airflow/dags/fundamental_data_pipeline.py
+[2024-01-06T20:17:14.351+0000] {logging_mixin.py:154} INFO - [2024-01-06T20:17:14.350+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-01-06T20:17:14.412+0000] {logging_mixin.py:154} INFO - [2024-01-06T20:17:14.412+0000] {dag.py:3722} INFO - Setting next_dagrun for downloading_fundamentals to 2024-01-05T00:00:00+00:00, run_after=2024-01-06T00:00:00+00:00
+[2024-01-06T20:17:14.464+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/fundamental_data_pipeline.py took 1.040 seconds
+[2024-01-06T20:17:44.965+0000] {processor.py:157} INFO - Started process (PID=390) to work on /opt/airflow/dags/fundamental_data_pipeline.py
+[2024-01-06T20:17:44.971+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/fundamental_data_pipeline.py for tasks to queue
+[2024-01-06T20:17:44.994+0000] {logging_mixin.py:154} INFO - [2024-01-06T20:17:44.993+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/fundamental_data_pipeline.py
+[2024-01-06T20:17:46.522+0000] {processor.py:839} INFO - DAG(s) dict_keys(['downloading_fundamentals']) retrieved from /opt/airflow/dags/fundamental_data_pipeline.py
+[2024-01-06T20:17:46.575+0000] {logging_mixin.py:154} INFO - [2024-01-06T20:17:46.574+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-01-06T20:17:46.631+0000] {logging_mixin.py:154} INFO - [2024-01-06T20:17:46.630+0000] {dag.py:3722} INFO - Setting next_dagrun for downloading_fundamentals to 2024-01-05T00:00:00+00:00, run_after=2024-01-06T00:00:00+00:00
+[2024-01-06T20:17:46.696+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/fundamental_data_pipeline.py took 1.771 seconds
+[2024-01-06T20:18:17.059+0000] {processor.py:157} INFO - Started process (PID=399) to work on /opt/airflow/dags/fundamental_data_pipeline.py
+[2024-01-06T20:18:17.063+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/fundamental_data_pipeline.py for tasks to queue
+[2024-01-06T20:18:17.069+0000] {logging_mixin.py:154} INFO - [2024-01-06T20:18:17.068+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/fundamental_data_pipeline.py
+[2024-01-06T20:18:17.630+0000] {processor.py:839} INFO - DAG(s) dict_keys(['downloading_fundamentals']) retrieved from /opt/airflow/dags/fundamental_data_pipeline.py
+[2024-01-06T20:18:17.659+0000] {logging_mixin.py:154} INFO - [2024-01-06T20:18:17.659+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-01-06T20:18:17.681+0000] {logging_mixin.py:154} INFO - [2024-01-06T20:18:17.681+0000] {dag.py:3722} INFO - Setting next_dagrun for downloading_fundamentals to 2024-01-05T00:00:00+00:00, run_after=2024-01-06T00:00:00+00:00
+[2024-01-06T20:18:17.707+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/fundamental_data_pipeline.py took 0.654 seconds
+[2024-01-06T21:04:23.926+0000] {processor.py:157} INFO - Started process (PID=39) to work on /opt/airflow/dags/fundamental_data_pipeline.py
+[2024-01-06T21:04:23.929+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/fundamental_data_pipeline.py for tasks to queue
+[2024-01-06T21:04:23.933+0000] {logging_mixin.py:154} INFO - [2024-01-06T21:04:23.933+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/fundamental_data_pipeline.py
+[2024-01-06T21:04:26.919+0000] {processor.py:839} INFO - DAG(s) dict_keys(['downloading_fundamentals']) retrieved from /opt/airflow/dags/fundamental_data_pipeline.py
+[2024-01-06T21:04:27.687+0000] {logging_mixin.py:154} INFO - [2024-01-06T21:04:27.685+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-01-06T21:04:27.736+0000] {logging_mixin.py:154} INFO - [2024-01-06T21:04:27.736+0000] {dag.py:3722} INFO - Setting next_dagrun for downloading_fundamentals to 2024-01-05T00:00:00+00:00, run_after=2024-01-06T00:00:00+00:00
+[2024-01-06T21:04:27.780+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/fundamental_data_pipeline.py took 3.853 seconds
+[2024-01-06T21:04:58.164+0000] {processor.py:157} INFO - Started process (PID=48) to work on /opt/airflow/dags/fundamental_data_pipeline.py
+[2024-01-06T21:04:58.167+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/fundamental_data_pipeline.py for tasks to queue
+[2024-01-06T21:04:58.193+0000] {logging_mixin.py:154} INFO - [2024-01-06T21:04:58.190+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/fundamental_data_pipeline.py
+[2024-01-06T21:05:00.325+0000] {processor.py:839} INFO - DAG(s) dict_keys(['downloading_fundamentals']) retrieved from /opt/airflow/dags/fundamental_data_pipeline.py
+[2024-01-06T21:05:00.457+0000] {logging_mixin.py:154} INFO - [2024-01-06T21:05:00.455+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-01-06T21:05:00.547+0000] {logging_mixin.py:154} INFO - [2024-01-06T21:05:00.546+0000] {dag.py:3722} INFO - Setting next_dagrun for downloading_fundamentals to 2024-01-05T00:00:00+00:00, run_after=2024-01-06T00:00:00+00:00
+[2024-01-06T21:05:00.608+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/fundamental_data_pipeline.py took 2.465 seconds
+[2024-01-06T21:05:30.877+0000] {processor.py:157} INFO - Started process (PID=57) to work on /opt/airflow/dags/fundamental_data_pipeline.py
+[2024-01-06T21:05:30.878+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/fundamental_data_pipeline.py for tasks to queue
+[2024-01-06T21:05:30.889+0000] {logging_mixin.py:154} INFO - [2024-01-06T21:05:30.888+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/fundamental_data_pipeline.py
+[2024-01-06T21:05:31.701+0000] {processor.py:839} INFO - DAG(s) dict_keys(['downloading_fundamentals']) retrieved from /opt/airflow/dags/fundamental_data_pipeline.py
+[2024-01-06T21:05:31.732+0000] {logging_mixin.py:154} INFO - [2024-01-06T21:05:31.731+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-01-06T21:05:31.779+0000] {logging_mixin.py:154} INFO - [2024-01-06T21:05:31.779+0000] {dag.py:3722} INFO - Setting next_dagrun for downloading_fundamentals to 2024-01-06T00:00:00+00:00, run_after=2024-01-07T00:00:00+00:00
+[2024-01-06T21:05:31.804+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/fundamental_data_pipeline.py took 0.952 seconds
+[2024-01-06T21:06:01.996+0000] {processor.py:157} INFO - Started process (PID=66) to work on /opt/airflow/dags/fundamental_data_pipeline.py
+[2024-01-06T21:06:01.998+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/fundamental_data_pipeline.py for tasks to queue
+[2024-01-06T21:06:02.003+0000] {logging_mixin.py:154} INFO - [2024-01-06T21:06:02.002+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/fundamental_data_pipeline.py
+[2024-01-06T21:06:02.521+0000] {processor.py:839} INFO - DAG(s) dict_keys(['downloading_fundamentals']) retrieved from /opt/airflow/dags/fundamental_data_pipeline.py
+[2024-01-06T21:06:02.546+0000] {logging_mixin.py:154} INFO - [2024-01-06T21:06:02.546+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-01-06T21:06:02.573+0000] {logging_mixin.py:154} INFO - [2024-01-06T21:06:02.572+0000] {dag.py:3722} INFO - Setting next_dagrun for downloading_fundamentals to 2024-01-06T00:00:00+00:00, run_after=2024-01-07T00:00:00+00:00
+[2024-01-06T21:06:02.590+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/fundamental_data_pipeline.py took 0.599 seconds
+[2024-01-06T21:06:32.799+0000] {processor.py:157} INFO - Started process (PID=75) to work on /opt/airflow/dags/fundamental_data_pipeline.py
+[2024-01-06T21:06:32.800+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/fundamental_data_pipeline.py for tasks to queue
+[2024-01-06T21:06:32.802+0000] {logging_mixin.py:154} INFO - [2024-01-06T21:06:32.802+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/fundamental_data_pipeline.py
+[2024-01-06T21:06:33.341+0000] {processor.py:839} INFO - DAG(s) dict_keys(['downloading_fundamentals']) retrieved from /opt/airflow/dags/fundamental_data_pipeline.py
+[2024-01-06T21:06:33.365+0000] {logging_mixin.py:154} INFO - [2024-01-06T21:06:33.364+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-01-06T21:06:33.385+0000] {logging_mixin.py:154} INFO - [2024-01-06T21:06:33.385+0000] {dag.py:3722} INFO - Setting next_dagrun for downloading_fundamentals to 2024-01-06T00:00:00+00:00, run_after=2024-01-07T00:00:00+00:00
+[2024-01-06T21:06:33.403+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/fundamental_data_pipeline.py took 0.608 seconds
+[2024-01-06T21:07:03.594+0000] {processor.py:157} INFO - Started process (PID=84) to work on /opt/airflow/dags/fundamental_data_pipeline.py
+[2024-01-06T21:07:03.595+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/fundamental_data_pipeline.py for tasks to queue
+[2024-01-06T21:07:03.598+0000] {logging_mixin.py:154} INFO - [2024-01-06T21:07:03.597+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/fundamental_data_pipeline.py
+[2024-01-06T21:07:04.084+0000] {processor.py:839} INFO - DAG(s) dict_keys(['downloading_fundamentals']) retrieved from /opt/airflow/dags/fundamental_data_pipeline.py
+[2024-01-06T21:07:04.108+0000] {logging_mixin.py:154} INFO - [2024-01-06T21:07:04.107+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-01-06T21:07:04.129+0000] {logging_mixin.py:154} INFO - [2024-01-06T21:07:04.129+0000] {dag.py:3722} INFO - Setting next_dagrun for downloading_fundamentals to 2024-01-06T00:00:00+00:00, run_after=2024-01-07T00:00:00+00:00
+[2024-01-06T21:07:04.148+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/fundamental_data_pipeline.py took 0.558 seconds
+[2024-01-06T21:07:34.361+0000] {processor.py:157} INFO - Started process (PID=93) to work on /opt/airflow/dags/fundamental_data_pipeline.py
+[2024-01-06T21:07:34.363+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/fundamental_data_pipeline.py for tasks to queue
+[2024-01-06T21:07:34.366+0000] {logging_mixin.py:154} INFO - [2024-01-06T21:07:34.366+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/fundamental_data_pipeline.py
+[2024-01-06T21:07:34.807+0000] {processor.py:839} INFO - DAG(s) dict_keys(['downloading_fundamentals']) retrieved from /opt/airflow/dags/fundamental_data_pipeline.py
+[2024-01-06T21:07:34.826+0000] {logging_mixin.py:154} INFO - [2024-01-06T21:07:34.825+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-01-06T21:07:34.845+0000] {logging_mixin.py:154} INFO - [2024-01-06T21:07:34.845+0000] {dag.py:3722} INFO - Setting next_dagrun for downloading_fundamentals to 2024-01-06T00:00:00+00:00, run_after=2024-01-07T00:00:00+00:00
+[2024-01-06T21:07:34.861+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/fundamental_data_pipeline.py took 0.505 seconds
+[2024-01-06T21:07:53.868+0000] {processor.py:157} INFO - Started process (PID=102) to work on /opt/airflow/dags/fundamental_data_pipeline.py
+[2024-01-06T21:07:53.870+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/fundamental_data_pipeline.py for tasks to queue
+[2024-01-06T21:07:53.875+0000] {logging_mixin.py:154} INFO - [2024-01-06T21:07:53.874+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/fundamental_data_pipeline.py
+[2024-01-06T21:07:54.575+0000] {processor.py:839} INFO - DAG(s) dict_keys(['downloading_fundamentals']) retrieved from /opt/airflow/dags/fundamental_data_pipeline.py
+[2024-01-06T21:07:54.652+0000] {logging_mixin.py:154} INFO - [2024-01-06T21:07:54.652+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-01-06T21:07:54.719+0000] {logging_mixin.py:154} INFO - [2024-01-06T21:07:54.719+0000] {dag.py:3722} INFO - Setting next_dagrun for downloading_fundamentals to 2024-01-06T00:00:00+00:00, run_after=2024-01-07T00:00:00+00:00
+[2024-01-06T21:07:54.779+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/fundamental_data_pipeline.py took 0.916 seconds
+[2024-01-06T21:22:02.217+0000] {processor.py:157} INFO - Started process (PID=47) to work on /opt/airflow/dags/fundamental_data_pipeline.py
+[2024-01-06T21:22:02.220+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/fundamental_data_pipeline.py for tasks to queue
+[2024-01-06T21:22:02.225+0000] {logging_mixin.py:154} INFO - [2024-01-06T21:22:02.225+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/fundamental_data_pipeline.py
+[2024-01-06T21:22:32.874+0000] {logging_mixin.py:154} INFO - [2024-01-06T21:22:32.873+0000] {timeout.py:68} ERROR - Process timed out, PID: 47
+[2024-01-06T21:22:33.122+0000] {logging_mixin.py:154} INFO - [2024-01-06T21:22:32.915+0000] {dagbag.py:346} ERROR - Failed to import: /opt/airflow/dags/fundamental_data_pipeline.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 342, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/fundamental_data_pipeline.py", line 6, in <module>
+    import pandas as pd
+  File "/home/airflow/.local/lib/python3.8/site-packages/pandas/__init__.py", line 48, in <module>
+    from pandas.core.api import (
+  File "/home/airflow/.local/lib/python3.8/site-packages/pandas/core/api.py", line 27, in <module>
+    from pandas.core.arrays import Categorical
+  File "/home/airflow/.local/lib/python3.8/site-packages/pandas/core/arrays/__init__.py", line 7, in <module>
+    from pandas.core.arrays.boolean import BooleanArray
+  File "/home/airflow/.local/lib/python3.8/site-packages/pandas/core/arrays/boolean.py", line 30, in <module>
+    from pandas.core.arrays.masked import (
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/utils/timeout.py", line 69, in handle_timeout
+    raise AirflowTaskTimeout(self.error_message)
+airflow.exceptions.AirflowTaskTimeout: DagBag import timeout for /opt/airflow/dags/fundamental_data_pipeline.py after 30.0s.
+Please take a look at these docs to improve your DAG import time:
+* https://airflow.apache.org/docs/apache-airflow/2.7.3/best-practices.html#top-level-python-code
+* https://airflow.apache.org/docs/apache-airflow/2.7.3/best-practices.html#reducing-dag-complexity, PID: 47
+[2024-01-06T21:22:33.129+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/fundamental_data_pipeline.py
+[2024-01-06T21:22:33.919+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/fundamental_data_pipeline.py took 31.715 seconds
+[2024-01-06T21:23:06.471+0000] {processor.py:157} INFO - Started process (PID=57) to work on /opt/airflow/dags/fundamental_data_pipeline.py
+[2024-01-06T21:23:06.594+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/fundamental_data_pipeline.py for tasks to queue
+[2024-01-06T21:23:07.709+0000] {logging_mixin.py:154} INFO - [2024-01-06T21:23:07.667+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/fundamental_data_pipeline.py
+[2024-01-06T21:23:55.151+0000] {logging_mixin.py:154} INFO - [2024-01-06T21:23:55.150+0000] {timeout.py:68} ERROR - Process timed out, PID: 57
+[2024-01-06T21:23:55.166+0000] {logging_mixin.py:154} WARNING - Exception ignored in: <function _collection_gced at 0x7fd9f358e8b0>
+[2024-01-06T21:23:55.167+0000] {logging_mixin.py:154} WARNING - Traceback (most recent call last):
+[2024-01-06T21:24:33.293+0000] {processor.py:157} INFO - Started process (PID=73) to work on /opt/airflow/dags/fundamental_data_pipeline.py
+[2024-01-06T21:24:33.295+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/fundamental_data_pipeline.py for tasks to queue
+[2024-01-06T21:24:33.341+0000] {logging_mixin.py:154} INFO - [2024-01-06T21:24:33.297+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/fundamental_data_pipeline.py
+[2024-01-06T21:25:55.067+0000] {processor.py:157} INFO - Started process (PID=96) to work on /opt/airflow/dags/fundamental_data_pipeline.py
+[2024-01-06T21:25:55.168+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/fundamental_data_pipeline.py for tasks to queue
+[2024-01-06T21:25:55.280+0000] {logging_mixin.py:154} INFO - [2024-01-06T21:25:55.249+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/fundamental_data_pipeline.py
+[2024-01-06T21:27:15.970+0000] {processor.py:157} INFO - Started process (PID=112) to work on /opt/airflow/dags/fundamental_data_pipeline.py
+[2024-01-06T21:27:16.063+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/fundamental_data_pipeline.py for tasks to queue
+[2024-01-06T21:27:16.120+0000] {logging_mixin.py:154} INFO - [2024-01-06T21:27:16.119+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/fundamental_data_pipeline.py
+[2024-01-06T21:27:43.216+0000] {processor.py:839} INFO - DAG(s) dict_keys(['downloading_fundamentals']) retrieved from /opt/airflow/dags/fundamental_data_pipeline.py
+[2024-01-06T21:27:45.894+0000] {logging_mixin.py:154} INFO - [2024-01-06T21:27:45.894+0000] {manager.py:499} INFO - Created Permission View: %s
+[2024-01-06T21:27:45.905+0000] {logging_mixin.py:154} INFO - [2024-01-06T21:27:45.905+0000] {manager.py:499} INFO - Created Permission View: %s
+[2024-01-06T21:27:45.913+0000] {logging_mixin.py:154} INFO - [2024-01-06T21:27:45.913+0000] {manager.py:499} INFO - Created Permission View: %s
+[2024-01-06T21:27:45.915+0000] {logging_mixin.py:154} INFO - [2024-01-06T21:27:45.914+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-01-06T21:27:45.925+0000] {logging_mixin.py:154} INFO - [2024-01-06T21:27:45.925+0000] {dag.py:2963} INFO - Creating ORM DAG for downloading_fundamentals
+[2024-01-06T21:27:45.937+0000] {logging_mixin.py:154} INFO - [2024-01-06T21:27:45.937+0000] {dag.py:3722} INFO - Setting next_dagrun for downloading_fundamentals to 2024-01-05T00:00:00+00:00, run_after=2024-01-06T00:00:00+00:00
+[2024-01-06T21:27:46.072+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/fundamental_data_pipeline.py took 30.147 seconds
+[2024-01-06T21:28:23.104+0000] {processor.py:157} INFO - Started process (PID=128) to work on /opt/airflow/dags/fundamental_data_pipeline.py
+[2024-01-06T21:28:24.853+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/fundamental_data_pipeline.py for tasks to queue
+[2024-01-06T21:28:26.028+0000] {logging_mixin.py:154} INFO - [2024-01-06T21:28:26.028+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/fundamental_data_pipeline.py
+[2024-01-06T21:28:49.274+0000] {processor.py:839} INFO - DAG(s) dict_keys(['downloading_fundamentals']) retrieved from /opt/airflow/dags/fundamental_data_pipeline.py
+[2024-01-06T21:28:49.524+0000] {logging_mixin.py:154} INFO - [2024-01-06T21:28:49.524+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-01-06T21:28:49.545+0000] {logging_mixin.py:154} INFO - [2024-01-06T21:28:49.545+0000] {dag.py:3722} INFO - Setting next_dagrun for downloading_fundamentals to 2024-01-05T00:00:00+00:00, run_after=2024-01-06T00:00:00+00:00
+[2024-01-06T21:28:49.621+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/fundamental_data_pipeline.py took 25.863 seconds
+[2024-01-06T21:29:21.598+0000] {processor.py:157} INFO - Started process (PID=137) to work on /opt/airflow/dags/fundamental_data_pipeline.py
+[2024-01-06T21:29:21.599+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/fundamental_data_pipeline.py for tasks to queue
+[2024-01-06T21:29:21.601+0000] {logging_mixin.py:154} INFO - [2024-01-06T21:29:21.601+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/fundamental_data_pipeline.py
+[2024-01-06T21:29:22.852+0000] {processor.py:839} INFO - DAG(s) dict_keys(['downloading_fundamentals']) retrieved from /opt/airflow/dags/fundamental_data_pipeline.py
+[2024-01-06T21:29:22.876+0000] {logging_mixin.py:154} INFO - [2024-01-06T21:29:22.875+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-01-06T21:29:22.894+0000] {logging_mixin.py:154} INFO - [2024-01-06T21:29:22.894+0000] {dag.py:3722} INFO - Setting next_dagrun for downloading_fundamentals to 2024-01-05T00:00:00+00:00, run_after=2024-01-06T00:00:00+00:00
+[2024-01-06T21:29:22.911+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/fundamental_data_pipeline.py took 1.316 seconds
+[2024-01-06T21:29:53.297+0000] {processor.py:157} INFO - Started process (PID=153) to work on /opt/airflow/dags/fundamental_data_pipeline.py
+[2024-01-06T21:29:53.298+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/fundamental_data_pipeline.py for tasks to queue
+[2024-01-06T21:29:53.300+0000] {logging_mixin.py:154} INFO - [2024-01-06T21:29:53.300+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/fundamental_data_pipeline.py
+[2024-01-06T21:29:53.675+0000] {processor.py:839} INFO - DAG(s) dict_keys(['downloading_fundamentals']) retrieved from /opt/airflow/dags/fundamental_data_pipeline.py
+[2024-01-06T21:29:53.694+0000] {logging_mixin.py:154} INFO - [2024-01-06T21:29:53.694+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-01-06T21:29:53.714+0000] {logging_mixin.py:154} INFO - [2024-01-06T21:29:53.714+0000] {dag.py:3722} INFO - Setting next_dagrun for downloading_fundamentals to 2024-01-05T00:00:00+00:00, run_after=2024-01-06T00:00:00+00:00
+[2024-01-06T21:29:53.760+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/fundamental_data_pipeline.py took 0.466 seconds
+[2024-01-06T21:30:24.006+0000] {processor.py:157} INFO - Started process (PID=163) to work on /opt/airflow/dags/fundamental_data_pipeline.py
+[2024-01-06T21:30:24.008+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/fundamental_data_pipeline.py for tasks to queue
+[2024-01-06T21:30:24.010+0000] {logging_mixin.py:154} INFO - [2024-01-06T21:30:24.009+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/fundamental_data_pipeline.py
+[2024-01-06T21:30:25.397+0000] {processor.py:839} INFO - DAG(s) dict_keys(['downloading_fundamentals']) retrieved from /opt/airflow/dags/fundamental_data_pipeline.py
+[2024-01-06T21:30:25.420+0000] {logging_mixin.py:154} INFO - [2024-01-06T21:30:25.419+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-01-06T21:30:25.439+0000] {logging_mixin.py:154} INFO - [2024-01-06T21:30:25.439+0000] {dag.py:3722} INFO - Setting next_dagrun for downloading_fundamentals to 2024-01-05T00:00:00+00:00, run_after=2024-01-06T00:00:00+00:00
+[2024-01-06T21:30:25.657+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/fundamental_data_pipeline.py took 1.653 seconds
+[2024-01-06T21:30:56.966+0000] {processor.py:157} INFO - Started process (PID=165) to work on /opt/airflow/dags/fundamental_data_pipeline.py
+[2024-01-06T21:30:56.967+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/fundamental_data_pipeline.py for tasks to queue
+[2024-01-06T21:30:56.973+0000] {logging_mixin.py:154} INFO - [2024-01-06T21:30:56.972+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/fundamental_data_pipeline.py
+[2024-01-06T21:31:11.446+0000] {processor.py:839} INFO - DAG(s) dict_keys(['downloading_fundamentals']) retrieved from /opt/airflow/dags/fundamental_data_pipeline.py
+[2024-01-06T21:31:11.559+0000] {logging_mixin.py:154} INFO - [2024-01-06T21:31:11.558+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-01-06T21:31:12.551+0000] {logging_mixin.py:154} INFO - [2024-01-06T21:31:12.551+0000] {dag.py:3722} INFO - Setting next_dagrun for downloading_fundamentals to 2024-01-05T00:00:00+00:00, run_after=2024-01-06T00:00:00+00:00
+[2024-01-06T21:31:12.755+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/fundamental_data_pipeline.py took 17.464 seconds
+[2024-01-06T21:31:43.353+0000] {processor.py:157} INFO - Started process (PID=181) to work on /opt/airflow/dags/fundamental_data_pipeline.py
+[2024-01-06T21:31:43.799+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/fundamental_data_pipeline.py for tasks to queue
+[2024-01-06T21:31:44.182+0000] {logging_mixin.py:154} INFO - [2024-01-06T21:31:44.167+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/fundamental_data_pipeline.py
+[2024-01-06T21:32:13.821+0000] {processor.py:839} INFO - DAG(s) dict_keys(['downloading_fundamentals']) retrieved from /opt/airflow/dags/fundamental_data_pipeline.py
+[2024-01-06T21:32:14.100+0000] {logging_mixin.py:154} INFO - [2024-01-06T21:32:14.100+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-01-06T21:32:14.635+0000] {logging_mixin.py:154} INFO - [2024-01-06T21:32:14.634+0000] {dag.py:3722} INFO - Setting next_dagrun for downloading_fundamentals to 2024-01-06T00:00:00+00:00, run_after=2024-01-07T00:00:00+00:00
+[2024-01-06T21:32:14.734+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/fundamental_data_pipeline.py took 31.619 seconds
+[2024-01-06T21:32:47.869+0000] {processor.py:157} INFO - Started process (PID=197) to work on /opt/airflow/dags/fundamental_data_pipeline.py
+[2024-01-06T21:32:47.878+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/fundamental_data_pipeline.py for tasks to queue
+[2024-01-06T21:32:47.880+0000] {logging_mixin.py:154} INFO - [2024-01-06T21:32:47.880+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/fundamental_data_pipeline.py
+[2024-01-06T21:33:03.707+0000] {processor.py:839} INFO - DAG(s) dict_keys(['downloading_fundamentals']) retrieved from /opt/airflow/dags/fundamental_data_pipeline.py
+[2024-01-06T21:33:04.155+0000] {logging_mixin.py:154} INFO - [2024-01-06T21:33:04.155+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-01-06T21:33:04.240+0000] {logging_mixin.py:154} INFO - [2024-01-06T21:33:04.240+0000] {dag.py:3722} INFO - Setting next_dagrun for downloading_fundamentals to 2024-01-06T00:00:00+00:00, run_after=2024-01-07T00:00:00+00:00
+[2024-01-06T21:33:04.482+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/fundamental_data_pipeline.py took 16.887 seconds
+[2024-01-06T21:35:37.617+0000] {processor.py:157} INFO - Started process (PID=38) to work on /opt/airflow/dags/fundamental_data_pipeline.py
+[2024-01-06T21:35:37.618+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/fundamental_data_pipeline.py for tasks to queue
+[2024-01-06T21:35:37.625+0000] {logging_mixin.py:154} INFO - [2024-01-06T21:35:37.625+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/fundamental_data_pipeline.py
+[2024-01-06T21:35:39.302+0000] {processor.py:839} INFO - DAG(s) dict_keys(['downloading_fundamentals']) retrieved from /opt/airflow/dags/fundamental_data_pipeline.py
+[2024-01-06T21:35:39.406+0000] {logging_mixin.py:154} INFO - [2024-01-06T21:35:39.403+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-01-06T21:35:39.454+0000] {logging_mixin.py:154} INFO - [2024-01-06T21:35:39.454+0000] {dag.py:3722} INFO - Setting next_dagrun for downloading_fundamentals to 2024-01-06T00:00:00+00:00, run_after=2024-01-07T00:00:00+00:00
+[2024-01-06T21:35:39.494+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/fundamental_data_pipeline.py took 1.885 seconds
+[2024-01-06T21:36:10.198+0000] {processor.py:157} INFO - Started process (PID=47) to work on /opt/airflow/dags/fundamental_data_pipeline.py
+[2024-01-06T21:36:10.204+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/fundamental_data_pipeline.py for tasks to queue
+[2024-01-06T21:36:10.262+0000] {logging_mixin.py:154} INFO - [2024-01-06T21:36:10.253+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/fundamental_data_pipeline.py
+[2024-01-06T21:36:16.782+0000] {processor.py:839} INFO - DAG(s) dict_keys(['downloading_fundamentals']) retrieved from /opt/airflow/dags/fundamental_data_pipeline.py
+[2024-01-06T21:36:16.875+0000] {logging_mixin.py:154} INFO - [2024-01-06T21:36:16.874+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-01-06T21:36:16.942+0000] {logging_mixin.py:154} INFO - [2024-01-06T21:36:16.941+0000] {dag.py:3722} INFO - Setting next_dagrun for downloading_fundamentals to 2024-01-06T00:00:00+00:00, run_after=2024-01-07T00:00:00+00:00
+[2024-01-06T21:36:16.988+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/fundamental_data_pipeline.py took 6.884 seconds
+[2024-01-06T22:35:33.636+0000] {processor.py:157} INFO - Started process (PID=39) to work on /opt/airflow/dags/fundamental_data_pipeline.py
+[2024-01-06T22:35:33.637+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/fundamental_data_pipeline.py for tasks to queue
+[2024-01-06T22:35:33.639+0000] {logging_mixin.py:154} INFO - [2024-01-06T22:35:33.639+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/fundamental_data_pipeline.py
+[2024-01-06T22:35:37.326+0000] {processor.py:839} INFO - DAG(s) dict_keys(['downloading_fundamentals']) retrieved from /opt/airflow/dags/fundamental_data_pipeline.py
+[2024-01-06T22:35:38.058+0000] {logging_mixin.py:154} INFO - [2024-01-06T22:35:38.057+0000] {manager.py:499} INFO - Created Permission View: %s
+[2024-01-06T22:35:38.080+0000] {logging_mixin.py:154} INFO - [2024-01-06T22:35:38.080+0000] {manager.py:499} INFO - Created Permission View: %s
+[2024-01-06T22:35:38.095+0000] {logging_mixin.py:154} INFO - [2024-01-06T22:35:38.094+0000] {manager.py:499} INFO - Created Permission View: %s
+[2024-01-06T22:35:38.097+0000] {logging_mixin.py:154} INFO - [2024-01-06T22:35:38.097+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-01-06T22:35:38.138+0000] {logging_mixin.py:154} INFO - [2024-01-06T22:35:38.137+0000] {dag.py:2963} INFO - Creating ORM DAG for downloading_fundamentals
+[2024-01-06T22:35:38.180+0000] {logging_mixin.py:154} INFO - [2024-01-06T22:35:38.180+0000] {dag.py:3722} INFO - Setting next_dagrun for downloading_fundamentals to 2024-01-05T00:00:00+00:00, run_after=2024-01-06T00:00:00+00:00
+[2024-01-06T22:35:38.520+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/fundamental_data_pipeline.py took 4.889 seconds
+[2024-01-06T22:36:09.469+0000] {processor.py:157} INFO - Started process (PID=48) to work on /opt/airflow/dags/fundamental_data_pipeline.py
+[2024-01-06T22:36:09.472+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/fundamental_data_pipeline.py for tasks to queue
+[2024-01-06T22:36:09.495+0000] {logging_mixin.py:154} INFO - [2024-01-06T22:36:09.493+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/fundamental_data_pipeline.py
+[2024-01-06T22:36:13.515+0000] {processor.py:839} INFO - DAG(s) dict_keys(['downloading_fundamentals']) retrieved from /opt/airflow/dags/fundamental_data_pipeline.py
+[2024-01-06T22:36:13.562+0000] {logging_mixin.py:154} INFO - [2024-01-06T22:36:13.562+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-01-06T22:36:13.606+0000] {logging_mixin.py:154} INFO - [2024-01-06T22:36:13.605+0000] {dag.py:3722} INFO - Setting next_dagrun for downloading_fundamentals to 2024-01-05T00:00:00+00:00, run_after=2024-01-06T00:00:00+00:00
+[2024-01-06T22:36:13.633+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/fundamental_data_pipeline.py took 4.188 seconds
+[2024-01-06T22:36:43.825+0000] {processor.py:157} INFO - Started process (PID=57) to work on /opt/airflow/dags/fundamental_data_pipeline.py
+[2024-01-06T22:36:43.827+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/fundamental_data_pipeline.py for tasks to queue
+[2024-01-06T22:36:43.829+0000] {logging_mixin.py:154} INFO - [2024-01-06T22:36:43.829+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/fundamental_data_pipeline.py
+[2024-01-06T22:36:44.271+0000] {processor.py:839} INFO - DAG(s) dict_keys(['downloading_fundamentals']) retrieved from /opt/airflow/dags/fundamental_data_pipeline.py
+[2024-01-06T22:36:44.293+0000] {logging_mixin.py:154} INFO - [2024-01-06T22:36:44.293+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-01-06T22:36:44.316+0000] {logging_mixin.py:154} INFO - [2024-01-06T22:36:44.316+0000] {dag.py:3722} INFO - Setting next_dagrun for downloading_fundamentals to 2024-01-05T00:00:00+00:00, run_after=2024-01-06T00:00:00+00:00
+[2024-01-06T22:36:44.337+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/fundamental_data_pipeline.py took 0.516 seconds
+[2024-01-06T22:37:14.523+0000] {processor.py:157} INFO - Started process (PID=66) to work on /opt/airflow/dags/fundamental_data_pipeline.py
+[2024-01-06T22:37:14.524+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/fundamental_data_pipeline.py for tasks to queue
+[2024-01-06T22:37:14.526+0000] {logging_mixin.py:154} INFO - [2024-01-06T22:37:14.526+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/fundamental_data_pipeline.py
+[2024-01-06T22:37:14.928+0000] {processor.py:839} INFO - DAG(s) dict_keys(['downloading_fundamentals']) retrieved from /opt/airflow/dags/fundamental_data_pipeline.py
+[2024-01-06T22:37:14.951+0000] {logging_mixin.py:154} INFO - [2024-01-06T22:37:14.951+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-01-06T22:37:14.972+0000] {logging_mixin.py:154} INFO - [2024-01-06T22:37:14.972+0000] {dag.py:3722} INFO - Setting next_dagrun for downloading_fundamentals to 2024-01-05T00:00:00+00:00, run_after=2024-01-06T00:00:00+00:00
+[2024-01-06T22:37:14.990+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/fundamental_data_pipeline.py took 0.470 seconds
+[2024-01-06T22:37:45.147+0000] {processor.py:157} INFO - Started process (PID=82) to work on /opt/airflow/dags/fundamental_data_pipeline.py
+[2024-01-06T22:37:45.148+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/fundamental_data_pipeline.py for tasks to queue
+[2024-01-06T22:37:45.152+0000] {logging_mixin.py:154} INFO - [2024-01-06T22:37:45.151+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/fundamental_data_pipeline.py
+[2024-01-06T22:37:45.627+0000] {processor.py:839} INFO - DAG(s) dict_keys(['downloading_fundamentals']) retrieved from /opt/airflow/dags/fundamental_data_pipeline.py
+[2024-01-06T22:37:45.652+0000] {logging_mixin.py:154} INFO - [2024-01-06T22:37:45.652+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-01-06T22:37:45.674+0000] {logging_mixin.py:154} INFO - [2024-01-06T22:37:45.673+0000] {dag.py:3722} INFO - Setting next_dagrun for downloading_fundamentals to 2024-01-05T00:00:00+00:00, run_after=2024-01-06T00:00:00+00:00
+[2024-01-06T22:37:45.692+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/fundamental_data_pipeline.py took 0.548 seconds
+[2024-01-06T22:38:15.915+0000] {processor.py:157} INFO - Started process (PID=91) to work on /opt/airflow/dags/fundamental_data_pipeline.py
+[2024-01-06T22:38:15.917+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/fundamental_data_pipeline.py for tasks to queue
+[2024-01-06T22:38:15.919+0000] {logging_mixin.py:154} INFO - [2024-01-06T22:38:15.919+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/fundamental_data_pipeline.py
+[2024-01-06T22:38:16.385+0000] {processor.py:839} INFO - DAG(s) dict_keys(['downloading_fundamentals']) retrieved from /opt/airflow/dags/fundamental_data_pipeline.py
+[2024-01-06T22:38:16.407+0000] {logging_mixin.py:154} INFO - [2024-01-06T22:38:16.406+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-01-06T22:38:16.428+0000] {logging_mixin.py:154} INFO - [2024-01-06T22:38:16.428+0000] {dag.py:3722} INFO - Setting next_dagrun for downloading_fundamentals to 2024-01-06T00:00:00+00:00, run_after=2024-01-07T00:00:00+00:00
+[2024-01-06T22:38:16.446+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/fundamental_data_pipeline.py took 0.534 seconds
+[2024-01-06T22:38:46.621+0000] {processor.py:157} INFO - Started process (PID=100) to work on /opt/airflow/dags/fundamental_data_pipeline.py
+[2024-01-06T22:38:46.623+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/fundamental_data_pipeline.py for tasks to queue
+[2024-01-06T22:38:46.625+0000] {logging_mixin.py:154} INFO - [2024-01-06T22:38:46.625+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/fundamental_data_pipeline.py
+[2024-01-06T22:38:47.180+0000] {processor.py:839} INFO - DAG(s) dict_keys(['downloading_fundamentals']) retrieved from /opt/airflow/dags/fundamental_data_pipeline.py
+[2024-01-06T22:38:47.200+0000] {logging_mixin.py:154} INFO - [2024-01-06T22:38:47.200+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-01-06T22:38:47.221+0000] {logging_mixin.py:154} INFO - [2024-01-06T22:38:47.221+0000] {dag.py:3722} INFO - Setting next_dagrun for downloading_fundamentals to 2024-01-06T00:00:00+00:00, run_after=2024-01-07T00:00:00+00:00
+[2024-01-06T22:38:47.240+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/fundamental_data_pipeline.py took 0.621 seconds

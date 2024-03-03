@@ -1,0 +1,63 @@
+[2024-01-31T21:14:01.249+0000] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: calculating_gross_margin.downloading_fundamentals scheduled__2024-01-30T00:00:00+00:00 [queued]>
+[2024-01-31T21:14:01.260+0000] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: calculating_gross_margin.downloading_fundamentals scheduled__2024-01-30T00:00:00+00:00 [queued]>
+[2024-01-31T21:14:01.261+0000] {taskinstance.py:1361} INFO - Starting attempt 1 of 2
+[2024-01-31T21:14:01.282+0000] {taskinstance.py:1382} INFO - Executing <Task(PythonOperator): downloading_fundamentals> on 2024-01-30 00:00:00+00:00
+[2024-01-31T21:14:01.292+0000] {standard_task_runner.py:57} INFO - Started process 151 to run task
+[2024-01-31T21:14:01.297+0000] {standard_task_runner.py:84} INFO - Running: ['***', 'tasks', 'run', 'calculating_gross_margin', 'downloading_fundamentals', 'scheduled__2024-01-30T00:00:00+00:00', '--job-id', '99', '--raw', '--subdir', 'DAGS_FOLDER/fundamental_data_pipeline.py', '--cfg-path', '/tmp/tmp7r81692s']
+[2024-01-31T21:14:01.302+0000] {standard_task_runner.py:85} INFO - Job 99: Subtask downloading_fundamentals
+[2024-01-31T21:14:01.400+0000] {task_command.py:416} INFO - Running <TaskInstance: calculating_gross_margin.downloading_fundamentals scheduled__2024-01-30T00:00:00+00:00 [running]> on host 66a208939447
+[2024-01-31T21:14:01.528+0000] {taskinstance.py:1662} INFO - Exporting env vars: AIRFLOW_CTX_DAG_EMAIL='gerardchurch133@outlook.com' AIRFLOW_CTX_DAG_OWNER='Airflow' AIRFLOW_CTX_DAG_ID='calculating_gross_margin' AIRFLOW_CTX_TASK_ID='downloading_fundamentals' AIRFLOW_CTX_EXECUTION_DATE='2024-01-30T00:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2024-01-30T00:00:00+00:00'
+[2024-01-31T21:14:06.035+0000] {_universal.py:511} INFO - Request URL: 'https://datalakeuksouth2311.table.core.windows.net/fundamentalsraw/fundamentalsraw'
+Request method: 'POST'
+Request headers:
+    'Content-Type': 'application/json;odata=nometadata'
+    'Content-Length': '18176'
+    'x-ms-version': 'REDACTED'
+    'DataServiceVersion': 'REDACTED'
+    'Accept': 'application/json;odata=minimalmetadata'
+    'x-ms-client-request-id': 'aa93e2b0-c07d-11ee-bc5d-0242ac150007'
+    'x-ms-date': 'REDACTED'
+    'Date': 'Wed, 31 Jan 2024 21:14:06 GMT'
+    'User-Agent': 'azsdk-python-data-tables/12.5.0 Python/3.8.18 (Linux-5.10.16.3-microsoft-standard-WSL2-x86_64-with-glibc2.2.5)'
+    'Authorization': 'REDACTED'
+A body is sent with the request
+[2024-01-31T21:14:06.244+0000] {_universal.py:550} INFO - Response status: 409
+Response headers:
+    'Cache-Control': 'no-cache'
+    'Transfer-Encoding': 'chunked'
+    'Content-Type': 'application/json;odata=minimalmetadata;streaming=true;charset=utf-8'
+    'Server': 'Windows-Azure-Table/1.0 Microsoft-HTTPAPI/2.0'
+    'x-ms-request-id': 'ed73804b-a002-002e-148a-54d239000000'
+    'x-ms-client-request-id': 'aa93e2b0-c07d-11ee-bc5d-0242ac150007'
+    'x-ms-version': 'REDACTED'
+    'X-Content-Type-Options': 'REDACTED'
+    'Date': 'Wed, 31 Jan 2024 21:14:07 GMT'
+[2024-01-31T21:14:06.248+0000] {taskinstance.py:1937} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/operators/python.py", line 192, in execute
+    return_value = self.execute_callable()
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/operators/python.py", line 209, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+  File "/opt/airflow/dags/fundamental_data_pipeline.py", line 61, in get_fundamental_data
+    [fundamentals_raw_table.create_entity(entity) for entity in entities]
+  File "/opt/airflow/dags/fundamental_data_pipeline.py", line 61, in <listcomp>
+    [fundamentals_raw_table.create_entity(entity) for entity in entities]
+  File "/home/airflow/.local/lib/python3.8/site-packages/azure/core/tracing/decorator.py", line 78, in wrapper_use_tracer
+    return func(*args, **kwargs)
+  File "/home/airflow/.local/lib/python3.8/site-packages/azure/data/tables/_table_client.py", line 405, in create_entity
+    raise error
+  File "/home/airflow/.local/lib/python3.8/site-packages/azure/data/tables/_table_client.py", line 393, in create_entity
+    self._client.table.insert_entity(
+  File "/home/airflow/.local/lib/python3.8/site-packages/azure/core/tracing/decorator.py", line 78, in wrapper_use_tracer
+    return func(*args, **kwargs)
+  File "/home/airflow/.local/lib/python3.8/site-packages/azure/data/tables/_generated/operations/_operations.py", line 1703, in insert_entity
+    map_error(status_code=response.status_code, response=response, error_map=error_map)
+  File "/home/airflow/.local/lib/python3.8/site-packages/azure/core/exceptions.py", line 165, in map_error
+    raise error
+azure.core.exceptions.ResourceExistsError: Operation returned an invalid status 'Conflict'
+Content: {"odata.error":{"code":"EntityAlreadyExists","message":{"lang":"en-US","value":"The specified entity already exists.\nRequestId:ed73804b-a002-002e-148a-54d239000000\nTime:2024-01-31T21:14:08.1062103Z"}}}
+[2024-01-31T21:14:06.278+0000] {taskinstance.py:1400} INFO - Marking task as UP_FOR_RETRY. dag_id=calculating_gross_margin, task_id=downloading_fundamentals, execution_date=20240130T000000, start_date=20240131T211401, end_date=20240131T211406
+[2024-01-31T21:14:06.314+0000] {standard_task_runner.py:104} ERROR - Failed to execute job 99 for task downloading_fundamentals (Operation returned an invalid status 'Conflict'
+Content: {"odata.error":{"code":"EntityAlreadyExists","message":{"lang":"en-US","value":"The specified entity already exists.\nRequestId:ed73804b-a002-002e-148a-54d239000000\nTime:2024-01-31T21:14:08.1062103Z"}}}; 151)
+[2024-01-31T21:14:06.351+0000] {local_task_job_runner.py:228} INFO - Task exited with return code 1
+[2024-01-31T21:14:06.428+0000] {taskinstance.py:2778} INFO - 0 downstream tasks scheduled from follow-on schedule check

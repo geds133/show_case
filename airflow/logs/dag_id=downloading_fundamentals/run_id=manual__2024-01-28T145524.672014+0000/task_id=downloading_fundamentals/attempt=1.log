@@ -1,0 +1,20 @@
+[2024-01-28T14:55:28.114+0000] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: downloading_fundamentals.downloading_fundamentals manual__2024-01-28T14:55:24.672014+00:00 [queued]>
+[2024-01-28T14:55:28.122+0000] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: downloading_fundamentals.downloading_fundamentals manual__2024-01-28T14:55:24.672014+00:00 [queued]>
+[2024-01-28T14:55:28.122+0000] {taskinstance.py:1361} INFO - Starting attempt 1 of 2
+[2024-01-28T14:55:28.137+0000] {taskinstance.py:1382} INFO - Executing <Task(PythonOperator): downloading_fundamentals> on 2024-01-28 14:55:24.672014+00:00
+[2024-01-28T14:55:28.144+0000] {standard_task_runner.py:57} INFO - Started process 79 to run task
+[2024-01-28T14:55:28.148+0000] {standard_task_runner.py:84} INFO - Running: ['***', 'tasks', 'run', 'downloading_fundamentals', 'downloading_fundamentals', 'manual__2024-01-28T14:55:24.672014+00:00', '--job-id', '24', '--raw', '--subdir', 'DAGS_FOLDER/fundamental_data_pipeline.py', '--cfg-path', '/tmp/tmpxj53w9pt']
+[2024-01-28T14:55:28.152+0000] {standard_task_runner.py:85} INFO - Job 24: Subtask downloading_fundamentals
+[2024-01-28T14:55:28.217+0000] {task_command.py:416} INFO - Running <TaskInstance: downloading_fundamentals.downloading_fundamentals manual__2024-01-28T14:55:24.672014+00:00 [running]> on host b457357e357c
+[2024-01-28T14:55:28.299+0000] {taskinstance.py:1662} INFO - Exporting env vars: AIRFLOW_CTX_DAG_EMAIL='gerardchurch133@gmail.com' AIRFLOW_CTX_DAG_OWNER='Airflow' AIRFLOW_CTX_DAG_ID='downloading_fundamentals' AIRFLOW_CTX_TASK_ID='downloading_fundamentals' AIRFLOW_CTX_EXECUTION_DATE='2024-01-28T14:55:24.672014+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2024-01-28T14:55:24.672014+00:00'
+[2024-01-28T14:55:28.301+0000] {taskinstance.py:1937} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/operators/python.py", line 192, in execute
+    return_value = self.execute_callable()
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/operators/python.py", line 209, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+TypeError: get_fundamental_data() missing 1 required positional argument: 'ticker'
+[2024-01-28T14:55:28.310+0000] {taskinstance.py:1400} INFO - Marking task as UP_FOR_RETRY. dag_id=downloading_fundamentals, task_id=downloading_fundamentals, execution_date=20240128T145524, start_date=20240128T145528, end_date=20240128T145528
+[2024-01-28T14:55:28.326+0000] {standard_task_runner.py:104} ERROR - Failed to execute job 24 for task downloading_fundamentals (get_fundamental_data() missing 1 required positional argument: 'ticker'; 79)
+[2024-01-28T14:55:28.362+0000] {local_task_job_runner.py:228} INFO - Task exited with return code 1
+[2024-01-28T14:55:28.375+0000] {taskinstance.py:2778} INFO - 0 downstream tasks scheduled from follow-on schedule check
